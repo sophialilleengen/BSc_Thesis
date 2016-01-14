@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  14 JAN 2016 18:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  14 JAN 2016 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,37 +501,46 @@ File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ]
 (./Bachelorarbeit Entwurf.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 5.
+(Font)              <12> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
+(Font)              <6> on input line 6.
 )
 \tf@toc=\write3
 \openout3 = `"Bachelorarbeit Entwurf.toc"'.
 
- [5] [6] (./Bachelorarbeit Entwurf.aux
-(./ba_titlepage.aux)) ) 
+ [5]
+<./Plots/color_magnitude_diagram_with_iscochrones.png, id=25, 1084.05pt x 1084.
+05pt>
+File: ./Plots/color_magnitude_diagram_with_iscochrones.png Graphic file (type p
+ng)
+ <use ./Plots/color_magnitude_diagram_with_iscochrones.png>
+Package pdftex.def Info: ./Plots/color_magnitude_diagram_with_iscochrones.png u
+sed on input line 39.
+(pdftex.def)             Requested size: 448.13095pt x 448.13554pt.
+ [6] [7 <./Plots/color_magnitude_diagram_with_iscochrones.png>] [8] [9]
+(./Bachelorarbeit Entwurf.aux (./ba_titlepage.aux)) ) 
 Here is how much of TeX's memory you used:
- 4035 strings out of 493304
- 59225 string characters out of 6139871
+ 4042 strings out of 493304
+ 59508 string characters out of 6139871
  264007 words of memory out of 5000000
- 7417 multiletter control sequences out of 15000+600000
+ 7421 multiletter control sequences out of 15000+600000
  14849 words of font info for 34 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  46i,6n,51p,274b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.e
-nc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfsx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.pfb
->
-Output written on "Bachelorarbeit Entwurf.pdf" (6 pages, 137892 bytes).
+{/usr/share/texmf/fonts/en
+c/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/
+sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfsx2488.pfb>
+Output written on "Bachelorarbeit Entwurf.pdf" (9 pages, 257892 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

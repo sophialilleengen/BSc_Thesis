@@ -1,10 +1,12 @@
 \select@language {english}
 \contentsline {part}{\numberline {I}Introduction}{6}
 \contentsline {section}{\numberline {1}What is a globular cluster in the Milky Way?}{6}
-\contentsline {section}{\numberline {2}Models of globular clusters}{6}
-\contentsline {subsection}{\numberline {2.1}CMD}{6}
-\contentsline {subsection}{\numberline {2.2}Velocity dispersion}{6}
-\contentsline {subsection}{\numberline {2.3}Density profile}{6}
-\contentsline {section}{\numberline {3}Orbits}{6}
-\contentsline {part}{\numberline {II}Analysis}{6}
-\contentsline {part}{\numberline {III}Discussion}{6}
+\contentsline {section}{\numberline {2}Poisson's equation}{6}
+\contentsline {section}{\numberline {3}Models of globular clusters}{6}
+\contentsline {subsection}{\numberline {3.1}CMD}{6}
+\contentsline {subsection}{\numberline {3.2}Velocity dispersion}{6}
+\contentsline {subsection}{\numberline {3.3}Density profile}{6}
+\contentsline {subsection}{\numberline {3.4}Potential}{6}
+\contentsline {section}{\numberline {4}Orbits}{6}
+\contentsline {part}{\numberline {II}Analysis}{8}
+\contentsline {part}{\numberline {III}Discussion}{9}
