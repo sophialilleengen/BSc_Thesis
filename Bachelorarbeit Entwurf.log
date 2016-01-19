@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  15 JAN 2016 13:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  19 JAN 2016 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -492,55 +492,49 @@ e
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3])
+[2])
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [4
+) [3
 
 ]
 (./Bachelorarbeit Entwurf.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `"Bachelorarbeit Entwurf.toc"'.
 
- [5] [6] [7]
-<./Plots/color_magnitude_diagram_with_iscochrones.png, id=33, 1084.05pt x 1084.
-05pt>
-File: ./Plots/color_magnitude_diagram_with_iscochrones.png Graphic file (type p
-ng)
- <use ./Plots/color_magnitude_diagram_with_iscochrones.png>
-Package pdftex.def Info: ./Plots/color_magnitude_diagram_with_iscochrones.png u
-sed on input line 58.
-(pdftex.def)             Requested size: 448.13095pt x 448.13554pt.
- [8] [9 <./Plots/color_magnitude_diagram_with_iscochrones.png>] [10]
-(./Bachelorarbeit Entwurf.aux (./ba_titlepage.aux)) ) 
+ [4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+
+ []
+
+[7] [8] [9] (./Bachelorarbeit Entwurf.aux (./ba_titlepage.aux)) ) 
 Here is how much of TeX's memory you used:
- 4042 strings out of 493304
- 59508 string characters out of 6139871
- 264007 words of memory out of 5000000
- 7421 multiletter control sequences out of 15000+600000
- 14849 words of font info for 34 fonts, out of 8000000 for 9000
+ 4029 strings out of 493304
+ 59161 string characters out of 6139871
+ 263999 words of memory out of 5000000
+ 7412 multiletter control sequences out of 15000+600000
+ 14078 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 46i,6n,51p,274b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/en
-c/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/
-sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-fsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfsx2488.pfb>
-Output written on "Bachelorarbeit Entwurf.pdf" (10 pages, 267939 bytes).
+ 46i,6n,51p,274b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/te
+xmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb>
+Output written on "Bachelorarbeit Entwurf.pdf" (9 pages, 138298 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
