@@ -2,23 +2,23 @@
 \contentsline {section}{\numberline {1}Introduction}{5}
 \contentsline {subsection}{\numberline {1.1}motivation}{5}
 \contentsline {subsection}{\numberline {1.2}What is a globular cluster in the Milky Way?}{5}
-\contentsline {subsection}{\numberline {1.3}Actions\&orbits}{5}
-\contentsline {section}{\numberline {2}Method \& Theory}{6}
-\contentsline {subsection}{\numberline {2.1}observed kinematics in GCs}{6}
-\contentsline {subsection}{\numberline {2.2}Orbits}{6}
-\contentsline {subsection}{\numberline {2.3}actions}{6}
-\contentsline {section}{\numberline {3}Analysis}{7}
-\contentsline {subsection}{\numberline {3.1}Description of the simulation}{7}
-\contentsline {subsection}{\numberline {3.2}Investigation in phase space}{7}
-\contentsline {subsubsection}{\numberline {3.2.1}Velocity dispersion}{7}
-\contentsline {subsubsection}{\numberline {3.2.2}anisotropy}{7}
-\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{7}
-\contentsline {subsubsection}{\numberline {3.2.4}Potential}{7}
-\contentsline {subsection}{\numberline {3.3}Investigations of orbits in action space}{7}
-\contentsline {subsubsection}{\numberline {3.3.1}Orbits}{7}
-\contentsline {subsubsection}{\numberline {3.3.2}Actions}{7}
-\contentsline {subsubsection}{\numberline {3.3.3}Integral of motions along orbits}{7}
-\contentsline {section}{\numberline {4}Results \& Discussion}{7}
-\contentsline {subsection}{\numberline {4.1}Actions from different globular clusters}{8}
-\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{8}
-\contentsline {section}{\numberline {5}Conclusion}{9}
+\contentsline {subsection}{\numberline {1.3}Actions\&orbits}{6}
+\contentsline {section}{\numberline {2}Method \& Theory}{7}
+\contentsline {subsection}{\numberline {2.1}observed kinematics in GCs}{7}
+\contentsline {subsection}{\numberline {2.2}Orbits}{7}
+\contentsline {subsection}{\numberline {2.3}actions}{7}
+\contentsline {section}{\numberline {3}Analysis}{8}
+\contentsline {subsection}{\numberline {3.1}Description of the simulation}{8}
+\contentsline {subsection}{\numberline {3.2}Investigation in phase space}{8}
+\contentsline {subsubsection}{\numberline {3.2.1}Velocity dispersion}{8}
+\contentsline {subsubsection}{\numberline {3.2.2}anisotropy}{8}
+\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{8}
+\contentsline {subsubsection}{\numberline {3.2.4}Potential}{8}
+\contentsline {subsection}{\numberline {3.3}Investigations of orbits in action space}{8}
+\contentsline {subsubsection}{\numberline {3.3.1}Orbits}{8}
+\contentsline {subsubsection}{\numberline {3.3.2}Actions}{8}
+\contentsline {subsubsection}{\numberline {3.3.3}Integral of motions along orbits}{8}
+\contentsline {section}{\numberline {4}Results \& Discussion}{9}
+\contentsline {subsection}{\numberline {4.1}Actions from different globular clusters}{9}
+\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{9}
+\contentsline {section}{\numberline {5}Conclusion}{10}

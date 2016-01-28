@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  20 JAN 2016 14:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  27 JAN 2016 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -510,31 +510,44 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `"Bachelorarbeit Entwurf.toc"'.
 
- [4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+ [4]
+<Plots/color_magnitude_diagram.png, id=21, 867.24pt x 867.24pt>
+File: Plots/color_magnitude_diagram.png Graphic file (type png)
+
+<use Plots/color_magnitude_diagram.png>
+Package pdftex.def Info: Plots/color_magnitude_diagram.png used on input line 3
+4.
+(pdftex.def)             Requested size: 448.13095pt x 448.13554pt.
+
+Overfull \hbox (11.74713pt too wide) in paragraph at lines 34--35
+[][] 
+ []
+
+[5 <./Plots/color_magnitude_diagram.png>] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
 
-[7] [8] [9] (./Bachelorarbeit Entwurf.aux (./ba_titlepage.aux)) ) 
+[8] [9] [10] (./Bachelorarbeit Entwurf.aux (./ba_titlepage.aux)) ) 
 Here is how much of TeX's memory you used:
- 4029 strings out of 493304
- 59161 string characters out of 6139871
+ 4036 strings out of 493304
+ 59349 string characters out of 6139871
  263999 words of memory out of 5000000
- 7412 multiletter control sequences out of 15000+600000
+ 7416 multiletter control sequences out of 15000+600000
  14078 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  46i,6n,51p,274b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/te
-xmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb>
-Output written on "Bachelorarbeit Entwurf.pdf" (9 pages, 138298 bytes).
+{/usr/share/t
+exmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm109
+5.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb>
+Output written on "Bachelorarbeit Entwurf.pdf" (10 pages, 211763 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
