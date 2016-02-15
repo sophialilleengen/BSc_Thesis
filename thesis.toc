@@ -11,10 +11,10 @@
 \contentsline {subsection}{\numberline {3.1}Description of the simulation}{12}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Investigation in phase space}{12}{subsection.3.2}
 \contentsline {subsubsection}{\numberline {3.2.1}Velocity dispersion}{13}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}anisotropy}{14}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{14}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Potential}{14}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}Investigations of orbits in action space}{14}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.2.2}Anisotropy}{13}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{13}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Potential}{13}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}Investigations of orbits in action space}{13}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Orbits}{15}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Actions}{15}{subsubsection.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3}Integral of motions along orbits}{15}{subsubsection.3.3.3}
