@@ -12,6 +12,7 @@
 \usepackage{amsmath}
 \usepackage[export]{adjustbox}
 \usepackage{subcaption}
+\usepackage{makecell}
 %\usepackage{mwe}
 
 \title{Bachelorarbeit}
@@ -80,28 +81,87 @@ V_L(r)=V(r)+\frac{L^2}{2mr^2}.\  \color{red} \mathrm{m\ should\ be\ left\ out\ r
 
 \subsection{Description of the simulation}
 \begin{table}[htbp]
+\centering
 \begin{tabular}{ c | c | c | c | c }
-name of the simulation & \# of patches & total mass & mass of the \ac{IMBH} & r\(_\mathrm{eff}\) \\
+name of the simulation & \# of patches & total mass [M\(_\odot\)]& \makecell{mass of the \\ \ac{IMBH} [M\(_\odot\)]}& r\(_\mathrm{m}\) [pc]\\
 \hline			
-  SIM 1 - IMBH & & & & \\
-  SIM 2 - IMBH & & & & \\
-  SIM 3 - NOIMBH & & & & \\
-  SIM 4 - NOIMBH & & & & \\
+  SIM 1 - IMBH & 1026735 & 308533.2 & 10102 & 4.13 \\
+  SIM 2 - IMBH & 271946& 115149.6 & 12254 & 2.50\\
+  SIM 3 - NOIMBH & 468627& 172671.3& 0 & 7.89\\
+  SIM 4 - NOIMBH & 1851556& 669844.3& 0 & 5.41\\
 
 \end{tabular}
-\caption{Overview of the data of the simulations.}
+\caption{Overview of the data of the simulations.\color{red} Question @ Paolo: Should \# of patches include IMBH? \color{black}}
 \end{table}
 
 \color{red}where simulation comes from and what it is \& description of output \color{black}\\
 \\
 To get a familiar with the simulation we first have a look at the scatter plot of the star positions.
 \begin{figure}[htbp] 
-  \includegraphics[width=\textwidth,left]{Plots/position_scatter_plot_IMBH1.pdf}
-  \caption{Position scatter plot. The stars are distributed spherically with most of the stars in the inner part. It is spread until 100 pc.}
-  
-  \label{fig:Bild1}
+\centering
+\begin{subfigure}{0.95\textwidth}
+	\centering
+  	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_IMBH1.pdf}
+  	\caption{SIM 1. The \ac{GC} is spread until 100 pc with most of the stars located in the inner 40 pc.}
+ 	\label{fig:pos_scat_SIM1}
+\end{subfigure}
+\vskip\baselineskip
+%\begin{subfigure}{0.95\textwidth}
+%	\centering
+% \includegraphics[width=\textwidth]{Plots/position_scatter_plot_IMBH2.pdf}
+%  	\caption{SIM 2. It is spread until ... pc.}
+% 	\label{fig:pos_scat_SIM2}
+%\end{subfigure}
+%\vskip\baselineskip
+\begin{subfigure}{0.95\textwidth}
+	\centering
+  	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_noIMBH1.pdf}
+  	\caption{SIM 3. The \ac{GC} is spread until 90 pc.}
+ 	\label{fig:pos_scat_SIM3}
+\end{subfigure}
+\vskip\baselineskip
+\begin{subfigure}{0.95\textwidth}
+	\centering
+  	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_noIMBH2.pdf}
+  	\caption{SIM 4. The \ac{GC} is spread until 60 pc.}
+ 	\label{fig:pos_scat_SIM4}
+\end{subfigure}
+\caption{Position scatter plots. The stars are distributed spherically with most of the stars in the inner part. The stars of the \ac{GC} with \ac{IMBH} are less spread in the outer parts despite very few which are far outside. In the \ac{GCs} without \ac{IMBH} the stars in the outer part are less accumulated but the furthermost stars still in the main sphere.}
+\label{fig:position_scatter}
 \end{figure}
 
+\begin{figure}[htbp] 
+\centering
+\begin{subfigure}{0.95\textwidth}
+	\centering
+  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_IMBH1.pdf}
+  	\caption{SIM 1. The stars' velocities are spread until 120 km/s with most of them reaching 30 km/s.}
+ 	\label{fig:vel_scat_SIM1}
+\end{subfigure}
+\vskip\baselineskip
+%\begin{subfigure}{0.95\textwidth}
+%	\centering
+% \includegraphics[width=\textwidth]{Plots/velocity_scatter_plot_IMBH2.pdf}
+%  	\caption{SIM 2. The stars' velocities are spread until 40 km/s.}
+% 	\label{fig:vel_scat_SIM2}
+%\end{subfigure}
+%\vskip\baselineskip
+\begin{subfigure}{0.95\textwidth}
+	\centering
+  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_noIMBH1.pdf}
+  	\caption{SIM 3. The stars' velocities are spread until 15 km/s.}
+ 	\label{fig:vel_scat_SIM3}
+\end{subfigure}
+\vskip\baselineskip
+\begin{subfigure}{0.95\textwidth}
+	\centering
+  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_noIMBH2.pdf}
+  	\caption{SIM 4. The stars' velocities are spread until 40 km/s.}
+ 	\label{fig:vel_scat_SIM4}
+\end{subfigure}
+\caption{Velocity scatter plots. The velocities are spherically distributed. Most of the stars have low or no velocity while a few have high velocities in different directions. Like the star distribution the velocity distribution of the \ac{GC} with \ac{IMBH} has some velocities outside the main sphere whereas the \ac{GCs} without \ac{IMBH} contains all velocities inside the main shell.}
+\label{fig:velocity_scatter}
+\end{figure}
 \color{red} include same plot with velocities!! \color{black}\\
 As we said in section \ref{sec2.1} it is important to test the sphericity of a system. We will do this by splitting the \ac{GC} into octants and compare their mass \color{red} or number since we will introduce mass density plots only later \color{black} density \color{red} mass density sphericity plots\color{black}. As you see they're acceptable overlaying \color{red} within their errors. \color{black}
 \\
@@ -158,7 +218,7 @@ The density profile shows the density of the system over its radius. The bins ar
 plots\\
 \begin{figure}
 \centering
-\includegraphics[width=0.475\textwidth]{Plots/density_profile.pdf}
+\includegraphics[width=0.475\textwidth]{Plots/density_profiles.pdf}
 \caption{Mass density profiles. The density in \(\frac{M_{\odot}}{pc^2}\) is plotted against the effective radius. The density of the \ac{GC} with \ac{IMBH} is everywhere larger than the density of the \ac{GC} without \ac{IMBH}. In the centre there is a raise in the density of the \ac{GC} with \ac{IMBH} whereas the other \ac{GC} stays approximately on the same level. Both start decreasing at about 0.5 \(\mathrm{r_eff}\).}
 \label{fig:mass_density_profile}
 \end{figure}
