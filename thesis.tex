@@ -13,6 +13,9 @@
 \usepackage[export]{adjustbox}
 \usepackage{subcaption}
 \usepackage{makecell}
+%\usepackage{cite}
+\usepackage{natbib}
+
 %\usepackage{mwe}
 
 \title{Bachelorarbeit}
@@ -20,6 +23,7 @@
 \date{\today}
 
 \begin{document}
+\bibliographystyle{plainnat} 
 \onehalfspacing
 \include{./ba_titlepage}
 
@@ -37,223 +41,26 @@
 
 
 \newpage
-\section{Method \& Theory}
-%\subsection{stellar population in GC}
-\subsection{Density and kinematic profiles of globular clusters}\label{sec2.1}
-Our investigations of \ac{GCs} in phase space consists in analysing the spatial distribution of stars (density profiles) and the kinematic profiles(such as velocity dispersion and anisotropy profiles). First we test the sphericity of the \ac{GC}. Sphericity implies the usage of analytical methods that are very straight forward, especially for determing the potential of the globular cluster and then the actions in action space.\par \color{red} density profile \color{black} \par The velocity dispersion is the standard deviation of the mean velocity 
-\begin{equation}
-\sigma_i=\sqrt{\left\langle(v_i-\langle v_i\rangle)^2\right\rangle}=\sqrt{\left\langle v_i^2-\langle v_i\rangle^2\right\rangle} \qquad\qquad i=r,\theta,\phi.
-\end{equation} For a spherical system it is best to calculate them in spherical coordinates \(r,\theta,\phi\) respectively \(v_r,v_{\theta},v_{\phi}\). If the \ac{GC} contains an \ac{IMBH} the velocity dispersion towards the centre is increasing. 
-\par \color{red} what exactly describes anisotropy? \color{black} To quantify the anisotropy of the system we use the anisotropy parameter \(\beta\) 
-\begin{equation}
-\beta=1-\frac{\sigma_\theta ^2+\sigma_\phi ^2}{\sigma_r ^2}.
-\end{equation} If \(\beta\) is positive the anisotropy is radial, if it is negative the anisotropy is tangential and if \(\beta\approx0\) then the system is isotropic.
-
-\subsection{Orbits}[\label{sec2.2}]
-In a dynamical system the mass distribution is described by the form of theoretically existent orbits (\(\vec{x}(t),\vec{v}(t))\). Position and velocity are linked with six coordinates and contain all information about the potential. With Newton's 2nd law we get the connection between potential \(\Phi(\vec{r})\)and acceleration \(\vec{a}\) which is \[\vec{F}(\vec{r})=-\nabla\Phi(\vec{r})=m\cdot\vec{a}.\] Since the system is spherically potential and force only depend on the distance from the centre r. The potential can be derived from the Poisson's equation \begin{equation}
-\Delta\Phi(r)=4\pi G \rho(r)
-\end{equation}
-with the density \(\rho\) depending only on the distance as well. Due to the spherical symmetry the potential can be calculated by 
-\begin{equation}
-\Phi(r)=-\frac{G}{r}\int_0^r{\mathrm{d}M(r')}-G\int_r^{\infty}{\frac{\mathrm{d}M(r')}{r'}}=-4\pi G\left[\frac{1}{r}\int_0^r\mathrm{d}r'r'^2\rho(r')+\int_r^{\infty}\mathrm{d}r'r'\rho(r')\right]
-\end{equation} (Binney \& Tremaine eq. 2.28). We calculate the density by binning the masses on logarithmic equally distributed shells \color{red} write density formula? \color{black} and solve the integrals of the Poisson's equation numerically by using the Gauss-Legendre quadrature \[\int_a^b f(x)dx = \frac{b-a}{2}\sum_{i=1}^n w_i f\left(\frac{b-a}{2}x_i+\frac{a+b}{2}\right)\] where the points \(x_i\) and the weights \(w_i\) are derived from the Legendre polynomials.\\ Since the orbit is described by position and velocity at each time step we use the numerical leapfrog method which is a second-order time reversible integrator. \(X_i\) and \(v_i\) are calculated by 
-\begin{align*}
-x_{i+1}=x_i+v_i\Delta t+\frac{a_i(x_i)}{2}\Delta t^2 \\
-v_{i+1}=v_i+\frac{a(x_{i+1})+a(x_i)}{2}\Delta t.
-\end{align*}
-
-
-
-\subsection{Actions}
-Stars in spherical symmetric potential are fully described by their actions \begin{equation}
-J_i=\frac{1}{2\pi}\oint_{\gamma_i}\vec{p}\cdot d\vec{q} \qquad\qquad i=r,\theta,\phi
-\end{equation} which are used as coordinates in action space
-These actions are integrals of motion. For most potentials actions can't be described analytically. The actions of a spherical system are derived from angular momentum, energy and potential. Only the potential is depending in r. Energy and angular momentum as well as resulting actions are constant over time and orbit. The azimuthal action J\(_\phi\) and the latitudinal action J\(_\theta\) can be evaluated simply. To calculate the radial action J\(_r\) we have to solve an integral numerically. Actions of a spherical potential are found to be \begin{align}
-J_\phi=L_z, \\ J_\theta=L-|L_z|, \\ J_r=\frac{1}{\pi} \int_{r_{min}}^{r_{max}} \mathrm{d}r \sqrt{2E-2\Phi(r)-\frac{L^2}{r^2}}.
-\end{align}\color{red} Should I write down the derivation of the actions (B\&T p.220) or just the results (B\&T p.221, 3.221,3.223,3.224)?\color{black} \\ The pericenter \(r_{min}\) and the apocenter \(r_{max}\) as well as the guiding star radisu \(r_g\) can be found in the effective potential \begin{equation}
-V_L(r)=V(r)+\frac{L^2}{2mr^2}.\  \color{red} \mathrm{m\ should\ be\ left\ out\ right?} \color{black}
-\end{equation} \color{red} Bartelman Theo 1 Skript p59 formula 6.27. \\ \color{black} In the peri- and apocenter the effective potential equals the total energy since the stars do not have any kinetic energy there. That results in following function which is to solve: \[\left(\frac{1}{r}\right)^2+\frac{2\cdot (\Phi-E)}{L^2}=0.\] \\ The guiding star radius is the distance at which a star with given total angular momentum would have a circular orbit. This is at the minimum of the effective potential. To get \(r_g\) we have to solve \[r\sqrt{r\frac{\partial\Phi}{\partial r}}-|L|=0\] where \(\sqrt{r\frac{\partial\Phi}{\partial r}}=v_{circ}\) is the circular velocity. This distance is used to have a better comparison of the actions since in the snapshot the stars are at a random position on their orbit.
-
-\color{red} plot v\_eff plot from barthelman skript? \color{black}
-
+\include{Method_theory}
 \newpage
-\section{Analysis}
-
-\subsection{Description of the simulation}
-\begin{table}[htbp]
-\centering
-\begin{tabular}{ c | c | c | c | c }
-name of the simulation & \# of patches & total mass [M\(_\odot\)]& \makecell{mass of the \\ \ac{IMBH} [M\(_\odot\)]}& r\(_\mathrm{m}\) [pc]\\
-\hline			
-  SIM 1 - IMBH & 1026735 & 308533.2 & 10102 & 4.13 \\
-  SIM 2 - IMBH & 271946& 115149.6 & 12254 & 2.50\\
-  SIM 3 - NOIMBH & 468627& 172671.3& 0 & 7.89\\
-  SIM 4 - NOIMBH & 1851556& 669844.3& 0 & 5.41\\
-
-\end{tabular}
-\caption{Overview of the data of the simulations.\color{red} Question @ Paolo: Should \# of patches include IMBH? \color{black}}
-\end{table}
-
-\color{red}where simulation comes from and what it is \& description of output \color{black}\\
-\\
-To get a familiar with the simulation we first have a look at the scatter plot of the star positions.
-\begin{figure}[htbp] 
-\centering
-\begin{subfigure}{0.95\textwidth}
-	\centering
-  	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_IMBH1.pdf}
-  	\caption{SIM 1. The \ac{GC} is spread until 100 pc with most of the stars located in the inner 40 pc.}
- 	\label{fig:pos_scat_SIM1}
-\end{subfigure}
-\vskip\baselineskip
-%\begin{subfigure}{0.95\textwidth}
-%	\centering
-% \includegraphics[width=\textwidth]{Plots/position_scatter_plot_IMBH2.pdf}
-%  	\caption{SIM 2. It is spread until ... pc.}
-% 	\label{fig:pos_scat_SIM2}
-%\end{subfigure}
-%\vskip\baselineskip
-\begin{subfigure}{0.95\textwidth}
-	\centering
-  	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_noIMBH1.pdf}
-  	\caption{SIM 3. The \ac{GC} is spread until 90 pc.}
- 	\label{fig:pos_scat_SIM3}
-\end{subfigure}
-\vskip\baselineskip
-\begin{subfigure}{0.95\textwidth}
-	\centering
-  	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_noIMBH2.pdf}
-  	\caption{SIM 4. The \ac{GC} is spread until 60 pc.}
- 	\label{fig:pos_scat_SIM4}
-\end{subfigure}
-\caption{Position scatter plots. The stars are distributed spherically with most of the stars in the inner part. The stars of the \ac{GC} with \ac{IMBH} are less spread in the outer parts despite very few which are far outside. In the \ac{GCs} without \ac{IMBH} the stars in the outer part are less accumulated but the furthermost stars still in the main sphere.}
-\label{fig:position_scatter}
-\end{figure}
-
-\begin{figure}[htbp] 
-\centering
-\begin{subfigure}{0.95\textwidth}
-	\centering
-  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_IMBH1.pdf}
-  	\caption{SIM 1. The stars' velocities are spread until 120 km/s with most of them reaching 30 km/s.}
- 	\label{fig:vel_scat_SIM1}
-\end{subfigure}
-\vskip\baselineskip
-%\begin{subfigure}{0.95\textwidth}
-%	\centering
-% \includegraphics[width=\textwidth]{Plots/velocity_scatter_plot_IMBH2.pdf}
-%  	\caption{SIM 2. The stars' velocities are spread until 40 km/s.}
-% 	\label{fig:vel_scat_SIM2}
-%\end{subfigure}
-%\vskip\baselineskip
-\begin{subfigure}{0.95\textwidth}
-	\centering
-  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_noIMBH1.pdf}
-  	\caption{SIM 3. The stars' velocities are spread until 15 km/s.}
- 	\label{fig:vel_scat_SIM3}
-\end{subfigure}
-\vskip\baselineskip
-\begin{subfigure}{0.95\textwidth}
-	\centering
-  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_noIMBH2.pdf}
-  	\caption{SIM 4. The stars' velocities are spread until 40 km/s.}
- 	\label{fig:vel_scat_SIM4}
-\end{subfigure}
-\caption{Velocity scatter plots. The velocities are spherically distributed. Most of the stars have low or no velocity while a few have high velocities in different directions. Like the star distribution the velocity distribution of the \ac{GC} with \ac{IMBH} has some velocities outside the main sphere whereas the \ac{GCs} without \ac{IMBH} contains all velocities inside the main shell.}
-\label{fig:velocity_scatter}
-\end{figure}
-\color{red} include same plot with velocities!! \color{black}\\
-As we said in section \ref{sec2.1} it is important to test the sphericity of a system. We will do this by splitting the \ac{GC} into octants and compare their mass \color{red} or number since we will introduce mass density plots only later \color{black} density \color{red} mass density sphericity plots\color{black}. As you see they're acceptable overlaying \color{red} within their errors. \color{black}
-\\
-As mentioned in \ref{sec1.2} the \ac{CMD} is showing a star's evolution stage dependend on its position. If you do not know age or metallicity of the system you can fit isochrones on the \ac{CMD}. Isochrones are curves of evolutionary stages of stars having the same age and metallicity but different masses. We plot several to our \ac{CMD} to determine which one fits best. This will give us the age and the metallicity of the system. \color{red} cmd with isocrones plots \color{black}
-
-
-\subsection{Investigation in phase space}
-
-First we will investigate the \ac{GC} in phase space for the set of simulations that w will use throughout this work. We will start with the velocity dispersion and the anisotropy parameter then we will have a density profile and from that get the potential. \color{red} for all 4 simulations or only for the first with IMBH? or with on plot containing two or all of them? \color{black}
-
-\subsubsection{Velocity dispersion}
-With (1) from section \ref{sec2.1} we can calculate the velocity dispersion for each coordinate \(r,\theta,\phi\). For every bin we take the same amount of stars and calculate the dispersion. To compare both simulations we plot the dispersion over the effective radius. The half mass radius of the simulation with \ac{IMBH} is 4.1pc and of the simulation without \ac{IMBH} it is 7.9pc. 
-\begin{figure*}[htbp]
-	\centering
-	\begin{subfigure}{0.475\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{Plots/radial_velocity_dispersion.pdf}
-		\caption{Radial velocity dispersions}
-		\label{[fig:radial_vel_disp]}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}{0.475\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{Plots/azimuthal_velocity_dispersion.pdf}
-		\caption{Azimuthal velocity dispersions}
-		\label{[fig:azimuthal_vel_disp]}
-	\end{subfigure}
-	\vskip\baselineskip
-	\begin{subfigure}{0.475\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{Plots/polar_velocity_dispersion.pdf}
-		\caption{Polar velocity dispersions}
-		\label{[fig:polar_vel_disp]}
-	\end{subfigure}
-
-
-	\caption{Velocity dispersion profiles as a function of the radius in units of the effective radius \(\mathrm{r_{eff}}\). They are binned in a way that each bin contains the same amount of stars. We can see that the velocity dispersion of the simulation with \ac{IMBH} rises towards the centre whereas the simulation without \ac{IMBH} exhibits a cored profile.}
-\end{figure*}
-As expected there is a rise in the centre for the simulation with \ac{IMBH}. This is due the high gravitational potential of the \ac{IMBH} which disturbs the dynamics of close stars. 
-
-
-\subsubsection{Anisotropy}
-Anisotropy can be calculated from (2) in \ref{sec2.1}. It is binned the same way as for the velocity dispersion and again dependent on the effective radii.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.475\textwidth]{Plots/anisotropy_parameter_beta.pdf}
-	\caption{Anisotropy parameter \(\beta\). Both simulations are radial anisotropic. The simulation with \ac{IMBH} has a peak at 4 effective radii where it is most radial anisotropic. The other simulation is rising until the end. The far more outside a star is the higher its radial anisotropy is.}
-	\label{fig:anisotropy_param}
-\end{figure}
-In the center of both \ac{GCs} there is nearly the same anisotropy. Both are positive and rising. That means the systems are radial anisotropic. The \ac{GC} with \ac{IMBH} is most radial anisotropic in its center at about 4 effective radii. The other \ac{GC} is becoming more radial anisotropic the more far from the centre it is.
-
-\subsubsection{Density profile}
-The density profile shows the density of the system over its radius. The bins are chosen so that the radii are equidistant on a logarithmic scale and that they are at least 100 stars per bin to have a reliable stochastic. Outside of the cluster the density is set to 0. In the innermost part the density is set to be as the innermost point.
-plots\\
-\begin{figure}
-\centering
-\includegraphics[width=0.475\textwidth]{Plots/density_profiles.pdf}
-\caption{Mass density profiles. The density in \(\frac{M_{\odot}}{pc^2}\) is plotted against the effective radius. The density of the \ac{GC} with \ac{IMBH} is everywhere larger than the density of the \ac{GC} without \ac{IMBH}. In the centre there is a raise in the density of the \ac{GC} with \ac{IMBH} whereas the other \ac{GC} stays approximately on the same level. Both start decreasing at about 0.5 \(\mathrm{r_eff}\).}
-\label{fig:mass_density_profile}
-\end{figure}
-
-\subsubsection{Potential}
-From the density profile we can compute the potential as described in \ref{sec2.2}. It is composed by the potential given from the stars and if there is one the potential of the \ac{IMBH} expressed as Kepler potential.
-
-
-\subsection{Investigations of orbits in action space}
-wilma class 
-\subsubsection{Orbits}
-\subsubsection{Actions}
-\subsubsection{Integral of motions along orbits}
+\include{Analysis}
 \newpage
-\section{Results \& Discussion}
-only triangle plots
-
-\subsection{Actions from different globular clusters}
-\subsection{Discussion \& future perspectives}
-do the same distinguishing the mass of the stars\\
-redo the work with only observational-like data
+\include{Results_discussion}
 \newpage
 \section{Conclusion}
 \newpage 
 \section{Acronyms}
 
-\begin{acronym}[SMBHs]
+\begin{acronym}[SMBH]
 	\acro{CMD}{color magnitude diagram}
-	\acro{DFs}{distribution functions}
+	\acro{DF}{distribution function}
 	\acro{GC}{globular cluster}
-	\acro{GCs}{globular clusters}
+	\acro{v-GC}{Globular clusters}
 	\acro{IMBH}{intermediate mass black hole}
-	\acro{IMBHs}{intermediate mass black holes}
 	\acro{MW}{Milky Way}
 	\acro{SMBH}{super massive black hole}
-	\acro{SMBHs}{super massive black holes}
 \end{acronym}
+\newpage
+%\bibliography{Literatur}{}
+
 \end{document}
