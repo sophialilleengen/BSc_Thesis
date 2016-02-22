@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  22 FEB 2016 01:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  22 FEB 2016 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1004,35 +1004,35 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 4.
 
-<Plots/E_J_r_hist_IMBH1.pdf, id=965, 388.04286pt x 290.95262pt>
+<Plots/E_J_r_hist_IMBH1.pdf, id=967, 388.04286pt x 290.95262pt>
 File: Plots/E_J_r_hist_IMBH1.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_IMBH1.pdf>
 Package pdftex.def Info: Plots/E_J_r_hist_IMBH1.pdf used on input line 10.
 (pdftex.def)             Requested size: 212.86493pt x 159.6071pt.
 
-<Plots/E_J_r_hist_IMBH2.pdf, id=966, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_IMBH2.pdf, id=968, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_IMBH2.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_IMBH2.pdf>
 Package pdftex.def Info: Plots/E_J_r_hist_IMBH2.pdf used on input line 16.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_noIMBH1.pdf, id=967, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_noIMBH1.pdf, id=969, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_noIMBH1.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_noIMBH1.pdf>
 Package pdftex.def Info: Plots/E_J_r_hist_noIMBH1.pdf used on input line 22.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_noIMBH2.pdf, id=968, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_noIMBH2.pdf, id=970, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_noIMBH2.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_noIMBH2.pdf>
 Package pdftex.def Info: Plots/E_J_r_hist_noIMBH2.pdf used on input line 28.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_bins_IMBH1.pdf, id=987, 388.04286pt x 290.95262pt>
+<Plots/E_J_r_hist_bins_IMBH1.pdf, id=989, 388.04286pt x 290.95262pt>
 File: Plots/E_J_r_hist_bins_IMBH1.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_bins_IMBH1.pdf>
@@ -1040,7 +1040,7 @@ Package pdftex.def Info: Plots/E_J_r_hist_bins_IMBH1.pdf used on input line 41.
 
 (pdftex.def)             Requested size: 212.86493pt x 159.6071pt.
 
-<Plots/E_J_r_hist_bins_IMBH2.pdf, id=988, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_bins_IMBH2.pdf, id=990, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_bins_IMBH2.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_bins_IMBH2.pdf>
@@ -1048,7 +1048,7 @@ Package pdftex.def Info: Plots/E_J_r_hist_bins_IMBH2.pdf used on input line 47.
 
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_bins_noIMBH1.pdf, id=989, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_bins_noIMBH1.pdf, id=991, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_bins_noIMBH1.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_bins_noIMBH1.pdf>
@@ -1056,7 +1056,7 @@ Package pdftex.def Info: Plots/E_J_r_hist_bins_noIMBH1.pdf used on input line 5
 3.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_bins_noIMBH2.pdf, id=990, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_bins_noIMBH2.pdf, id=992, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_bins_noIMBH2.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_bins_noIMBH2.pdf>
@@ -1064,56 +1064,56 @@ Package pdftex.def Info: Plots/E_J_r_hist_bins_noIMBH2.pdf used on input line 5
 9.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/L_J_r_hist_IMBH1.pdf, id=994, 392.05786pt x 288.94513pt>
+<Plots/L_J_r_hist_IMBH1.pdf, id=996, 392.05786pt x 288.94513pt>
 File: Plots/L_J_r_hist_IMBH1.pdf Graphic file (type pdf)
 
 <use Plots/L_J_r_hist_IMBH1.pdf>
 Package pdftex.def Info: Plots/L_J_r_hist_IMBH1.pdf used on input line 73.
 (pdftex.def)             Requested size: 212.86493pt x 156.88338pt.
 
-<Plots/L_J_r_hist_IMBH2.pdf, id=995, 385.11003pt x 288.94513pt>
+<Plots/L_J_r_hist_IMBH2.pdf, id=997, 385.11003pt x 288.94513pt>
 File: Plots/L_J_r_hist_IMBH2.pdf Graphic file (type pdf)
 
 <use Plots/L_J_r_hist_IMBH2.pdf>
 Package pdftex.def Info: Plots/L_J_r_hist_IMBH2.pdf used on input line 79.
 (pdftex.def)             Requested size: 212.86493pt x 159.71391pt.
 
-<Plots/L_J_r_hist_noIMBH1.pdf, id=996, 385.11003pt x 288.94513pt>
+<Plots/L_J_r_hist_noIMBH1.pdf, id=998, 385.11003pt x 288.94513pt>
 File: Plots/L_J_r_hist_noIMBH1.pdf Graphic file (type pdf)
 
 <use Plots/L_J_r_hist_noIMBH1.pdf>
 Package pdftex.def Info: Plots/L_J_r_hist_noIMBH1.pdf used on input line 85.
 (pdftex.def)             Requested size: 212.86493pt x 159.71391pt.
 
-<Plots/L_J_r_hist_noIMBH2.pdf, id=997, 385.11003pt x 288.94513pt>
+<Plots/L_J_r_hist_noIMBH2.pdf, id=999, 385.11003pt x 288.94513pt>
 File: Plots/L_J_r_hist_noIMBH2.pdf Graphic file (type pdf)
 
 <use Plots/L_J_r_hist_noIMBH2.pdf>
 Package pdftex.def Info: Plots/L_J_r_hist_noIMBH2.pdf used on input line 91.
 (pdftex.def)             Requested size: 212.86493pt x 159.71391pt.
 
-<Plots/r_g_J_r_IMBH1.pdf, id=1011, 413.74576pt x 294.34029pt>
+<Plots/r_g_J_r_IMBH1.pdf, id=1013, 413.74576pt x 294.34029pt>
 File: Plots/r_g_J_r_IMBH1.pdf Graphic file (type pdf)
 
 <use Plots/r_g_J_r_IMBH1.pdf>
 Package pdftex.def Info: Plots/r_g_J_r_IMBH1.pdf used on input line 105.
 (pdftex.def)             Requested size: 212.86493pt x 151.43648pt.
 
-<Plots/r_g_J_r_IMBH2.pdf, id=1012, 413.74576pt x 294.34029pt>
+<Plots/r_g_J_r_IMBH2.pdf, id=1014, 413.74576pt x 294.34029pt>
 File: Plots/r_g_J_r_IMBH2.pdf Graphic file (type pdf)
 
 <use Plots/r_g_J_r_IMBH2.pdf>
 Package pdftex.def Info: Plots/r_g_J_r_IMBH2.pdf used on input line 112.
 (pdftex.def)             Requested size: 212.86493pt x 151.43648pt.
 
-<Plots/r_g_J_r_noIMBH1.pdf, id=1013, 413.74576pt x 294.34029pt>
+<Plots/r_g_J_r_noIMBH1.pdf, id=1015, 413.74576pt x 294.34029pt>
 File: Plots/r_g_J_r_noIMBH1.pdf Graphic file (type pdf)
 
 <use Plots/r_g_J_r_noIMBH1.pdf>
 Package pdftex.def Info: Plots/r_g_J_r_noIMBH1.pdf used on input line 119.
 (pdftex.def)             Requested size: 212.86493pt x 151.43648pt.
 
-<Plots/r_g_J_r_noIMBH2.pdf, id=1014, 413.74576pt x 294.34029pt>
+<Plots/r_g_J_r_noIMBH2.pdf, id=1016, 413.74576pt x 294.34029pt>
 File: Plots/r_g_J_r_noIMBH2.pdf Graphic file (type pdf)
 
 <use Plots/r_g_J_r_noIMBH2.pdf>
@@ -1211,10 +1211,10 @@ rm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sha
 re/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
 x1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb>
-Output written on thesis.pdf (26 pages, 52864552 bytes).
+Output written on thesis.pdf (26 pages, 52864895 bytes).
 PDF statistics:
- 1811 PDF objects out of 2073 (max. 8388607)
- 750 compressed objects within 8 object streams
+ 1813 PDF objects out of 2073 (max. 8388607)
+ 752 compressed objects within 8 object streams
  83 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 
