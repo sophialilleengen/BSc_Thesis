@@ -19,6 +19,6 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Integral of motions along orbits}{19}{subsubsection.3.3.2}
 \contentsline {section}{\numberline {4}Results \& Discussion}{20}{section.4}
 \contentsline {subsection}{\numberline {4.1}Actions from different globular clusters\color {red} better name? \color {black}}{20}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{20}{subsection.4.2}
-\contentsline {section}{\numberline {5}Conclusion}{25}{section.5}
-\contentsline {section}{\numberline {6}Acronyms}{26}{section.6}
+\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{24}{subsection.4.2}
+\contentsline {section}{\numberline {5}Conclusion}{26}{section.5}
+\contentsline {section}{\numberline {6}Acronyms}{27}{section.6}
