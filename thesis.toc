@@ -10,15 +10,15 @@
 \contentsline {section}{\numberline {3}Analysis}{12}{section.3}
 \contentsline {subsection}{\numberline {3.1}Description of the simulation}{12}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Investigation in phase space}{12}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Velocity dispersion}{15}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Anisotropy}{16}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{16}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Potential}{16}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}Investigations of orbits in action space}{17}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Orbits \& actions}{17}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Integral of motions along orbits}{17}{subsubsection.3.3.2}
-\contentsline {section}{\numberline {4}Results \& Discussion}{19}{section.4}
-\contentsline {subsection}{\numberline {4.1}Actions from different globular clusters}{19}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{19}{subsection.4.2}
-\contentsline {section}{\numberline {5}Conclusion}{20}{section.5}
-\contentsline {section}{\numberline {6}Acronyms}{21}{section.6}
+\contentsline {subsubsection}{\numberline {3.2.1}Velocity dispersion}{16}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Anisotropy}{17}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{17}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Potential}{19}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}Investigations of orbits in action space}{19}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Orbits \& actions}{19}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Integral of motions along orbits}{19}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}Results \& Discussion}{20}{section.4}
+\contentsline {subsection}{\numberline {4.1}Actions from different globular clusters\color {red} better name? \color {black}}{20}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{20}{subsection.4.2}
+\contentsline {section}{\numberline {5}Conclusion}{25}{section.5}
+\contentsline {section}{\numberline {6}Acronyms}{26}{section.6}

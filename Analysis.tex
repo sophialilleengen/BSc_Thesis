@@ -23,18 +23,18 @@ To get a familiar with the simulation we first have a look at the scatter plot o
 \begin{subfigure}{0.9\textwidth}
 	\centering
   	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_IMBH.pdf}
-  	\caption{SIM 1. The \ac{GC} is spread until 100 pc with most of the stars located in the inner 40 pc.}
+  	\caption{SIM 1. The \acp{GC} are spread until 100 pc with most of the stars located in the inner 40 pc.}
  	\label{fig:pos_scat_IMBH}
 \end{subfigure}
 \\
 \begin{subfigure}{0.9\textwidth}
 	\centering
   	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_noIMBH.pdf}
-  	\caption{SIM 3. The \ac{GC} is spread until 90 pc.}
+  	\caption{SIM 3. The \ac{GC} is spread until 90 pc (SIM3) and until 60 pc (SIM4).}
  	\label{fig:pos_scat_noIMBH}
 \end{subfigure}
 
-\caption{Position scatter plots. The stars are distributed spherically with most of the stars in the inner part. The stars of the \ac{GC} with \ac{IMBH} are less spread in the outer parts despite very few which are far outside. In the \acp{GC} without \ac{IMBH} the stars in the outer part are less accumulated but the furthermost stars still in the main sphere.}
+\caption{Position scatter plots. The stars are distributed spherically with most of the stars in the inner part. The stars of the \acp{GC} with \ac{IMBH} are less spread in the outer parts despite very few which are far outside. In the \acp{GC} without \ac{IMBH} the stars in the outer part are less accumulated but the furthermost stars still in the main sphere.}
 \label{fig:position_scatter}
 \end{figure}
 
@@ -50,17 +50,23 @@ To get a familiar with the simulation we first have a look at the scatter plot o
 \begin{subfigure}{0.95\textwidth}
 	\centering
   	\includegraphics[width=\textwidth]{Plots/velocity_scatter_noIMBH.pdf}
-  	\caption{SIM 3. The stars' velocities are spread until 15 km/s.}
+  	\caption{SIM 3. The stars' velocities are spread until 15 km/s for SIM 3 whereas they spread until 40 km/s for SIM 4.}
  	\label{fig:vel_scat_noIMBH}
 \end{subfigure}
 
-\caption{Velocity scatter plots. The velocities are spherically distributed. Most of the stars have low or no velocity while a few have high velocities in different directions. Like the star distribution the velocity distribution of the \ac{GC} with \ac{IMBH} has some velocities outside the main sphere whereas the \acp{GC} without \ac{IMBH} contains all velocities inside the main shell.}
+\caption{Velocity scatter plots. The velocities are spherically distributed. Most of the stars have low or no velocity while a few have high velocities in different directions. Like the star distributions the velocity distributions of the \acp{GC} with \ac{IMBH} have some velocities outside the main sphere whereas the \acp{GC} without \ac{IMBH} contain all velocities inside the main shell.}
 \label{fig:velocity_scatter}
 \end{figure}
 \color{red} include same plot with velocities!! \color{black}\\
 As we said in section \ref{sec2.1} it is important to test the sphericity of a system. We will do this by splitting the \ac{GC} into octants and compare their mass \color{red} or number since we will introduce mass density plots only later \color{black} density \color{red} mass density sphericity plots\color{black}. As you see they're acceptable overlaying \color{red} within their errors. \color{black}
 \\
-As mentioned in \ref{sec1.2} the \ac{CMD} is showing a star's evolution stage dependend on its position. If you do not know age or metallicity of the system you can fit isochrones on the \ac{CMD}. Isochrones are curves of evolutionary stages of stars having the same age and metallicity but different masses. We plot several to our \ac{CMD} to determine which one fits best. This will give us the age and the metallicity of the system. \color{red} cmd with isocrones plots \color{black}
+As mentioned in \ref{sec1.2} the \ac{CMD} is showing a star's evolution stage dependend on its position. If you do not know age or metallicity of the system you can fit isochrones on the \ac{CMD}. Isochrones are curves of evolutionary stages of stars having the same age and metallicity but different masses. We plot several to our \ac{CMD} to determine which one fits best. This will give us the age and the metallicity of the system. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{Plots/cmd_isochrones.pdf}
+	\caption{Color magnitude diagram of SIM 1 overplotted with different isochrones. We recognize how we can determine the age based on the turn off point. This verifies the age and the metallicity of this \ac{GC} of 10 Gyr and 0.001.}
+	\label{fig:cmd_isochrones}
+\end{figure}
 
 
 \subsection{Investigation in phase space}
@@ -103,7 +109,7 @@ Anisotropy can be calculated from (2) in \ref{sec2.1}. It is binned the same way
 \begin{figure}
 	\centering
 	\includegraphics[width=0.475\textwidth]{Plots/anisotropy_parameter_beta.pdf}
-	\caption{Anisotropy parameter \(\beta\). Both simulations are radial anisotropic. The simulation with \ac{IMBH} has a peak at 4 effective radii where it is most radial anisotropic. The other simulation is rising until the end. The far more outside a star is the higher its radial anisotropy is.}
+	\caption{Anisotropy parameter \(\beta\). All simulations are radial anisotropic. The simulations with \acp{IMBH} have a peak at 4 and 5 effective radii where they are most radial anisotropic. The other simulations are rising until the end. The far more outside a star is the higher its radial anisotropy is. Within the first two effective radii all seem to have the same course.}
 	\label{fig:anisotropy_param}
 \end{figure}
 In the center of both \acp{GC} there is nearly the same anisotropy. Both are positive and rising. That means the systems are radial anisotropic. The \ac{GC} with \ac{IMBH} is most radial anisotropic in its center at about 4 effective radii. The other \ac{GC} is becoming more radial anisotropic the more far from the centre it is.
@@ -122,11 +128,18 @@ plots\\
 	\hfill
 	\begin{subfigure}{0.475\textwidth}
 		\centering
+		\includegraphics[width=\textwidth]{Plots/density_prof_analytic.pdf}
+		\caption{Analytically fitted mass density profile of SIM 1.}
+		\label{mass_dens_ana}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}{0.475\textwidth}
+		\centering
 		\includegraphics[width=\textwidth]{Plots/density_profiles_interpolated.pdf}
 		\caption{Interpolated mass density profiles of SIM 1 and SIM 3.}
 		\label{mass_dens_intpol}
 	\end{subfigure}
-	\caption{Mass density profiles. The density in \(\frac{M_{\odot}}{pc^2}\) is plotted against the effective radius. The density of the \ac{GC} with \ac{IMBH} is everywhere larger than the density of the \ac{GC} without \ac{IMBH}. In the centre there is a raise in the density of the \ac{GC} with \ac{IMBH} whereas the other \ac{GC} stays approximately on the same level. Both start decreasing at about 0.5 \(\mathrm{r_eff}\).}
+	\caption{Mass density profiles. The density in \(\frac{M_{\odot}}{pc^2}\) is plotted against the effective radius. The density of the \ac{GC} with \ac{IMBH} is everywhere larger than the density of the \ac{GC} without \ac{IMBH}. In the centre there is a raise in the density of the \ac{GC} with \ac{IMBH} whereas the other \ac{GC} stays approximately on the same level. Both start decreasing at about 0.5 \(\mathrm{r_eff}\). We can see in \ref{mass_dens_intpol} that it is not simple to find an analytical function describing the density. Thats why we interpolate it in \ref{mass_dens_intpol}. Everything out of the \ac{GC} is set to 0 while the innerst density is set to be the value of the innermost point.}
 	\label{fig:mass_density_profile}
 \end{figure}
 
@@ -142,5 +155,6 @@ From the density profile we can compute the potential as described in \ref{dens_
 \subsection{Investigations of orbits in action space}
 wilma class 
 \subsubsection{Orbits \& actions}
+
 
 \subsubsection{Integral of motions along orbits}
