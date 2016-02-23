@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  23 FEB 2016 16:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  24 FEB 2016 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -610,6 +610,16 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
@@ -705,25 +715,40 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count140
 ) (./thesis.aux
 (./ba_titlepage.aux) (./Introduction.aux) (./Method_theory.aux) (./Analysis.aux
-) (./Results_discussion.aux))
+) (./Results_discussion.aux)
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count141
 \scratchdimen=\dimen139
@@ -752,7 +777,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -762,9 +787,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -778,13 +803,23 @@ Package caption Info: End \AtBeginDocument code.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3])
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 30.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [4
 
 ] (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Package acronym Info: Label `acro:IMBH' newly defined as it shall be overridden
 
 although it is yet undefined on input line 21.
@@ -792,51 +827,80 @@ although it is yet undefined on input line 21.
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
-
-[5]
+ [5]
 \openout2 = `Introduction.aux'.
 
- (./Introduction.tex
+
+(./Introduction.tex
 Package acronym Info: Label `acro:MW' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
- [6
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+Package natbib Warning: Citation `2015MNRAS.453..365B' on page 6 undefined on i
+nput line 9.
+
+</home/sophia/Paolo_talk_plot.png, id=171, 626.34pt x 602.25pt>
+File: /home/sophia/Paolo_talk_plot.png Graphic file (type png)
+
+<use /home/sophia/Paolo_talk_plot.png>
+Package pdftex.def Info: /home/sophia/Paolo_talk_plot.png used on input line 12
+.
+(pdftex.def)             Requested size: 224.06548pt x 215.44977pt.
+
+
+Package natbib Warning: Citation `2013ApJ...769..107L' on page 6 undefined on i
+nput line 13.
+
+
+Package natbib Warning: Citation `2013ApJ...769..107L' on page 6 undefined on i
+nput line 13.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
+[6
+
+]
 Package acronym Info: Label `acro:DF' newly defined as it shall be overridden
-although it is yet undefined on input line 15.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+although it is yet undefined on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+ [7 </home/sophia/Paolo_talk_plot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[7]
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
 Package acronym Info: Label `acro:HST' newly defined as it shall be overridden
-although it is yet undefined on input line 27.
+although it is yet undefined on input line 33.
 ) [8]
 \openout2 = `Method_theory.aux'.
 
  (./Method_theory.tex
 Package acronym Info: Label `acro:CMD' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
+
+<Plots/color_magnitude_diagram.png, id=222, 422.57875pt x 356.33125pt>
+File: Plots/color_magnitude_diagram.png Graphic file (type png)
+
+<use Plots/color_magnitude_diagram.png>
+Package pdftex.def Info: Plots/color_magnitude_diagram.png used on input line 6
+.
+(pdftex.def)             Requested size: 224.06548pt x 188.94165pt.
  [9
 
 
-] [10] [11]) [12]
+ <./Plots/color_magnitude_diagram.png>] [10] [11] [12]) [13]
 \openout2 = `Analysis.aux'.
 
  (./Analysis.tex
@@ -844,7 +908,7 @@ Overfull \hbox (3.50438pt too wide) in paragraph at lines 6--15
  [][] 
  []
 
-<Plots/position_scatter_plot_IMBH.pdf, id=259, 968.85014pt x 637.73572pt>
+<Plots/position_scatter_plot_IMBH.pdf, id=274, 968.85014pt x 637.73572pt>
 File: Plots/position_scatter_plot_IMBH.pdf Graphic file (type pdf)
 
 <use Plots/position_scatter_plot_IMBH.pdf>
@@ -852,7 +916,7 @@ Package pdftex.def Info: Plots/position_scatter_plot_IMBH.pdf used on input lin
 e 26.
 (pdftex.def)             Requested size: 403.31511pt x 265.4728pt.
 
-<Plots/position_scatter_plot_noIMBH.pdf, id=262, 963.73099pt x 637.73572pt>
+<Plots/position_scatter_plot_noIMBH.pdf, id=277, 963.73099pt x 637.73572pt>
 File: Plots/position_scatter_plot_noIMBH.pdf Graphic file (type pdf)
 
 <use Plots/position_scatter_plot_noIMBH.pdf>
@@ -868,7 +932,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--41
 
  []
 
-<Plots/velocity_scatter_IMBH.pdf, id=273, 982.74023pt x 608.90738pt>
+<Plots/velocity_scatter_IMBH.pdf, id=288, 982.74023pt x 608.90738pt>
 File: Plots/velocity_scatter_IMBH.pdf Graphic file (type pdf)
 
 <use Plots/velocity_scatter_IMBH.pdf>
@@ -876,7 +940,7 @@ Package pdftex.def Info: Plots/velocity_scatter_IMBH.pdf used on input line 46.
 
 (pdftex.def)             Requested size: 425.72302pt x 263.77621pt.
 
-<Plots/velocity_scatter_noIMBH.pdf, id=274, 970.75723pt x 637.73572pt>
+<Plots/velocity_scatter_noIMBH.pdf, id=289, 970.75723pt x 637.73572pt>
 File: Plots/velocity_scatter_noIMBH.pdf Graphic file (type pdf)
 
 <use Plots/velocity_scatter_noIMBH.pdf>
@@ -888,12 +952,12 @@ Package pdftex.def Info: Plots/velocity_scatter_noIMBH.pdf used on input line 5
 LaTeX Warning: Float too large for page by 72.34659pt on input line 60.
 
 
-LaTeX Warning: Reference `sec2.1' on page 13 undefined on input line 62.
+LaTeX Warning: Reference `sec2.1' on page 14 undefined on input line 62.
 
 
-LaTeX Warning: Reference `sec1.2' on page 13 undefined on input line 64.
+LaTeX Warning: Reference `sec1.2' on page 14 undefined on input line 64.
 
-<Plots/cmd_isochrones.pdf, id=287, 421.575pt x 444.66125pt>
+<Plots/cmd_isochrones.pdf, id=302, 421.575pt x 444.66125pt>
 File: Plots/cmd_isochrones.pdf Graphic file (type pdf)
 
 <use Plots/cmd_isochrones.pdf>
@@ -901,9 +965,9 @@ Package pdftex.def Info: Plots/cmd_isochrones.pdf used on input line 67.
 (pdftex.def)             Requested size: 313.69029pt x 330.87611pt.
 
 
-LaTeX Warning: Reference `sec2.1' on page 13 undefined on input line 78.
+LaTeX Warning: Reference `sec2.1' on page 14 undefined on input line 78.
 
-<Plots/radial_velocity_dispersion.pdf, id=294, 355.40196pt x 275.99228pt>
+<Plots/radial_velocity_dispersion.pdf, id=308, 355.40196pt x 275.99228pt>
 File: Plots/radial_velocity_dispersion.pdf Graphic file (type pdf)
 
 <use Plots/radial_velocity_dispersion.pdf>
@@ -911,7 +975,7 @@ Package pdftex.def Info: Plots/radial_velocity_dispersion.pdf used on input lin
 e 83.
 (pdftex.def)             Requested size: 212.86493pt x 165.30605pt.
 
-<Plots/azimuthal_velocity_dispersion.pdf, id=295, 355.40196pt x 283.84653pt>
+<Plots/azimuthal_velocity_dispersion.pdf, id=309, 355.40196pt x 283.84653pt>
 File: Plots/azimuthal_velocity_dispersion.pdf Graphic file (type pdf)
 
 <use Plots/azimuthal_velocity_dispersion.pdf>
@@ -919,27 +983,27 @@ Package pdftex.def Info: Plots/azimuthal_velocity_dispersion.pdf used on input
 line 90.
 (pdftex.def)             Requested size: 212.86493pt x 170.01038pt.
 
-<Plots/polar_velocity_dispersion.pdf, id=296, 355.40196pt x 275.99228pt>
+<Plots/polar_velocity_dispersion.pdf, id=310, 355.40196pt x 275.99228pt>
 File: Plots/polar_velocity_dispersion.pdf Graphic file (type pdf)
 
 <use Plots/polar_velocity_dispersion.pdf>
 Package pdftex.def Info: Plots/polar_velocity_dispersion.pdf used on input line
  97.
 (pdftex.def)             Requested size: 212.86493pt x 165.30605pt.
- [13
+ [14
 
 
-] [14 <./Plots/position_scatter_plot_IMBH.pdf> <./Plots/position_scatter_plot_n
+] [15 <./Plots/position_scatter_plot_IMBH.pdf> <./Plots/position_scatter_plot_n
 oIMBH.pdf
 
 pdfTeX warning: pdflatex (file ./Plots/position_scatter_plot_noIMBH.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->] [15 <./Plots/velocity_scatter_IMBH.pdf> <./Plots/velocity_scatter_noIMBH.pdf
+>] [16 <./Plots/velocity_scatter_IMBH.pdf> <./Plots/velocity_scatter_noIMBH.pdf
 
 
 pdfTeX warning: pdflatex (file ./Plots/velocity_scatter_noIMBH.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->] [16 <./Plots/cmd_isochrones.pdf>] [17 <./Plots/radial_velocity_dispersion.pd
+>] [17 <./Plots/cmd_isochrones.pdf>] [18 <./Plots/radial_velocity_dispersion.pd
 f> <./Plots/azimuthal_velocity_dispersion.pdf
 
 pdfTeX warning: pdflatex (file ./Plots/azimuthal_velocity_dispersion.pdf): PDF 
@@ -950,9 +1014,9 @@ pdfTeX warning: pdflatex (file ./Plots/polar_velocity_dispersion.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Reference `sec2.1' on page 18 undefined on input line 109.
+LaTeX Warning: Reference `sec2.1' on page 19 undefined on input line 109.
 
-<Plots/anisotropy_parameter_beta.pdf, id=694, 351.04431pt x 278.75763pt>
+<Plots/anisotropy_parameter_beta.pdf, id=706, 351.04431pt x 278.75763pt>
 File: Plots/anisotropy_parameter_beta.pdf Graphic file (type pdf)
 
 <use Plots/anisotropy_parameter_beta.pdf>
@@ -960,14 +1024,14 @@ Package pdftex.def Info: Plots/anisotropy_parameter_beta.pdf used on input line
  112.
 (pdftex.def)             Requested size: 212.86493pt x 169.03381pt.
 
-<Plots/density_profiles.pdf, id=701, 354.85632pt x 274.60962pt>
+<Plots/density_profiles.pdf, id=713, 354.85632pt x 274.60962pt>
 File: Plots/density_profiles.pdf Graphic file (type pdf)
 
 <use Plots/density_profiles.pdf>
 Package pdftex.def Info: Plots/density_profiles.pdf used on input line 125.
 (pdftex.def)             Requested size: 212.86493pt x 164.72931pt.
 
-<Plots/density_prof_analytic.pdf, id=702, 433.62pt x 361.35pt>
+<Plots/density_prof_analytic.pdf, id=714, 433.62pt x 361.35pt>
 File: Plots/density_prof_analytic.pdf Graphic file (type pdf)
 
 <use Plots/density_prof_analytic.pdf>
@@ -975,7 +1039,7 @@ Package pdftex.def Info: Plots/density_prof_analytic.pdf used on input line 132
 .
 (pdftex.def)             Requested size: 212.86493pt x 177.38835pt.
 
-<Plots/density_profiles_interpolated.pdf, id=703, 354.85632pt x 276.05885pt>
+<Plots/density_profiles_interpolated.pdf, id=715, 354.85632pt x 276.05885pt>
 File: Plots/density_profiles_interpolated.pdf Graphic file (type pdf)
 
 <use Plots/density_profiles_interpolated.pdf>
@@ -983,13 +1047,13 @@ Package pdftex.def Info: Plots/density_profiles_interpolated.pdf used on input
 line 139.
 (pdftex.def)             Requested size: 212.86493pt x 165.59866pt.
 
-<Plots/potential.png, id=726, 422.0568pt x 276.3123pt>
+<Plots/potential.png, id=738, 422.0568pt x 276.3123pt>
 File: Plots/potential.png Graphic file (type png)
 
 <use Plots/potential.png>
 Package pdftex.def Info: Plots/potential.png used on input line 151.
 (pdftex.def)             Requested size: 212.86493pt x 139.3574pt.
- [18 <./Plots/anisotropy_parameter_beta.pdf>] [19 <./Plots/density_profiles.pdf
+ [19 <./Plots/anisotropy_parameter_beta.pdf>] [20 <./Plots/density_profiles.pdf
 > <./Plots/density_prof_analytic.pdf
 
 pdfTeX warning: pdflatex (file ./Plots/density_prof_analytic.pdf): PDF inclusio
@@ -998,39 +1062,39 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Plots/density_profiles_interpolated.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->]) [20 <./Plots/potential.png>]
+>]) [21 <./Plots/potential.png>]
 \openout2 = `Results_discussion.aux'.
 
  (./Results_discussion.tex
-<Plots/E_J_r_hist_IMBH1.pdf, id=989, 388.04286pt x 290.95262pt>
+<Plots/E_J_r_hist_IMBH1.pdf, id=1001, 388.04286pt x 290.95262pt>
 File: Plots/E_J_r_hist_IMBH1.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_IMBH1.pdf>
 Package pdftex.def Info: Plots/E_J_r_hist_IMBH1.pdf used on input line 10.
 (pdftex.def)             Requested size: 212.86493pt x 159.6071pt.
 
-<Plots/E_J_r_hist_IMBH2.pdf, id=990, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_IMBH2.pdf, id=1002, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_IMBH2.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_IMBH2.pdf>
 Package pdftex.def Info: Plots/E_J_r_hist_IMBH2.pdf used on input line 16.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_noIMBH1.pdf, id=991, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_noIMBH1.pdf, id=1003, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_noIMBH1.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_noIMBH1.pdf>
 Package pdftex.def Info: Plots/E_J_r_hist_noIMBH1.pdf used on input line 22.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_noIMBH2.pdf, id=992, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_noIMBH2.pdf, id=1004, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_noIMBH2.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_noIMBH2.pdf>
 Package pdftex.def Info: Plots/E_J_r_hist_noIMBH2.pdf used on input line 28.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_bins_IMBH1.pdf, id=1020, 388.04286pt x 290.95262pt>
+<Plots/E_J_r_hist_bins_IMBH1.pdf, id=1032, 388.04286pt x 290.95262pt>
 File: Plots/E_J_r_hist_bins_IMBH1.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_bins_IMBH1.pdf>
@@ -1038,7 +1102,7 @@ Package pdftex.def Info: Plots/E_J_r_hist_bins_IMBH1.pdf used on input line 43.
 
 (pdftex.def)             Requested size: 212.86493pt x 159.6071pt.
 
-<Plots/E_J_r_hist_bins_IMBH2.pdf, id=1021, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_bins_IMBH2.pdf, id=1033, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_bins_IMBH2.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_bins_IMBH2.pdf>
@@ -1046,7 +1110,7 @@ Package pdftex.def Info: Plots/E_J_r_hist_bins_IMBH2.pdf used on input line 49.
 
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_bins_noIMBH1.pdf, id=1022, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_bins_noIMBH1.pdf, id=1034, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_bins_noIMBH1.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_bins_noIMBH1.pdf>
@@ -1054,17 +1118,17 @@ Package pdftex.def Info: Plots/E_J_r_hist_bins_noIMBH1.pdf used on input line 5
 5.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
 
-<Plots/E_J_r_hist_bins_noIMBH2.pdf, id=1023, 381.09503pt x 290.95262pt>
+<Plots/E_J_r_hist_bins_noIMBH2.pdf, id=1035, 381.09503pt x 290.95262pt>
 File: Plots/E_J_r_hist_bins_noIMBH2.pdf Graphic file (type pdf)
 
 <use Plots/E_J_r_hist_bins_noIMBH2.pdf>
 Package pdftex.def Info: Plots/E_J_r_hist_bins_noIMBH2.pdf used on input line 6
 1.
 (pdftex.def)             Requested size: 212.86493pt x 162.51059pt.
- [21
+ [22
 
 
-] [22 <./Plots/E_J_r_hist_IMBH1.pdf> <./Plots/E_J_r_hist_IMBH2.pdf
+] [23 <./Plots/E_J_r_hist_IMBH1.pdf> <./Plots/E_J_r_hist_IMBH2.pdf
 
 pdfTeX warning: pdflatex (file ./Plots/E_J_r_hist_IMBH2.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
@@ -1076,7 +1140,7 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Plots/E_J_r_hist_noIMBH2.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] [23 <./Plots/E_J_r_hist_bins_IMBH1.pdf> <./Plots/E_J_r_hist_bins_IMBH2.pdf
+>] [24 <./Plots/E_J_r_hist_bins_IMBH1.pdf> <./Plots/E_J_r_hist_bins_IMBH2.pdf
 
 pdfTeX warning: pdflatex (file ./Plots/E_J_r_hist_bins_IMBH2.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -1088,34 +1152,34 @@ ion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Plots/E_J_r_hist_bins_noIMBH2.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->] <Plots/L_J_r_hist_IMBH1.pdf, id=1414, 392.05786pt x 288.94513pt>
+>] <Plots/L_J_r_hist_IMBH1.pdf, id=1426, 392.05786pt x 288.94513pt>
 File: Plots/L_J_r_hist_IMBH1.pdf Graphic file (type pdf)
 
 <use Plots/L_J_r_hist_IMBH1.pdf>
 Package pdftex.def Info: Plots/L_J_r_hist_IMBH1.pdf used on input line 75.
 (pdftex.def)             Requested size: 212.86493pt x 156.88338pt.
 
-<Plots/L_J_r_hist_IMBH2.pdf, id=1415, 385.11003pt x 288.94513pt>
+<Plots/L_J_r_hist_IMBH2.pdf, id=1427, 385.11003pt x 288.94513pt>
 File: Plots/L_J_r_hist_IMBH2.pdf Graphic file (type pdf)
 
 <use Plots/L_J_r_hist_IMBH2.pdf>
 Package pdftex.def Info: Plots/L_J_r_hist_IMBH2.pdf used on input line 81.
 (pdftex.def)             Requested size: 212.86493pt x 159.71391pt.
 
-<Plots/L_J_r_hist_noIMBH1.pdf, id=1416, 385.11003pt x 288.94513pt>
+<Plots/L_J_r_hist_noIMBH1.pdf, id=1428, 385.11003pt x 288.94513pt>
 File: Plots/L_J_r_hist_noIMBH1.pdf Graphic file (type pdf)
 
 <use Plots/L_J_r_hist_noIMBH1.pdf>
 Package pdftex.def Info: Plots/L_J_r_hist_noIMBH1.pdf used on input line 87.
 (pdftex.def)             Requested size: 212.86493pt x 159.71391pt.
 
-<Plots/L_J_r_hist_noIMBH2.pdf, id=1417, 385.11003pt x 288.94513pt>
+<Plots/L_J_r_hist_noIMBH2.pdf, id=1429, 385.11003pt x 288.94513pt>
 File: Plots/L_J_r_hist_noIMBH2.pdf Graphic file (type pdf)
 
 <use Plots/L_J_r_hist_noIMBH2.pdf>
 Package pdftex.def Info: Plots/L_J_r_hist_noIMBH2.pdf used on input line 93.
 (pdftex.def)             Requested size: 212.86493pt x 159.71391pt.
- [24 <./Plots/L_J_r_hist_IMBH1.pdf> <./Plots/L_J_r_hist_IMBH2.pdf
+ [25 <./Plots/L_J_r_hist_IMBH1.pdf> <./Plots/L_J_r_hist_IMBH2.pdf
 
 pdfTeX warning: pdflatex (file ./Plots/L_J_r_hist_IMBH2.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
@@ -1127,90 +1191,94 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Plots/L_J_r_hist_noIMBH2.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <Plots/r_g_J_r_IMBH1.png, id=1578, 408.8073pt x 294.1389pt>
+>] <Plots/r_g_J_r_IMBH1.png, id=1591, 408.8073pt x 294.1389pt>
 File: Plots/r_g_J_r_IMBH1.png Graphic file (type png)
 
 <use Plots/r_g_J_r_IMBH1.png>
 Package pdftex.def Info: Plots/r_g_J_r_IMBH1.png used on input line 107.
 (pdftex.def)             Requested size: 212.86493pt x 153.15955pt.
 
-<Plots/r_g_J_r_IMBH2.png, id=1579, 408.8073pt x 294.1389pt>
+<Plots/r_g_J_r_IMBH2.png, id=1592, 408.8073pt x 294.1389pt>
 File: Plots/r_g_J_r_IMBH2.png Graphic file (type png)
 
 <use Plots/r_g_J_r_IMBH2.png>
 Package pdftex.def Info: Plots/r_g_J_r_IMBH2.png used on input line 114.
 (pdftex.def)             Requested size: 212.86493pt x 153.15955pt.
 
-<Plots/r_g_J_r_noIMBH1.png, id=1580, 408.8073pt x 294.1389pt>
+<Plots/r_g_J_r_noIMBH1.png, id=1593, 408.8073pt x 294.1389pt>
 File: Plots/r_g_J_r_noIMBH1.png Graphic file (type png)
 
 <use Plots/r_g_J_r_noIMBH1.png>
 Package pdftex.def Info: Plots/r_g_J_r_noIMBH1.png used on input line 121.
 (pdftex.def)             Requested size: 212.86493pt x 153.15955pt.
 
-<Plots/r_g_J_r_noIMBH2.png, id=1581, 408.8073pt x 294.1389pt>
+<Plots/r_g_J_r_noIMBH2.png, id=1594, 408.8073pt x 294.1389pt>
 File: Plots/r_g_J_r_noIMBH2.png Graphic file (type png)
 
 <use Plots/r_g_J_r_noIMBH2.png>
 Package pdftex.def Info: Plots/r_g_J_r_noIMBH2.png used on input line 128.
 (pdftex.def)             Requested size: 212.86493pt x 153.15955pt.
 
-<Plots/E_J_r_parts_IMBH1.png, id=1590, 406.3983pt x 291.9708pt>
+<Plots/E_J_r_parts_IMBH1.png, id=1603, 406.3983pt x 291.9708pt>
 File: Plots/E_J_r_parts_IMBH1.png Graphic file (type png)
 
 <use Plots/E_J_r_parts_IMBH1.png>
 Package pdftex.def Info: Plots/E_J_r_parts_IMBH1.png used on input line 141.
 (pdftex.def)             Requested size: 212.86493pt x 152.93054pt.
 
-<Plots/E_J_r_parts_IMBH2.png, id=1591, 405.4347pt x 291.9708pt>
+<Plots/E_J_r_parts_IMBH2.png, id=1604, 405.4347pt x 291.9708pt>
 File: Plots/E_J_r_parts_IMBH2.png Graphic file (type png)
 
 <use Plots/E_J_r_parts_IMBH2.png>
 Package pdftex.def Info: Plots/E_J_r_parts_IMBH2.png used on input line 148.
 (pdftex.def)             Requested size: 212.86493pt x 153.29587pt.
 
-<Plots/E_J_r_parts_noIMBH1.png, id=1592, 399.1713pt x 291.9708pt>
+<Plots/E_J_r_parts_noIMBH1.png, id=1605, 399.1713pt x 291.9708pt>
 File: Plots/E_J_r_parts_noIMBH1.png Graphic file (type png)
 
 <use Plots/E_J_r_parts_noIMBH1.png>
 Package pdftex.def Info: Plots/E_J_r_parts_noIMBH1.png used on input line 155.
 (pdftex.def)             Requested size: 212.86493pt x 155.70163pt.
 
-<Plots/E_J_r_parts_noIMBH2.png, id=1593, 387.6081pt x 291.9708pt>
+<Plots/E_J_r_parts_noIMBH2.png, id=1606, 387.6081pt x 291.9708pt>
 File: Plots/E_J_r_parts_noIMBH2.png Graphic file (type png)
 
 <use Plots/E_J_r_parts_noIMBH2.png>
 Package pdftex.def Info: Plots/E_J_r_parts_noIMBH2.png used on input line 162.
 (pdftex.def)             Requested size: 212.86493pt x 160.34831pt.
- [25] [26 <./Plots/r_g_J_r_IMBH1.png> <./Plots/r_g_J_r_IMBH2.png> <./Plots/r_g_
-J_r_noIMBH1.png> <./Plots/r_g_J_r_noIMBH2.png>] [27 <./Plots/E_J_r_parts_IMBH1.
+ [26] [27 <./Plots/r_g_J_r_IMBH1.png> <./Plots/r_g_J_r_IMBH2.png> <./Plots/r_g_
+J_r_noIMBH1.png> <./Plots/r_g_J_r_noIMBH2.png>] [28 <./Plots/E_J_r_parts_IMBH1.
 png> <./Plots/E_J_r_parts_IMBH2.png> <./Plots/E_J_r_parts_noIMBH1.png> <./Plots
-/E_J_r_parts_noIMBH2.png>]) [28] [29
+/E_J_r_parts_noIMBH2.png>]) [29] [30
 
 ]
-[30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
+[31] (./thesis.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+[32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
  (./thesis.aux (./ba_titlepage.aux) (./Introduction.aux)
 (./Method_theory.aux) (./Analysis.aux) (./Results_discussion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3332F0A2A5B0C24E74859D3FE100B463;1607.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 11629 strings out of 493304
- 178374 string characters out of 6139871
- 426896 words of memory out of 5000000
- 14742 multiletter control sequences out of 15000+600000
- 15528 words of font info for 37 fonts, out of 8000000 for 9000
+ 11963 strings out of 493304
+ 182520 string characters out of 6139871
+ 427822 words of memory out of 5000000
+ 15046 multiletter control sequences out of 15000+600000
+ 17447 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 65i,16n,106p,1702b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,16n,106p,2425b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1226,11 +1294,12 @@ are/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type
 rm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sha
 re/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
-x1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb>
-Output written on thesis.pdf (30 pages, 2809828 bytes).
+x1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on thesis.pdf (32 pages, 2895667 bytes).
 PDF statistics:
- 1722 PDF objects out of 1728 (max. 8388607)
- 771 compressed objects within 8 object streams
- 89 named destinations out of 1000 (max. 500000)
- 350 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1748 PDF objects out of 2073 (max. 8388607)
+ 791 compressed objects within 8 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
 
