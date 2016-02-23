@@ -1,7 +1,7 @@
 \section{Results \& Discussion}
 only triangle plots
 
-\subsection{Actions from different globular clusters\color{red} better name? \color{black}}
+\subsection{Signatures of \acp{IMBH} in action space}\label{results}
 After investigating the orbits at given actions and the time evolution of the integrals of motion we consider all actions and other integrals of motion at our given snapshots. We have a look at the energies and angular momenta of the stars and compare them with the radial actions. Our main goal is to find any systematic signatures for the simulations with \acp{IMBH} that can be considered as the direct evidence of the dynamical effect of the \ac{IMBH} itself. For this reason we investigate selected stars which show an abnormal behaviour in above-mentioned plots and compare them to the rest of the data to see where we find them.
 
 \begin{figure}[htbp]
@@ -132,8 +132,45 @@ In \ref{fig:E_J_r_hist} we plot the radial action over the energy of the star as
 	\caption{Radial action over guiding star radius with marked specific stars on loglog scale. All simulations have a similar shaped distributions except for the marked stars which are the specific ones. On the top right corner the shape of \ref{fig:E_J_r_hist_IMBH1} and \ref{fig:E_J_r_hist_IMBH2} is not gently rounded but there are single stars around it. On the lower left there are some extra stars which we identify as the stars with low radial action.}
 	\label{fig:r_g_J_r}
 \end{figure}
-In graph \ref{fig:r_g_J_r} the radial actions are plotted over their guiding star distances. We highlight the stars of group 1 and group 2 taken from graph \ref{fig:E_J_r_hist} for SIM 1 and SIM 2. 
+In graph \ref{fig:r_g_J_r} the radial actions are plotted over their guiding star distances. We highlight the stars of group 1 and group 2 taken from graph \ref{fig:E_J_r_hist} for SIM 1 and SIM 2. In general, there are several stars which have a really small guiding star radius (up to \(10^-5\) pc). In SIM 3 and SIM 4 only very few stars go below 0.1 pc. Another difference between the \acp{GC} with and the ones without \ac{IMBH} is that on the right border the lower end goes until very low radial actions for SIM 1 and SIM 2 (up to \(10^-6\) pc km/s) while SIM 3 and SIM 4 end there softly at about \(10^-2\) pc km/s. We investigate these different stars again in the radial action over energy plot to check their properties by colorcoding these different parts.
 
+\begin{figure}
+\centering
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{Plots/E_J_r_parts_IMBH1.png}
+		\caption{SIM 1}
+		\label{fig:E_J_r_parts_IMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{Plots/E_J_r_parts_IMBH2.png}
+		\caption{SIM 2}
+		\label{fig:E_J_r_parts_IMBH2}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{Plots/E_J_r_parts_noIMBH1.png}
+		\caption{SIM 3}
+		\label{fig:E_J_r_parts_noIMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{Plots/E_J_r_parts_noIMBH2.png}
+		\caption{SIM 4}
+		\label{fig:E_J_r_parts_noIMBH2}
+	\end{subfigure}
+\caption{Radial action over absolute energy plot color coded with different parts of the \acp{GC}.}
+\label{fig:E_J_r_parts}
+\end{figure}
+In figure \ref{fig:E_J_r_parts} we can match the different parts of figure \ref{fig:r_g_J_r}. The grey part of figures \ref{fig:E_J_r_parts_IMBH1} and \ref{fig:E_J_r_parts_IMBH2} is the whole data color coded by the pericentre. The yellow to red part is the part where the guiding star radius is smaller than 0.1 pc again color coded by the pericentre. The green stars are the stars of group 2 while the pink stars contain stars of group 1. The blue stars are star with a high angular momentum (bigger than \(7\cdot 10^{-12}\) pc\(^2\)/s). If we subtract all color coded stars from this plot we get approximately the shape of SIM 3 and SIM 4. 
 \subsection{Discussion \& future perspectives}
+In summary we can say that we found clearly evidence of the \ac{IMBH} in the radial actions. To get there we made some simplified assumptions which should be investigated more precisely in an extended work. The density is the basis of our approach of the actions. Since we didn't find an analytical function we interpolated the binned densities and set the central density equal to the innermost density bin. Another attempt to get the density could be done by modelling Multi-Gaussian Expansion to the graph. But for this thesis we see the interpolation as sufficient since tests with some different densities do not destroy the figures of section \ref{results}. \par Additional inaccuracy of the results rises due to different simulations for \acp{GC} with and without \ac{IMBH}. Since they have different initial conditions and conditions throughout the simulating process we can not compare them directly. Especially the radial actions can not be compared since they are mass dependent. We see the differences directly in the scatter plots (figures \ref{fig:position_scatter} and \ref{fig:velocity_scatter}) and in the anisotropy due to different truncation prescriptions. In further investigations we should consider using simulations with same conditions despite only the absence of an \ac{IMBH} in one of the simulations. \par Some physical assumptions have been that actions stay totally constant over time or rather that we have only looked at them at the time of the snapshot (despite a few stars for which we integrated the orbit and have looked at the time evolution of their integrals of orbits). Changing actions 
+
+alles was geplottet ist ist spezifisch (ohne masse)
+half moon not directly spatially connected to imbh (plot mit color coding pericentre einfügen) probably only specific to the simulation
 do the same distinguishing the mass of the stars\\
 redo the work with only observational-like data

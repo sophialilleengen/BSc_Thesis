@@ -3,21 +3,22 @@
 \subsection{Description of the simulation}
 \begin{table}[htbp]
 \centering
-\begin{tabular}{ c | c | c | c | c }
-name of the simulation & \# of patches & total mass [M\(_\odot\)]& \makecell{mass of the \\ \ac{IMBH} [M\(_\odot\)]}& r\(_\mathrm{m}\) [pc]\\
+\begin{tabular}{ c | c | c | c | c | c }
+\makecell{Name of the \\simulation} & \makecell{Number of \\ particles} & Total mass [M\(_\odot\)]& \makecell{Mass of the \\ \ac{IMBH} [M\(_\odot\)]}& r\(_\mathrm{m}\) [pc] & Age [Gyr]\\
 \hline			
-  SIM 1 - IMBH & 1026735 & 308533.2 & 10102 & 4.13 \\
-  SIM 2 - IMBH & 1079376& 326253.4 & 8902.3 & 3.58\\
-  SIM 3 - NOIMBH & 468627& 172671.3& 0 & 7.89\\
-  SIM 4 - NOIMBH & 1851556& 669844.3& 0 & 5.41\\
+  SIM 1 - IMBH & 1026735 & 3.09\(\cdot 10^5\) & 10102 & 4.13 & 10\\
+  SIM 2 - IMBH & 1079376& 3.26\(\cdot 10^5\) & 8902.3 & 3.58 & 7\\
+  SIM 3 - NOIMBH & 468627& 1.73\(\cdot 10^5\)& 0 & 7.89 & 11\\
+  SIM 4 - NOIMBH & 1851556& 6.70\(\cdot 10^5\)& 0 & 5.41 & 11\\
 
 \end{tabular}
-\caption{Overview of the data of the simulations.\color{red} Question @ Paolo: Should \# of patches include IMBH? \color{black}}
+\caption{Overview of the data of the simulations. We show the basic properties of each simulation which are numper of particles, the total mass, the mass of the \ac{IMBH}, the half mass radius and the age. The half mass radius is defined by the radius which includes half of the mass of the whole system.}
+\label{tab:overview_simulation}
 \end{table}
 
 \color{red}where simulation comes from and what it is \& description of output \color{black}\\
 \\
-To get a familiar with the simulation we first have a look at the scatter plot of the star positions.
+To get familiar with the simulation we first have a look at the scatter plot of the star positions.
 \begin{figure}[htbp] 
 \centering
 \begin{subfigure}{0.9\textwidth}
@@ -40,19 +41,19 @@ To get a familiar with the simulation we first have a look at the scatter plot o
 
 \begin{figure}[htbp] 
 \centering
-\begin{subfigure}{0.95\textwidth}
-	\centering
-  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_IMBH.pdf}
-  	\caption{SIM 1. The stars' velocities are spread until 120 km/s with most of them reaching 30 km/s.}
- 	\label{fig:vel_scat_IMBH}
-\end{subfigure}
-\\
-\begin{subfigure}{0.95\textwidth}
-	\centering
-  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_noIMBH.pdf}
-  	\caption{SIM 3. The stars' velocities are spread until 15 km/s for SIM 3 whereas they spread until 40 km/s for SIM 4.}
- 	\label{fig:vel_scat_noIMBH}
-\end{subfigure}
+	\begin{subfigure}{0.95\textwidth}
+		\centering
+	  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_IMBH.pdf}
+	  	\caption{SIM 1. The stars' velocities are spread until 120 km/s with most of them reaching 30 km/s.}
+	 	\label{fig:vel_scat_IMBH}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}{0.95\textwidth}
+		\centering
+	  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_noIMBH.pdf}
+	  	\caption{SIM 3. The stars' velocities are spread until 15 km/s for SIM 3 whereas they spread until 40 km/s for SIM 4.}
+	 	\label{fig:vel_scat_noIMBH}
+	\end{subfigure}
 
 \caption{Velocity scatter plots. The velocities are spherically distributed. Most of the stars have low or no velocity while a few have high velocities in different directions. Like the star distributions the velocity distributions of the \acp{GC} with \ac{IMBH} have some velocities outside the main sphere whereas the \acp{GC} without \ac{IMBH} contain all velocities inside the main shell.}
 \label{fig:velocity_scatter}
@@ -62,9 +63,9 @@ As we said in section \ref{sec2.1} it is important to test the sphericity of a s
 \\
 As mentioned in \ref{sec1.2} the \ac{CMD} is showing a star's evolution stage dependend on its position. If you do not know age or metallicity of the system you can fit isochrones on the \ac{CMD}. Isochrones are curves of evolutionary stages of stars having the same age and metallicity but different masses. We plot several to our \ac{CMD} to determine which one fits best. This will give us the age and the metallicity of the system. 
 \begin{figure}
-	\centering
-	\includegraphics[width=0.7\textwidth]{Plots/cmd_isochrones.pdf}
-	\caption{Color magnitude diagram of SIM 1 overplotted with different isochrones. We recognize how we can determine the age based on the turn off point. This verifies the age and the metallicity of this \ac{GC} of 10 Gyr and 0.001.}
+\centering
+\includegraphics[width=0.7\textwidth]{Plots/cmd_isochrones}
+\caption{Color magnitude diagram of SIM 1 overplotted with different isochrones. We recognize how we can determine the age based on the turn off point. This verifies the age and the metallicity of this \ac{GC} of 10 Gyr and 0.001.}
 	\label{fig:cmd_isochrones}
 \end{figure}
 
@@ -147,8 +148,8 @@ plots\\
 From the density profile we can compute the potential as described in \ref{dens_pot_theory}. It is composed by the potential given from the stars and if there is one the potential of the \ac{IMBH} expressed as Kepler potential.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.475\textwidth]{Plots/Pot.pdf}
-	\caption{Potential of all \acp{GC}. SIM 1 and SIM 2 are nearly overlaying. They are the same simulation at different ages. The simulation lost 5 \% of it's stars with 10 \% of the total mass while the \ac{IMBH} gained 13 \%. The potential of the stars declines while the potential of the \ac{IMBH} rises so the potential stays the same. The \acp{GC} without \ac{IMBH} remain constant in the inner part (until 0.5 half mass radii) and decrease from the points where their densities decrease.}
+	\includegraphics[width=0.475\textwidth]{Plots/potential.png}
+	\caption{Potential of all \acp{GC}. SIM 1 and SIM 2 are nearly overlaying. They are the same simulation at different ages. The simulation lost 5 \% of its stars with 10 \% of the total mass while the \ac{IMBH} gained 13 \%. The potential of the stars declines while the potential of the \ac{IMBH} rises so the potential stays the same. The \acp{GC} without \ac{IMBH} remain constant in the inner part (until 0.5 half mass radii) and decrease from the points where their densities decrease.}
 \end{figure}
 
 

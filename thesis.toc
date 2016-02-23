@@ -1,24 +1,24 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{6}{section.1}
-\contentsline {section}{\numberline {2}Method \& Theory}{8}{section.2}
-\contentsline {subsection}{\numberline {2.1}Stellar population in GC}{8}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Kinematic profiles of globular clusters}{8}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Density \& potential}{9}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Integrals of motion}{9}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Orbits \& orbit integration}{9}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Actions}{10}{subsection.2.6}
-\contentsline {section}{\numberline {3}Analysis}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}Description of the simulation}{12}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Investigation in phase space}{12}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Velocity dispersion}{16}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Anisotropy}{17}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{17}{subsubsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.4}Potential}{19}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}Investigations of orbits in action space}{19}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Orbits \& actions}{19}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Integral of motions along orbits}{19}{subsubsection.3.3.2}
-\contentsline {section}{\numberline {4}Results \& Discussion}{20}{section.4}
-\contentsline {subsection}{\numberline {4.1}Actions from different globular clusters\color {red} better name? \color {black}}{20}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{24}{subsection.4.2}
-\contentsline {section}{\numberline {5}Conclusion}{26}{section.5}
-\contentsline {section}{\numberline {6}Acronyms}{27}{section.6}
+\contentsline {section}{\numberline {2}Method \& Theory}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Stellar population in GC}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Kinematic profiles of globular clusters}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Density \& potential}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Integrals of motion}{10}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Orbits \& orbit integration}{10}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Actions}{11}{subsection.2.6}
+\contentsline {section}{\numberline {3}Analysis}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}Description of the simulation}{13}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Investigation in phase space}{13}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Velocity dispersion}{17}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Anisotropy}{18}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{18}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Potential}{20}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}Investigations of orbits in action space}{20}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Orbits \& actions}{20}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Integral of motions along orbits}{20}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}Results \& Discussion}{21}{section.4}
+\contentsline {subsection}{\numberline {4.1}Signatures of \acp {IMBH} in action space}{21}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{25}{subsection.4.2}
+\contentsline {section}{\numberline {5}Conclusion}{29}{section.5}
+\contentsline {section}{\numberline {6}Acronyms}{30}{section.6}
