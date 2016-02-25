@@ -62,13 +62,19 @@ To get familiar with the simulation we first have a look at the scatter plot of 
 As we said in section \ref{sec2.1} it is important to test the sphericity of a system. We will do this by splitting the \ac{GC} into octants and compare their mass \color{red} or number since we will introduce mass density plots only later \color{black} density \color{red} mass density sphericity plots\color{black}. As you see they're acceptable overlaying \color{red} within their errors. \color{black}
 \\
 As mentioned in \ref{sec1.2} the \ac{CMD} is showing a star's evolution stage dependend on its position. If you do not know age or metallicity of the system you can fit isochrones on the \ac{CMD}. Isochrones are curves of evolutionary stages of stars having the same age and metallicity but different masses. We plot several to our \ac{CMD} to determine which one fits best. This will give us the age and the metallicity of the system. 
-\begin{figure}
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{Plots/cmd_isochrones}
 \caption{Color magnitude diagram of SIM 1 overplotted with different isochrones. We recognize how we can determine the age based on the turn off point. This verifies the age and the metallicity of this \ac{GC} of 10 Gyr and 0.001.}
 	\label{fig:cmd_isochrones}
 \end{figure}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{Plots/sphericity_com.pdf}
+\caption{Test for sphericity and center of mass of SIM 1.}
+\label{fig:sphericity_com}
+\end{figure}
 
 \subsection{Investigation in phase space}
 
@@ -107,7 +113,7 @@ As expected there is a rise in the centre for the simulation with \ac{IMBH}. Thi
 
 \subsubsection{Anisotropy}
 Anisotropy can be calculated from (2) in \ref{sec2.1}. It is binned the same way as for the velocity dispersion and again dependent on the effective radii.
-\begin{figure}
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.475\textwidth]{Plots/anisotropy_parameter_beta.pdf}
 	\caption{Anisotropy parameter \(\beta\). All simulations are radial anisotropic. The simulations with \acp{IMBH} have a peak at 4 and 5 effective radii where they are most radial anisotropic. The other simulations are rising until the end. The far more outside a star is the higher its radial anisotropy is. Within the first two effective radii all seem to have the same course.}
@@ -118,7 +124,7 @@ In the center of both \acp{GC} there is nearly the same anisotropy. Both are pos
 \subsubsection{Density profile}
 The density profile shows the density of the system over its radius. The bins are chosen so that the radii are equidistant on a logarithmic scale and that they are at least 100 stars per bin to have a reliable stochastic. Outside of the cluster the density is set to 0. In the innermost part the density is set to be as the innermost point.
 plots\\
-\begin{figure}
+\begin{figure}[htbp]
 	\centering
 	\begin{subfigure}{0.475\textwidth}
 		\centering
@@ -146,7 +152,7 @@ plots\\
 
 \subsubsection{Potential}
 From the density profile we can compute the potential as described in \ref{dens_pot_theory}. It is composed by the potential given from the stars and if there is one the potential of the \ac{IMBH} expressed as Kepler potential.
-\begin{figure}
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.475\textwidth]{Plots/potential.png}
 	\caption{Potential of all \acp{GC}. SIM 1 and SIM 2 are nearly overlaying. They are the same simulation at different ages. The simulation lost 5 \% of its stars with 10 \% of the total mass while the \ac{IMBH} gained 13 \%. The potential of the stars declines while the potential of the \ac{IMBH} rises so the potential stays the same. The \acp{GC} without \ac{IMBH} remain constant in the inner part (until 0.5 half mass radii) and decrease from the points where their densities decrease.}

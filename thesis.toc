@@ -6,19 +6,19 @@
 \contentsline {subsection}{\numberline {2.3}Density \& potential}{10}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Integrals of motion}{10}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Orbits \& orbit integration}{10}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Actions}{12}{subsection.2.6}
-\contentsline {section}{\numberline {3}Analysis}{14}{section.3}
-\contentsline {subsection}{\numberline {3.1}Description of the simulation}{14}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Investigation in phase space}{14}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Velocity dispersion}{18}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {2.6}Actions}{13}{subsection.2.6}
+\contentsline {section}{\numberline {3}Analysis}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}Description of the simulation}{15}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Investigation in phase space}{15}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Velocity dispersion}{19}{subsubsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2}Anisotropy}{19}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{19}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3}Density profile}{21}{subsubsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.4}Potential}{21}{subsubsection.3.2.4}
 \contentsline {subsection}{\numberline {3.3}Investigations of orbits in action space}{21}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Orbits \& actions}{21}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Integral of motions along orbits}{21}{subsubsection.3.3.2}
-\contentsline {section}{\numberline {4}Results \& Discussion}{22}{section.4}
-\contentsline {subsection}{\numberline {4.1}Signatures of \acp {IMBH} in action space}{22}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{26}{subsection.4.2}
-\contentsline {section}{\numberline {5}Conclusion}{30}{section.5}
-\contentsline {section}{\numberline {6}Acronyms}{31}{section.6}
+\contentsline {section}{\numberline {4}Results \& Discussion}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}Signatures of \acp {IMBH} in action space}{24}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{31}{subsection.4.2}
+\contentsline {section}{\numberline {5}Conclusion}{33}{section.5}
+\contentsline {section}{\numberline {6}Acronyms}{34}{section.6}
