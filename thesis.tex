@@ -15,10 +15,10 @@
 \usepackage[export]{adjustbox}
 \usepackage{subcaption}
 \usepackage{makecell}
-%\usepackage{cite}
+\usepackage[]{units}
 \usepackage{natbib}
+\usepackage{aas_macros}
 
-%\usepackage{mwe}
 
 \title{Bachelorarbeit}
 \author{Sophia Milanov}
@@ -26,6 +26,8 @@
 
 \begin{document}
 \bibliographystyle{glenn} 
+\pagenumbering{roman}
+
 \onehalfspacing
 \include{./ba_titlepage}
 
@@ -34,10 +36,12 @@
 \end{abstract}
 
 \newpage
-
+\addtocontents{toc}{\protect\enlargethispage{2\baselineskip}}
 \tableofcontents
 
 \newpage
+\pagenumbering{arabic}
+
 \include{Introduction}
 
 
@@ -55,6 +59,7 @@
 
 \begin{acronym}[SMBH]
 	\acro{CMD}{color magnitude diagram}
+	\acro{COM}{centre of mass}
 	\acro{DF}{distribution function}
 	\acro{GC}{globular cluster}
 	\acro{v-GC}{Globular clusters}
@@ -65,7 +70,9 @@
 	\acro{SSP}{single stellar population}
 \end{acronym}
 \newpage
-%\bibliography{Literatur}
+\bibliography{Literatur}
+\addcontentsline{toc}{part}{Bibliography}
+
 
 
 \end{document}

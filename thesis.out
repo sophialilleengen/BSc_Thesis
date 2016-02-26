@@ -3,20 +3,28 @@
 \BOOKMARK [2][-]{subsection.2.1}{Stellar population in GC}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{Kinematic profiles of globular clusters}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{Density \046 potential}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.4}{Integrals of motion}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.5}{Orbits \046 orbit integration}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.6}{Actions}{section.2}% 8
-\BOOKMARK [1][-]{section.3}{Analysis}{}% 9
-\BOOKMARK [2][-]{subsection.3.1}{Description of the simulation}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.2}{Investigation in color magnitude space}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.3}{Investigation in phase space}{section.3}% 12
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Kinematics}{subsection.3.3}% 13
-\BOOKMARK [3][-]{subsubsection.3.3.2}{Spatial distribution}{subsection.3.3}% 14
-\BOOKMARK [2][-]{subsection.3.4}{Investigations of orbits in action space}{section.3}% 15
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Orbits \046 actions}{subsection.3.4}% 16
-\BOOKMARK [3][-]{subsubsection.3.4.2}{Integral of motions along orbits}{subsection.3.4}% 17
-\BOOKMARK [1][-]{section.4}{Results \046 Discussion}{}% 18
-\BOOKMARK [2][-]{subsection.4.1}{Signatures of IMBHs in action space}{section.4}% 19
-\BOOKMARK [2][-]{subsection.4.2}{Discussion \046 future perspectives}{section.4}% 20
-\BOOKMARK [1][-]{section.5}{Conclusion}{}% 21
-\BOOKMARK [1][-]{section.6}{Acronyms}{}% 22
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Density of a collisionless stellar system}{subsection.2.3}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Generating the potential from Poisson's equation}{subsection.2.3}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Other potential models}{subsection.2.3}% 8
+\BOOKMARK [2][-]{subsection.2.4}{Orbits \046 integrals of motion}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Classical integrals of motion in spherical potential}{subsection.2.4}% 10
+\BOOKMARK [3][-]{subsubsection.2.4.2}{The effective potential}{subsection.2.4}% 11
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Actions}{subsection.2.4}% 12
+\BOOKMARK [3][-]{subsubsection.2.4.4}{Numerical orbit integration}{subsection.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.5}{Examples for orbits in spherical potentials}{section.2}% 14
+\BOOKMARK [1][-]{section.3}{Analysis}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Description of the simulation}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Investigation in color magnitude space}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.3}{Investigation in phase space}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Kinematics}{subsection.3.3}% 19
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Spatial distribution}{subsection.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.4}{Investigations in action space}{section.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Energy}{subsection.3.4}% 22
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Angular momentum}{subsection.3.4}% 23
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Guiding star radius}{subsection.3.4}% 24
+\BOOKMARK [1][-]{section.4}{Results \046 Discussion}{}% 25
+\BOOKMARK [2][-]{subsection.4.1}{Signatures of IMBHs in action space}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.2}{Discussion \046 future perspectives}{section.4}% 27
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 28
+\BOOKMARK [1][-]{section.6}{Acronyms}{}% 29
+\BOOKMARK [0][-]{section*.28}{Bibliography}{}% 30

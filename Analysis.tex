@@ -2,20 +2,20 @@
 
 \subsection{Description of the simulation}
 We consider a set of Monte Carlo cluster simulations, developed with the Monte Carlo
-code MOCCA of Hypki et al. 2013 (see also Giersz et al. 1998). The simulations
+code MOCCA of \citet{2013MNRAS.429.1221H}Hypki et al. 2013 (see also \citet{1998MNRAS.298.1239G} \color{red} is that the right one? \color{black} Giersz et al. 1998). The simulations
 include an initial mass function, stellar evolution, primordial binaries, and a
 relatively high number of particles, providing a realistic description of the
 long-term evolution of \acp{GC} with a single stellar population.
 
-All the simulation had a metallicity of [Fe/H]=$-$1.3 and a Kroupa (2001) initial
-mass function. The first simulation (from Giersz et al. 2015, kindly shared by the
-authors) contain an \ac{IMBH} of $10^4$ M$_\odot$ and its initial condition is drawn from a
-King model with concentration parameter W$_0 $=6, 6.9$\cdot10^5$ initial number of particles,
-95\% of which are binary systems. We consider two snapshots of the simulation on at
-10 and one at 7 Gyr. We call these snapshots SIM1-IMBH and SIM2-IMBH, respectively.
-Other two simulations (from Downing et al. 2010, kindly shared by the authors), do
-not contain an \ac{IMBH} and have an initial number of particles of 5$\cdot10^5$ and 2$\cdot10^6$, 10\%
-of initial binaries, and initial conditions drawn from a Plummer (1911) model with a
+All the simulation had a metallicity of [Fe/H]=$-$1.3 and a Kroupa (2001) \color{red} which one? \color{black} initial
+mass function. The first simulation (from \citet{2015MNRAS.454.3150G} \color{red} right one? \color{black} Giersz et al. 2015, kindly shared by the
+authors) contain an \ac{IMBH} of \unit[$10^4$]{M$_\odot$} and its initial condition is drawn from a
+King model with concentration parameter W$_0 $=6, \unit[6.9]{$\cdot10^5$} initial number of particles,
+\unit[95]{\%} of which are binary systems. We consider two snapshots of the simulation on at
+10 and one at \unit[7]{Gyr}. We call these snapshots SIM1-IMBH and SIM2-IMBH, respectively.
+Other two simulations (from Downing et al. 2010\citet{2010MNRAS.407.1946D}\color{red} this one? \color{black}, kindly shared by the authors), do
+not contain an \ac{IMBH} and have an initial number of particles of \unit[5]{$\cdot10^5$} and \unit[2]{$\cdot10^6$}, \unit[10]{\%}
+of initial binaries, and initial conditions drawn from a \citet{1911MNRAS..71..460P} model with a
 ratio between the initial tidal radius and half-mass radius of 75. We consider a 11
 Gyr snapshot for both simulations and we call them SIM3-NOIMBH and SIM4-NOIMBH,
 respectively.
@@ -49,14 +49,14 @@ To get familiar with the simulation we first have a look at the distribution of 
 \begin{subfigure}{0.9\textwidth}
 	\centering
   	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_IMBH.pdf}
-  	\caption{SIM 1 \& SIM 2. The \acp{GC} are spread until 100 pc with most of the stars located in the inner 40 pc.}
+  	\caption{SIM 1 \& SIM 2. The \acp{GC} are spread until \unit[100]{pc} with most of the stars located in the inner \unit[40]{pc}.}
  	\label{fig:pos_scat_IMBH}
 \end{subfigure}
 \\
 \begin{subfigure}{0.9\textwidth}
 	\centering
   	\includegraphics[width=\textwidth]{Plots/position_scatter_plot_noIMBH.pdf}
-  	\caption{SIM 3 \& SIM 4. The \ac{GC} is spread until 90 pc (SIM3) and until 60 pc (SIM4).}
+  	\caption{SIM 3 \& SIM 4. The \ac{GC} is spread until \unit[90]{pc} (SIM3) and until \unit[60]{pc} (SIM4).}
  	\label{fig:pos_scat_noIMBH}
 \end{subfigure}
 
@@ -69,14 +69,14 @@ To get familiar with the simulation we first have a look at the distribution of 
 	\begin{subfigure}{0.9\textwidth}
 		\centering
 	  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_IMBH.pdf}
-	  	\caption{SIM 1 \& SIM 2. The stars' velocities are spread until 120 km/s with most of them reaching 30 km/s.}
+	  	\caption{SIM 1 \& SIM 2. The stars' velocities are spread until \unitfrac[120]{km}{s} with most of them reaching \unitfrac[30]{km}{s}.}
 	 	\label{fig:vel_scat_IMBH}
 	\end{subfigure}
 	\\
 	\begin{subfigure}{0.9\textwidth}
 		\centering
 	  	\includegraphics[width=\textwidth]{Plots/velocity_scatter_noIMBH.pdf}
-	  	\caption{SIM 3 \& SIM 4. The stars' velocities are spread until 15 km/s for SIM 3 whereas they spread until 40 km/s for SIM 4.}
+	  	\caption{SIM 3 \& SIM 4. The stars' velocities are spread until \unitfrac[15]{km}{s} for SIM 3 whereas they spread until \unitfrac[40]{km}{s} for SIM 4.}
 	 	\label{fig:vel_scat_noIMBH}
 	\end{subfigure}
 
@@ -90,7 +90,7 @@ As mentioned in \ref{cmd_theory} the \ac{CMD} is showing a star's evolution stag
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{Plots/cmd_isochrones}
-\caption{Color magnitude diagram of SIM 1 overplotted with different isochrones. We recognize how we can determine the age based on the turn off point. This verifies the age and the metallicity of this \ac{GC} of 10 Gyr and 0.001.}
+\caption{Color magnitude diagram of SIM 1 overplotted with different isochrones. We recognize how we can determine the age based on the turn off point. This verifies the age and the metallicity of this \ac{GC} of \unit[10]{Gyr} and 0.001.}
 	\label{fig:cmd_isochrones}
 \end{figure}
 
@@ -126,7 +126,7 @@ With equation \eqref{eq:vel_disp} from section \ref{kin_prof_theory} we can calc
 	\end{subfigure}
 
 
-	\caption{Velocity dispersion profiles as a function of the radius in units of the effective radius \(\mathrm{r_{eff}}\). They are binned in a way that each bin contains the same amount of stars. We can see that the velocity dispersion of the simulation with \ac{IMBH} rises towards the centre whereas the simulation without \ac{IMBH} exhibits a cored profile.}
+	\caption{Velocity dispersion profiles as a function of the radius in units of the half-mass radius \(\mathrm{r_{m}}\). They are binned in a way that each bin contains the same amount of stars. We can see that the velocity dispersion of the simulation with \ac{IMBH} rises towards the centre whereas the simulation without \ac{IMBH} exhibits a cored profile.}
 \end{figure*}
 As expected there is a rise in the centre for the simulations with \ac{IMBH}. This is due the high gravitational potential of the \acp{IMBH} which disturbs the dynamics of close stars. 
 
@@ -171,7 +171,7 @@ The density profile shows the density calculated by equation \eqref{eq:density} 
 \end{figure}
 We try to find a analytic fitting function to the density profile for SIM 1 to calculate the potential from the Poisson's equation \eqref{eq:Poisson}. We use two variations of an exponential function which could fit well. Also we want to check if the density follows a classical \ac{GC} profile which i.e. is the Plummer profile. In Figure \ref{fig:mass_dens_ana} we see that we can not find a simple fitting function nor a classical profile which describes the density. To get a analytical function we continue by using the interpolated density given in Figure \ref{fig:mass_dens_intpol}.
 
-\par As we said in section \ref{sec2.1} it is important to test the sphericity of a system. We will do this by splitting the \ac{GC} into octants and compare their mass density profiles. As one can see they're acceptable overlaying \color{red} within their errors \color{black}. This is done first for the centre of the coordinate system. We do the same for the centre of mass which is calculated by formula \color{red} insert formula in theory part somewhere \color{black} and compare it in figure \ref{fig:sphericity_com}.
+\par We test the sphericity of the \ac{GC} and its \ac{COM}. Sphericity allows the usage of analytical methods that are very straight forward, especially for determing the potential of the globular cluster and from that the actions in action space. We will do this by splitting the \ac{GC} into octants and compare their mass density profiles. As one can see they're acceptable overlaying \color{red} within their errors \color{black}. This is done first for the centre of the coordinate system. We do the same for the centre of mass which is calculated by formula \color{red} insert formula in theory part somewhere \color{black} and compare it in figure \ref{fig:sphericity_com}.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{Plots/sphericity_com.pdf}
@@ -187,8 +187,203 @@ We try to find a analytic fitting function to the density profile for SIM 1 to c
 \end{figure}
 
 
-\subsection{Investigations of orbits in action space}
-\subsubsection{Orbits \& actions}
+\subsection{Investigations in action space}
+After investigating the orbits at given actions and the time evolution of the integrals of motion we consider all actions and other integrals of motion at our given snapshots. We have a look at the energies and angular momenta of the stars and compare them with the radial actions. Our main goal is to find any systematic signatures for the simulations with \acp{IMBH} that can be considered as the direct evidence of the dynamical effect of the \ac{IMBH} itself. For this reason we investigate selected stars which show an abnormal behaviour in above-mentioned plots and compare them to the rest of the data to see where we find them.
+\subsubsection{Energy}
+\begin{figure}[htbp]
+\centering
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/E_J_r_hist_IMBH1.pdf}
+		\caption{SIM 1}
+		\label{fig:E_J_r_hist_IMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/E_J_r_hist_IMBH2.pdf}
+		\caption{SIM 2}
+		\label{fig:E_J_r_hist_IMBH2}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/E_J_r_hist_noIMBH1.pdf}
+		\caption{SIM 3}
+		\label{fig:E_J_r_hist_noIMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/E_J_r_hist_noIMBH2.pdf}
+		\caption{SIM 4}
+		\label{fig:E_J_r_hist_noIMBH2}
+	\end{subfigure}
+	\caption{Radial action over energy. In \ref{fig:E_J_r_hist_IMBH1} and \ref{fig:E_J_r_hist_IMBH2} it is plotted for both simulations with \ac{IMBH} and the lower ones are for the simulation without \ac{IMBH}. We find the crescent shape from \ref{fig:E_J_r_hist_noIMBH1} and \ref{fig:E_J_r_hist_noIMBH2} clearly in \ref{fig:E_J_r_hist_IMBH1} and \ref{fig:E_J_r_hist_IMBH2}. But in SIM 1 and SIM 2 there are some stars differing from this shape. Some have high energy with no radial actions (henceforth referred to as group 1) while others have high radial actions with nearly no energy (henceforth group 2).}
+	\label{fig:E_J_r_hist}
+\end{figure}	
+In \ref{fig:E_J_r_hist} we plot the radial action over the energy of the star as histograms for all \acp{GC}. We see clearly some stars outside of the moon shape. They have either no radial action and high energy(below \(-4 \cdot10^{-24}\) \(pc^2/s^2\)) or nearly no energy and high radial action (above 500 pc km/s). 
 
+\par We check the effective potential of the stars of the group to get information of their orbits and their actual positions. In \ref{fig:eff_pot} show one exemplary graph for each group taken from SIM 1. 
 
-\subsubsection{Integral of motions along orbits}
+\begin{figure}
+\centering
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{Plots/pot_eff_group1.pdf}
+	\caption{Star of group 1}
+	\label{fig:pot_eff_group1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{Plots/pot_eff_group2.pdf}
+	\caption{Star of group 2}
+	\label{fig:pot_eff_group2}
+	\end{subfigure}	
+\caption{Effective potential of exemplary stars of both groups from figure \ref{fig:E_J_r_hist}. The star of group 1 is clearly one a circular orbit with \(\mathrm{r_{min}\approx r_g\approx r \approx r_{max} }\). The star of group two has a highly eccentric orbit and its actual position is in its apocentre.}
+\label{fig:eff_pot}
+\end{figure}
+
+\par The first group of stars of SIM 1 contains 38 of the nearest 110 stars including the innermost 15 stars. Since they have really low (nearly 0) radial actions they are on circular orbits. The nearest 15 on circular orbits around the \ac{IMBH} are certainly locked to the \ac{IMBH}. That is why we do not see this signature for SIM 3 and SIM 4. The other stars of this group are likely to be locked to the \ac{IMBH} as well while the rest of the near stars which are not in this group seem to be near to or in their pericentre on more elliptic orbits and therefore not locked to the \ac{IMBH}. 
+\par The other group of stars with high radial actions and nearly no energy can not be clearly related to the \ac{IMBH}. They are the furthermost stars of the snapshot. All are in their apocentre on very elliptic orbits (\color{red} calculate ellipticity? \color{black}). This ellipticity could be caused by the \ac{IMBH} but since most of their pericentres are at a few pc we can not assume much interaction with the \ac{IMBH} for those stars. Another reason that these stars do not occur in this way in SIM 3 and SIM 4 can be due to different truncation prescriptions used in the simulations (see graph \ref{fig:anisotropy_param}). These stars are nearly outside of the \acp{GC} and have about zero energy so they could have been excluded in SIM 3 and SIM 4. 
+
+\begin{figure}[htbp]
+\centering
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/E_J_r_hist_bins_IMBH1.pdf}
+		\caption{SIM 1}
+		\label{fig:E_J_r_hist_bins_IMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/E_J_r_hist_bins_IMBH2.pdf}
+		\caption{SIM 2}
+		\label{fig:E_J_r_hist_bins_IMBH2}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/E_J_r_hist_bins_noIMBH1.pdf}
+		\caption{SIM 3}
+		\label{fig:E_J_r_hist_bins_noIMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/E_J_r_hist_bins_noIMBH2.pdf}
+		\caption{SIM 4}
+		\label{fig:E_J_r_hist_bins_noIMBH2}
+	\end{subfigure}
+	\caption{Radial action over energy only of binary systems. We see the same distribution of stars as in \ref{fig:E_J_r_hist}.}
+	\label{fig:E_J_r_bins_hist}
+\end{figure}
+
+\par We might get these high energies from former binaries which were divided earlier. One of the stars could have been captured on a circular orbit near the centre while the other could have been left on an unbound orbit and have left the system. To check this we will plot the same values only for our actual binary systems. As we see in \ref{fig:E_J_r_bins_hist} the binary systems are behaving like single stars. There is no signature that the divergent stars are leftovers of former binaries. 
+
+\subsubsection{Angular momentum}
+\begin{figure}[htbp]
+\centering
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/L_J_r_hist_IMBH1.pdf}
+		\caption{SIM 1}
+		\label{fig:L_J_r_hist_IMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/L_J_r_hist_IMBH2.pdf}
+		\caption{SIM 2}
+		\label{fig:L_J_r_hist_IMBH2}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/L_J_r__mass_hist_IMBH1.pdf}
+		\caption{SIM 1 mass weighted}
+		\label{fig:L_J_r_mass_hist_IMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/L_J_r_mass_hist_IMBH2.pdf}
+		\caption{SIM 2 mass weighted}
+		\label{fig:L_J_r_mass_hist_IMBH2}
+	\end{subfigure}
+	\vskip\baselineskip	
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/L_J_r_hist_noIMBH1.pdf}
+		\caption{SIM 3}
+		\label{fig:L_J_r_hist_noIMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/L_J_r_hist_noIMBH2.pdf}
+		\caption{SIM 4}
+		\label{fig:L_J_r_hist_noIMBH2}
+	\end{subfigure}
+	\caption{Radial action over angular momentum. \ref{fig:L_J_r_hist_noIMBH1} and \ref{fig:L_J_r_hist_noIMBH2} look again very similar to each other with no recognizable substructure. In \ref{fig:L_J_r_hist_IMBH1} and \ref{fig:L_J_r_hist_IMBH2} there are stars above the main shape. In the shape we can clearly see a substructure from about 0.3 to about 0.5 pc\(^2\)/s in nearly the whole radial action range. \color{red}half moon not directly spatially connected to imbh (plot mit color coding pericentre einfügen) probably only specific to the simulation\color{black}}
+	\label{fig:L_J_r_hist}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{Plots/E_J_r_justIMBH_hist_IMBH1.pdf}
+	\caption{Radial action over energy only for \ac{IMBH} influenced stars of SIM 1.}
+	\label{fig:E_J_r_justIMBH_1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{Plots/E_J_r_justIMBH_hist_IMBH2.pdf}
+	\caption{Radial action over energy only for \ac{IMBH} influenced stars of SIM 2.}
+	\label{fig:_E_r_justIMBH_2}
+	\end{subfigure}	
+	\vskip\baselineskip
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{Plots/L_J_r_justIMBH_hist_IMBH1.pdf}
+	\caption{Radial action over angular momentum only for \ac{IMBH} influenced stars of SIM 1.}
+	\label{fig:L_J_r_justIMBH_1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{Plots/L_J_r_justIMBH_hist_IMBH2.pdf}
+	\caption{Radial action over angular momentum only for \ac{IMBH} influenced stars of SIM 2.}
+	\label{fig:L_J_r_justIMBH_2}
+	\end{subfigure}	
+\caption{Check for group 1 stars.}
+\label{fig:just_IMBH_hist}	
+\end{figure}
+\par Next we plot the radial actions over the absolute angular momenta of the stars of the simulations again as histograms. In \ref{fig:L_J_r_hist} we can see a triangular shape which seems characteristic. Inside this shape we see some substructure in the \acp{GC} with \ac{IMBH}. The stars outside the shape are the stars of group 2 which we see in \ref{fig:E_J_r_hist} and \ref{fig:E_J_r_bins_hist} as the stars with no energy and high radial actions. Obviously they don't seem to have a specific angular momentum. We do not know how to identify the stars in the substructure. There could be a mass-dependent correlation due to dynamical mass segregation.
+
+\subsubsection{Guiding star radius}
+\par We extract these divergent stars and determine their properties. First we check the positions of their actions depending on their guiding star radii.
+\begin{figure}[htbp]
+\centering
+	\begin{subfigure}{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Plots/r_g_J_r_IMBH1.png}
+		\caption{SIM 1}
+		\label{fig:r_g_J_r_IMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Plots/r_g_J_r_IMBH2.png}
+		\caption{SIM 2}
+		\label{fig:r_g_J_r_IMBH2}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Plots/r_g_J_r_noIMBH1.png}
+		\caption{SIM 3}
+		\label{fig:r_g_J_r_noIMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Plots/r_g_J_r_noIMBH2.png}
+		\caption{SIM 4}
+		\label{fig:r_g_J_r_noIMBH2}
+	\end{subfigure}
+	\caption{Radial action over guiding star radius with marked specific stars on loglog scale. All simulations have a similar shaped distributions except for the marked stars which are the specific ones. On the top right corner the shape of \ref{fig:E_J_r_hist_IMBH1} and \ref{fig:E_J_r_hist_IMBH2} is not gently rounded but there are single stars around it. On the lower left there are some extra stars which we identify as the stars with low radial action.}
+	\label{fig:r_g_J_r}
+\end{figure}
+In graph \ref{fig:r_g_J_r} the radial actions are plotted over their guiding star distances. We highlight the stars of group 1 and group 2 taken from graph \ref{fig:E_J_r_hist} for SIM 1 and SIM 2. In general, there are several stars which have a really small guiding star radius (up to  \unit[\(10^-5\)]{pc}). In SIM 3 and SIM 4 only very few stars go below \unit[0.1]{pc}. Another difference between the \acp{GC} with and the ones without \ac{IMBH} is that on the right border the lower end goes until very low radial actions for SIM 1 and SIM 2 (up to \unitfrac[\(10^-6\)]{pc km}{s}) while SIM 3 and SIM 4 end there softly at about \unitfrac[\(10^-2\)]{pc km}{s}.
+

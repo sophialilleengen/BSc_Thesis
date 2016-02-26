@@ -1,5 +1,65 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{10}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Bianchini} \emph{et~al.}, 2015]{2015MNRAS.453..365B}
+{Bianchini}, P., {Norris}, M.A., {van de Ven}, G., and {Schinnerer}, E.
+\newblock \enquote{{Understanding the central kinematics of globular clusters
+  with simulated integrated-light IFU observations}}.
+\newblock \emph{\mnras}, \textbf{453}, 365--376, 2015.
+
+\bibitem[{Binney} and {Tremaine}, 2008]{2008gady.book.....B}
+{Binney}, J. and {Tremaine}, S.
+\newblock \emph{{Galactic Dynamics: Second Edition}}.
+\newblock Princeton University Press, 2008.
+
+\bibitem[{Carroll} and {Ostlie}, 2006]{2006ima..book.....C}
+{Carroll}, B.W. and {Ostlie}, D.A.
+\newblock \emph{{An introduction to modern astrophysics and cosmology}}.
+\newblock 2006.
+
+\bibitem[{Downing} \emph{et~al.}, 2010]{2010MNRAS.407.1946D}
+{Downing}, J.M.B., {Benacquista}, M.J., {Giersz}, M., and {Spurzem}, R.
+\newblock \enquote{{Compact binaries in star clusters - I. Black hole binaries
+  inside globular clusters}}.
+\newblock \emph{\mnras}, \textbf{407}, 1946--1962, 2010.
+
+\bibitem[{Giersz}, 1998]{1998MNRAS.298.1239G}
+{Giersz}, M.
+\newblock \enquote{{Monte Carlo simulations of star clusters - I. First
+  Results}}.
+\newblock \emph{\mnras}, \textbf{298}, 1239--1248, 1998.
+
+\bibitem[{Giersz} \emph{et~al.}, 2015]{2015MNRAS.454.3150G}
+{Giersz}, M., {Leigh}, N., {Hypki}, A., {L{\"u}tzgendorf}, N., and {Askar}, A.
+\newblock \enquote{{MOCCA code for star cluster simulations - IV. A new
+  scenario for intermediate mass black hole formation in globular clusters}}.
+\newblock \emph{\mnras}, \textbf{454}, 3150--3165, 2015.
+
+\bibitem[{Hypki} and {Giersz}, 2013]{2013MNRAS.429.1221H}
+{Hypki}, A. and {Giersz}, M.
+\newblock \enquote{{MOCCA code for star cluster simulations - I. Blue
+  stragglers, first results}}.
+\newblock \emph{\mnras}, \textbf{429}, 1221--1243, 2013.
+
+\bibitem[{Lanzoni} \emph{et~al.}, 2013]{2013ApJ...769..107L}
+{Lanzoni}, B., {Mucciarelli}, A., {Origlia}, L., {Bellazzini}, M., {Ferraro},
+  F.R., {Valenti}, E., {Miocchi}, P., {Dalessandro}, E., {Pallanca}, C., and
+  {Massari}, D.
+\newblock \enquote{{The Velocity Dispersion Profile of NGC 6388 from
+  Resolved-star Spectroscopy: No Evidence of a Central Cusp and New Constraints
+  on the Black Hole Mass}}.
+\newblock \emph{\apj}, \textbf{769}, 107, 2013.
+
+\bibitem[{Mohr} \emph{et~al.}, 2015]{2015arXiv150707956M}
+{Mohr}, P.J., {Newell}, D.B., and {Taylor}, B.N.
+\newblock \enquote{{CODATA Recommended Values of the Fundamental Physical
+  Constants: 2014}}.
+\newblock \emph{ArXiv e-prints}, 2015.
+
+\bibitem[{Plummer}, 1911]{1911MNRAS..71..460P}
+{Plummer}, H.C.
+\newblock \enquote{{On the problem of distribution in globular star clusters}}.
+\newblock \emph{\mnras}, \textbf{71}, 460--470, 1911.
 
 \end{thebibliography}
