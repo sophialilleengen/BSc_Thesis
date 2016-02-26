@@ -1,0 +1,166 @@
+@article{2015MNRAS.453..365B,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2015MNRAS.453..365B},
+	archiveprefix = {arXiv},
+	author = {{Bianchini}, P. and {Norris}, M.~A. and {van de Ven}, G. and {Schinnerer}, E.},
+	doi = {10.1093/mnras/stv1651},
+	eprint = {1507.05632},
+	journal = {\mnras},
+	keywords = {black hole physics, instrumentation: spectrographs, stars: kinematics and dynamics, globular clusters: general},
+	month = {oct},
+	pages = {365--376},
+	title = {{Understanding the central kinematics of globular clusters with simulated integrated-light IFU observations}},
+	volume = {453},
+	year = {2015}
+}
+
+@book{2006ima..book.....C,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2006ima..book.....C},
+	author = {{Carroll}, B.~W. and {Ostlie}, D.~A.},
+	booktitle = {{Institute for Mathematics and Its Applications}},
+	keywords = {Astrophysics, Textbooks},
+	month = {jul},
+	title = {{An introduction to modern astrophysics and cosmology}},
+	year = {2006}
+}
+
+@article{2013ApJ...769..107L,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2013ApJ...769..107L},
+	archiveprefix = {arXiv},
+	author = {{Lanzoni}, B. and {Mucciarelli}, A. and {Origlia}, L. and {Bellazzini}, M. and {Ferraro}, F.~R. and {Valenti}, E. and {Miocchi}, P. and {Dalessandro}, E. and {Pallanca}, C. and {Massari}, D.},
+	doi = {10.1088/0004-637X/769/2/107},
+	eid = {107},
+	eprint = {1304.2953},
+	journal = {\apj},
+	keywords = {black hole physics, globular clusters: individual: NGC 6388, stars: evolution},
+	month = jun,
+	pages = {107},
+	primaryclass = {astro-ph.SR},
+	title = {{The Velocity Dispersion Profile of NGC 6388 from Resolved-star Spectroscopy: No Evidence of a Central Cusp and New Constraints on the Black Hole Mass}},
+	volume = 769,
+	year = 2013
+}
+
+@book{2008gady.book.....B,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2008gady.book.....B},
+	author = {{Binney}, J. and {Tremaine}, S.},
+	booktitle = {{Galactic Dynamics: Second Edition, by James Binney and Scott Tremaine.~ISBN 978-0-691-13026-2 (HB).~Published by Princeton University Press, Princeton, NJ USA, 2008.}},
+	publisher = {Princeton University Press},
+	title = {{Galactic Dynamics: Second Edition}},
+	year = 2008
+}
+
+@article{2013MNRAS.429.1221H,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2013MNRAS.429.1221H},
+	archiveprefix = {arXiv},
+	author = {{Hypki}, A. and {Giersz}, M.},
+	doi = {10.1093/mnras/sts415},
+	eprint = {1207.6700},
+	journal = {\mnras},
+	keywords = {methods: numerical, blue stragglers, globular clusters: general},
+	month = feb,
+	pages = {1221--1243},
+	title = {{MOCCA code for star cluster simulations - I. Blue stragglers, first results}},
+	volume = 429,
+	year = 2013
+}
+
+@article{1998MNRAS.298.1239G,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/1998MNRAS.298.1239G},
+	author = {{Giersz}, M.},
+	doi = {10.1046/j.1365-8711.1998.01734.x},
+	eprint = {astro-ph/9804127},
+	journal = {\mnras},
+	keywords = {METHODS: NUMERICAL, STARS: KINEMATICS, GLOBULAR CLUSTERS: GENERAL},
+	month = aug,
+	pages = {1239--1248},
+	title = {{Monte Carlo simulations of star clusters - I. First Results}},
+	volume = 298,
+	year = 1998
+}
+
+@article{2015MNRAS.454.3150G,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2015MNRAS.454.3150G},
+	archiveprefix = {arXiv},
+	author = {{Giersz}, M. and {Leigh}, N. and {Hypki}, A. and {L\"{u}tzgendorf}, N. and {Askar}, A.},
+	doi = {10.1093/mnras/stv2162},
+	eprint = {1506.05234},
+	journal = {\mnras},
+	keywords = {methods: numerical, stars: black holes, globular clusters: general},
+	month = dec,
+	pages = {3150--3165},
+	title = {{MOCCA code for star cluster simulations - IV. A new scenario for intermediate mass black hole formation in globular clusters}},
+	volume = 454,
+	year = 2015
+}
+
+@article{2010MNRAS.407.1946D,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2010MNRAS.407.1946D},
+	archiveprefix = {arXiv},
+	author = {{Downing}, J.~M.~B. and {Benacquista}, M.~J. and {Giersz}, M. and {Spurzem}, R.},
+	doi = {10.1111/j.1365-2966.2010.17040.x},
+	eprint = {0910.0546},
+	journal = {\mnras},
+	keywords = {gravitational waves, binaries: close, globular clusters: general},
+	month = sep,
+	pages = {1946--1962},
+	primaryclass = {astro-ph.SR},
+	title = {{Compact binaries in star clusters - I. Black hole binaries inside globular clusters}},
+	volume = 407,
+	year = 2010
+}
+
+@article{1911MNRAS..71..460P,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/1911MNRAS..71..460P},
+	author = {{Plummer}, H.~C.},
+	doi = {10.1093/mnras/71.5.460},
+	journal = {\mnras},
+	month = mar,
+	pages = {460--470},
+	title = {{On the problem of distribution in globular star clusters}},
+	volume = 71,
+	year = 1911
+}
+
+@article{2015arXiv150707956M,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150707956M},
+	archiveprefix = {arXiv},
+	author = {{Mohr}, P.~J. and {Newell}, D.~B. and {Taylor}, B.~N.},
+	eprint = {1507.07956},
+	journal = {ArXiv e-prints},
+	keywords = {Physics - Atomic Physics, Physics - Chemical Physics, Physics - Data Analysis, Statistics and Probability},
+	month = jul,
+	primaryclass = {physics.atom-ph},
+	title = {{CODATA Recommended Values of the Fundamental Physical Constants: 2014}},
+	year = 2015
+}
+
+@booklet{bartelmann,
+	author = {{Bartelmann}, M},
+	title = {{Theoretische Physik I: Punktmechanik und mathematische Methoden}},
+	year = {2008}
+}
+
+@article{1996AJ....112.1487H,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/1996AJ....112.1487H},
+	author = {{Harris}, W.~E.},
+	doi = {10.1086/118116},
+	journal = {\aj},
+	keywords = {GLOBULAR CLUSTERS: GENERAL, CATALOGS},
+	month = oct,
+	pages = {1487},
+	title = {{A Catalog of Parameters for Globular Clusters in the Milky Way}},
+	volume = 112,
+	year = 1996
+}
+

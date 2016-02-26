@@ -1,11 +1,17 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{25}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 
+\bibitem[{Bahcall} and {Wolf}, 1976]{1976ApJ...209..214B}
+{Bahcall}, J.N. and {Wolf}, R.A.
+\newblock \enquote{{Star distribution around a massive black hole in a globular
+  cluster}}.
+\newblock \emph{\apj}, \textbf{209}, 214--232, 1976.
+
 \bibitem[{Bartelmann}, 2008]{bartelmann}
 {Bartelmann}, M.
-\newblock \enquote{Theoretische Physik I: Punktmechanik und mathematische
-  Methoden}.
+\newblock \enquote{{Theoretische Physik I: Punktmechanik und mathematische
+  Methoden}}.
 \newblock 2008.
 
 \bibitem[{Bianchini} \emph{et~al.}, 2015]{2015MNRAS.453..365B}
@@ -13,6 +19,11 @@
 \newblock \enquote{{Understanding the central kinematics of globular clusters
   with simulated integrated-light IFU observations}}.
 \newblock \emph{\mnras}, \textbf{453}, 365--376, 2015.
+
+\bibitem[{Bianchini} \emph{et~al.}, 2013]{2013ApJ...772...67B}
+{Bianchini}, P., {Varri}, A.L., {Bertin}, G., and {Zocchi}, A.
+\newblock \enquote{{Rotating Globular Clusters}}.
+\newblock \emph{\apj}, \textbf{772}, 67, 2013.
 
 \bibitem[{Binney} and {Tremaine}, 2008]{2008gady.book.....B}
 {Binney}, J. and {Tremaine}, S.
@@ -30,6 +41,12 @@
   inside globular clusters}}.
 \newblock \emph{\mnras}, \textbf{407}, 1946--1962, 2010.
 
+\bibitem[{Ferrarese} and {Merritt}, 2000]{2000ApJ...539L...9F}
+{Ferrarese}, L. and {Merritt}, D.
+\newblock \enquote{{A Fundamental Relation between Supermassive Black Holes and
+  Their Host Galaxies}}.
+\newblock \emph{\apjl}, \textbf{539}, L9--L12, 2000.
+
 \bibitem[{Giersz}, 1998]{1998MNRAS.298.1239G}
 {Giersz}, M.
 \newblock \enquote{{Monte Carlo simulations of star clusters - I. First
@@ -37,16 +54,35 @@
 \newblock \emph{\mnras}, \textbf{298}, 1239--1248, 1998.
 
 \bibitem[{Giersz} \emph{et~al.}, 2015]{2015MNRAS.454.3150G}
-{Giersz}, M., {Leigh}, N., {Hypki}, A., {L{\"u}tzgendorf}, N., and {Askar}, A.
+{Giersz}, M., {Leigh}, N., {Hypki}, A., {L\"{u}tzgendorf}, N., and {Askar}, A.
 \newblock \enquote{{MOCCA code for star cluster simulations - IV. A new
   scenario for intermediate mass black hole formation in globular clusters}}.
 \newblock \emph{\mnras}, \textbf{454}, 3150--3165, 2015.
+
+\bibitem[{Harris}, 1996]{1996AJ....112.1487H}
+{Harris}, W.E.
+\newblock \enquote{{A Catalog of Parameters for Globular Clusters in the Milky
+  Way}}.
+\newblock \emph{\aj}, \textbf{112}, 1487, 1996.
 
 \bibitem[{Hypki} and {Giersz}, 2013]{2013MNRAS.429.1221H}
 {Hypki}, A. and {Giersz}, M.
 \newblock \enquote{{MOCCA code for star cluster simulations - I. Blue
   stragglers, first results}}.
 \newblock \emph{\mnras}, \textbf{429}, 1221--1243, 2013.
+
+\bibitem[{Kacharov} \emph{et~al.}, 2014]{2014A&A...567A..69K}
+{Kacharov}, N., {Bianchini}, P., {Koch}, A., {Frank}, M.J., {Martin}, N.F.,
+  {van de Ven}, G., {Puzia}, T.H., {McDonald}, I., {Johnson}, C.I., and
+  {Zijlstra}, A.A.
+\newblock \enquote{{A study of rotating globular clusters. The case of the old,
+  metal-poor globular cluster NGC 4372}}.
+\newblock \emph{\aap}, \textbf{567}, A69, 2014.
+
+\bibitem[{Kirsten} and {Vlemmings}, 2012]{2012A&A...542A..44K}
+{Kirsten}, F. and {Vlemmings}, W.H.T.
+\newblock \enquote{{No evidence for a central IMBH in M 15}}.
+\newblock \emph{\aap}, \textbf{542}, A44, 2012.
 
 \bibitem[{Lanzoni} \emph{et~al.}, 2013]{2013ApJ...769..107L}
 {Lanzoni}, B., {Mucciarelli}, A., {Origlia}, L., {Bellazzini}, M., {Ferraro},
@@ -57,15 +93,72 @@
   on the Black Hole Mass}}.
 \newblock \emph{\apj}, \textbf{769}, 107, 2013.
 
+\bibitem[{L\"{u}tzgendorf} \emph{et~al.}, 2013]{2013A&A...552A..49L}
+{L\"{u}tzgendorf}, N., {Kissler-Patig}, M., {Gebhardt}, K., {Baumgardt}, H.,
+  {Noyola}, E., {de Zeeuw}, P.T., {Neumayer}, N., {Jalali}, B., and
+  {Feldmeier}, A.
+\newblock \enquote{{Limits on intermediate-mass black holes in six Galactic
+  globular clusters with integral-field spectroscopy}}.
+\newblock \emph{\aap}, \textbf{552}, A49, 2013.
+
+\bibitem[{L\"{u}tzgendorf} \emph{et~al.}, 2011]{2011A&A...533A..36L}
+{L\"{u}tzgendorf}, N., {Kissler-Patig}, M., {Noyola}, E., {Jalali}, B., {de
+  Zeeuw}, P.T., {Gebhardt}, K., and {Baumgardt}, H.
+\newblock \enquote{{Kinematic signature of an intermediate-mass black hole in
+  the globular cluster NGC 6388}}.
+\newblock \emph{\aap}, \textbf{533}, A36, 2011.
+
+\bibitem[{Maccarone} and {Servillat}, 2008]{2008MNRAS.389..379M}
+{Maccarone}, T.J. and {Servillat}, M.
+\newblock \enquote{{Radio observations of NGC 2808 and other globular clusters:
+  constraints on intermediate-mass black holes}}.
+\newblock \emph{\mnras}, \textbf{389}, 379--384, 2008.
+
+\bibitem[{Meylan} and {Heggie}, 1997]{1997A&ARv...8....1M}
+{Meylan}, G. and {Heggie}, D.C.
+\newblock \enquote{{Internal dynamics of globular clusters}}.
+\newblock \emph{\aapr}, \textbf{8}, 1--143, 1997.
+
+\bibitem[{Miller} and {Hamilton}, 2002]{2002MNRAS.330..232C}
+{Miller}, M.C. and {Hamilton}, D.P.
+\newblock \enquote{{Production of intermediate-mass black holes in globular
+  clusters}}.
+\newblock \emph{\mnras}, \textbf{330}, 232--240, 2002.
+
 \bibitem[{Mohr} \emph{et~al.}, 2015]{2015arXiv150707956M}
 {Mohr}, P.J., {Newell}, D.B., and {Taylor}, B.N.
 \newblock \enquote{{CODATA Recommended Values of the Fundamental Physical
   Constants: 2014}}.
 \newblock \emph{ArXiv e-prints}, 2015.
 
+\bibitem[{Piotto} \emph{et~al.}, 2015]{2015AJ....149...91P}
+{Piotto}, G., {Milone}, A.P., {Bedin}, L.R., {Anderson}, J., {King}, I.R.,
+  {Marino}, A.F., {Nardiello}, D., {Aparicio}, A., {Barbuy}, B., {Bellini}, A.,
+  {Brown}, T.M., {Cassisi}, S., {Cool}, A.M., {Cunial}, A., {Dalessandro}, E.,
+  {D'Antona}, F., {Ferraro}, F.R., {Hidalgo}, S., {Lanzoni}, B., {Monelli}, M.,
+  {Ortolani}, S., {Renzini}, A., {Salaris}, M., {Sarajedini}, A., {van der
+  Marel}, R.P., {Vesperini}, E., and {Zoccali}, M.
+\newblock \enquote{{The Hubble Space Telescope UV Legacy Survey of Galactic
+  Globular Clusters. I. Overview of the Project and Detection of Multiple
+  Stellar Populations}}.
+\newblock \emph{\aj}, \textbf{149}, 91, 2015.
+
 \bibitem[{Plummer}, 1911]{1911MNRAS..71..460P}
 {Plummer}, H.C.
 \newblock \enquote{{On the problem of distribution in globular star clusters}}.
 \newblock \emph{\mnras}, \textbf{71}, 460--470, 1911.
+
+\bibitem[{Strader} \emph{et~al.}, 2012]{2012ApJ...750L..27S}
+{Strader}, J., {Chomiuk}, L., {Maccarone}, T.J., {Miller-Jones}, J.C.A.,
+  {Seth}, A.C., {Heinke}, C.O., and {Sivakoff}, G.R.
+\newblock \enquote{{No Evidence for Intermediate-mass Black Holes in Globular
+  Clusters: Strong Constraints from the JVLA}}.
+\newblock \emph{\apjl}, \textbf{750}, L27, 2012.
+
+\bibitem[{Zocchi} \emph{et~al.}, 2012]{2012A&A...539A..65Z}
+{Zocchi}, A., {Bertin}, G., and {Varri}, A.L.
+\newblock \enquote{{A dynamical study of Galactic globular clusters under
+  different relaxation conditions}}.
+\newblock \emph{\aap}, \textbf{539}, A65, 2012.
 
 \end{thebibliography}

@@ -27,6 +27,5 @@
 \contentsline {section}{\numberline {4}Results \& Discussion}{28}{section.4}
 \contentsline {subsection}{\numberline {4.1}Signatures of \acp {IMBH} in action space}{28}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{28}{subsection.4.2}
-\contentsline {section}{\numberline {5}Conclusion}{30}{section.5}
-\contentsline {section}{\numberline {6}Acronyms}{31}{section.6}
-\contentsline {part}{Bibliography}{32}{section*.28}
+\contentsline {section}{\numberline {5}Acronyms}{30}{section.5}
+\contentsline {part}{Bibliography}{33}{section*.28}
