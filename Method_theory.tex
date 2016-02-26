@@ -20,31 +20,31 @@ We will investigate \acp{GC} in phase space by analysing the stellar kinematic p
 \end{equation} taken from \citep[eq. 4.61]{2008gady.book.....B}. If \(\beta\) is positive the anisotropy is radial, if it is negative the anisotropy is tangential and if \(\beta\approx0\) then the system is isotropic.
 \subsection{Density \& potential}\label{dens_pot_theory}
 \subsubsection{Density of a collisionless stellar system}
+We calculate the density by binning the masses on logarithmic equally distributed shells
 \begin{equation}\label{eq:density}
 \rho(\mathrm{r})=\frac{\sum_{\mathrm{r=r_{in}}}^{\mathrm{r_{out}}}\mathrm{M(r)}}{\mathrm{V(r_{out}-r_{in})}}
-\end{equation}
-
+\end{equation} 
+with the sum of masses of stars with mass M(r) over a volume V which is taken from the radius of the inner shell \(\mathrm{r_{in}}\) and the radius of the outer shell \(\mathrm{r_{out}}\). We can consider\acp{GC} as quasi-collisional stellar system. The approximation of collisionless is motivated by the fact that the dynamical time of a cluster is always shorter than the relaxation time \(\mathrm{T_{dyn} < T_{relax} < T_{age\ac{GC}} \equiv T_{Hubble}}\). \(\mathrm{T_{dyn}}\) is the time of a star to go from one side of the cluster to the other. This takes approximately \unit[10\(^5\)]{yr}. The relaxation time is the time needed to redistribute energies of the stellar encounters and takes about \unit[10\(^7\) - 10\(^9\)]{yr}. The age of the \acp{GC} is approximately the Hubble time which is the age of the universe (\unit[10\(^10\)]{yr}). The first term motivates the collisionless approximation while the part starting with \(\mathrm{T_{relax}}\) is telling us that a \ac{GC} has lived for several relaxation times, therefore two-body interaction had time to act. That means in the long term that the system is collisional. 
 \subsubsection{Generating the potential from Poisson's equation}
 Since the system is spherically potential and force only depend on the distance from the centre r. The potential \(\Phi\) can be derived from the Poisson's equation \begin{equation}\label{eq:Poisson}
 \mathrm{\Delta\Phi(r)=4\pi G \rho(r)}
 \end{equation}
 with the gravitational constant G = \unitfrac[\(6.674\cdot10^{-11}\)]{\(\mathrm{m}^3\)}{\(\mathrm{kg\ s}^2\)} \citep{2015arXiv150707956M} and the density \(\rho\) depending only on the distance as well. Due to the spherical symmetry the potential can be calculated by 
-\begin{equation}
+\begin{equation}\label{eq:numerical_poisson}
 \mathrm{\Phi(r)=-\frac{G}{r}\int_0^r{\mathrm{d}M(r')}-G\int_r^{\infty}{\frac{\mathrm{d}M(r')}{r'}}=-4\pi G\left[\frac{1}{r}\int_0^r\mathrm{d}r'r'^2\rho(r')+\int_r^{\infty}\mathrm{d}r'r'\rho(r')\right]}
 \end{equation} with dM describing the mass of spherical shells as proved by \citet[eq. 2.28]{2008gady.book.....B}. 
-\subsubsection{Other potential models}
+\subsubsection{Other potential models}\label{sec:other_pot}
 Kepler potential IMBH\\Plummer model\\short: isochrones
 \subsection{Orbits \& integrals of motion}\label{orbit_int_of_motion_theory}
 \subsubsection{Classical integrals of motion in spherical potential}
 \color{red} how does the orbit in a spherical potential look \color{black}
-In a dynamical system the mass distribution is described by the form of theoretically existent orbits (\(\vec{x}(t),\vec{v}(t))\). Position and velocity are linked with six coordinates and contain all information about the potential. With Newton's 2nd law we get the connection between potential \(\Phi(\vec{r})\)and acceleration \(\vec{a}\) which is \[\vec{F}(\vec{r})=-\nabla\Phi(\vec{r})=m\cdot\vec{a}.\]  We calculate the density by binning the masses on logarithmic equally distributed shells \color{red} write density formula? \color{black} and solve the integrals of the Poisson's equation numerically by using the Gauss-Legendre quadrature \[\int_a^b f(x)dx = \frac{b-a}{2}\sum_{i=1}^n w_i f\left(\frac{b-a}{2}x_i+\frac{a+b}{2}\right)\] where the points \(x_i\) and the weights \(w_i\) are derived from the Legendre polynomials.\\ Since the orbit is described by position and velocity at each time step we use the numerical leapfrog method which is a second-order time reversible integrator. \(X_i\) and \(v_i\) are calculated by 
-\begin{align*}
-x_{i+1}=x_i+v_i\Delta t+\frac{a_i(x_i)}{2}\Delta t^2 \\
-v_{i+1}=v_i+\frac{a(x_{i+1})+a(x_i)}{2}\Delta t.
-\end{align*}
+In a dynamical system the mass distribution is described by the form of theoretically existent orbits (\(\vec{x}(t),\vec{v}(t))\). Position and velocity are linked with six coordinates and contain all information about the potential. With Newton's 2nd law we get the connection between potential \(\Phi(\vec{r})\)and acceleration \(\vec{a}\) which is \[\vec{\mathrm{F}}(\vec{\mathrm{r}})=-\nabla\Phi(\vec{\mathrm{r}})=\mathrm{m}\cdot\vec{\mathrm{a}}.\]  
 
 \color{red} gcs are collisional clusters but we assume them as collisionless \\ time evolution of actions \color{black}
 \subsubsection{The effective potential}
+The pericenter \(\mathrm{r_{min}}\) and the apocenter \(\mathrm{r_{max}}\) as well as the guiding star radius \(\mathrm{r_g}\) can be found in the effective potential \begin{equation}
+\mathrm{\Phi_L(r)=\Phi(r)+\frac{L^2}{2r^2}}.
+\end{equation} which is dependent on the Centrifugal potential \(\mathrm{L^2/2r^2}\) whit the angular momentum L (taken from \citet[p. 59, eq. 6.27]{bartelmann}).  In the peri- and apocenter the effective potential equals the total energy since the stars do not have any kinetic energy there. That results in following function which is to solve: \[\mathrm {\left(\frac{1}{r}\right)^2+\frac{2\cdot (\Phi(r)-E)}{L^2}=0.}\] \\ The guiding star radius is the distance at which a star with given total angular momentum would have a circular orbit. This is at the minimum of the effective potential. To get \(r_g\) we have to solve \[r\sqrt{r\frac{\partial\Phi}{\partial r}}-|L|=0\] where \(\sqrt{r\frac{\partial\Phi}{\partial r}}=v_{circ}\) is the circular velocity. This distance is used to have a better comparison of the actions since in the snapshot the stars are at a random position on their orbit.
 \begin{figure}[htbp]
 \centering
 	\begin{subfigure}{0.475\textwidth}
@@ -67,8 +67,11 @@ J_i=\frac{1}{2\pi}\oint_{\gamma_i}\vec{p}\cdot d\vec{q} \qquad\qquad i=r,\theta,
 \end{equation} which are used as coordinates in action space
 These actions are integrals of motion. For most potentials actions can't be described analytically. The actions of a spherical system are derived from angular momentum, energy and potential. Only the potential is depending in r. Energy and angular momentum as well as resulting actions are constant over time and orbit. The azimuthal action J\(_\phi\) and the latitudinal action J\(_\theta\) can be evaluated simply. To calculate the radial action J\(_r\) we have to solve an integral numerically. Actions of a spherical potential are found to be \begin{align}
 J_\phi=L_z, \\ J_\theta=L-|L_z|, \\ J_r=\frac{1}{\pi} \int_{r_{min}}^{r_{max}} \mathrm{d}r \sqrt{2E-2\Phi(r)-\frac{L^2}{r^2}}.
-\end{align}\color{red} Should I write down the derivation of the actions (B\&T p.220) or just the results (B\&T p.221, 3.221,3.223,3.224)?\color{black} \\ The pericenter \(r_{min}\) and the apocenter \(r_{max}\) as well as the guiding star radius \(r_g\) can be found in the effective potential \begin{equation}
-V_L(r)=V(r)+\frac{L^2}{2mr^2}.\  \color{red} \mathrm{m\ should\ be\ left\ out\ right?} \color{black}
-\end{equation} \color{red} Bartelman Theo 1 Skript p59 formula 6.27. \\ \color{black} In the peri- and apocenter the effective potential equals the total energy since the stars do not have any kinetic energy there. That results in following function which is to solve: \[\left(\frac{1}{r}\right)^2+\frac{2\cdot (\Phi-E)}{L^2}=0.\] \\ The guiding star radius is the distance at which a star with given total angular momentum would have a circular orbit. This is at the minimum of the effective potential. To get \(r_g\) we have to solve \[r\sqrt{r\frac{\partial\Phi}{\partial r}}-|L|=0\] where \(\sqrt{r\frac{\partial\Phi}{\partial r}}=v_{circ}\) is the circular velocity. This distance is used to have a better comparison of the actions since in the snapshot the stars are at a random position on their orbit.
+\end{align}\color{red} Should I write down the derivation of the actions (B\&T p.220) or just the results (B\&T p.221, 3.221,3.223,3.224)?\color{black} \\ 
 \subsubsection{Numerical orbit integration}
+To deriver the potential solve the integrals of the Poisson's equation \eqref{eq:numerical_poisson} numerically by using the Gauss-Legendre quadrature \[\int_a^b f(x)dx = \frac{b-a}{2}\sum_{i=1}^n w_i f\left(\frac{b-a}{2}x_i+\frac{a+b}{2}\right)\] where the points \(x_i\) and the weights \(w_i\) are derived from the Legendre polynomials and a and b are the integration limits.\\ Since the orbit is described by position and velocity at each time step we use the numerical leapfrog method which is a second-order time reversible integrator. \(X_i\) and \(v_i\) are calculated by 
+\begin{align*}
+x_{i+1}=x_i+v_i\Delta t+\frac{a_i(x_i)}{2}\Delta t^2 \\
+v_{i+1}=v_i+\frac{a(x_{i+1})+a(x_i)}{2}\Delta t.
+\end{align*}
 \subsection{Examples for orbits in spherical potentials}

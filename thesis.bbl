@@ -1,6 +1,12 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{11}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Bartelmann}, 2008]{bartelmann}
+{Bartelmann}, M.
+\newblock \enquote{Theoretische Physik I: Punktmechanik und mathematische
+  Methoden}.
+\newblock 2008.
 
 \bibitem[{Bianchini} \emph{et~al.}, 2015]{2015MNRAS.453..365B}
 {Bianchini}, P., {Norris}, M.A., {van de Ven}, G., and {Schinnerer}, E.

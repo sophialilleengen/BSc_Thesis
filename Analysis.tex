@@ -42,8 +42,10 @@ considered.
 The output of the simulations relevant for our work are for each star: the position
 vector x, the velocity vector v in Cartesian and polar coordinates, mass, luminosity, magnitude b and v band and whether
 the star is a binary or not.
+
+\par We compute the half-mass radius \(\mathrm{r_m}\) given in table \ref{tab:overview_simulation} by calculating the distance where half of the mass of the \ac{GC} is inside the sphere of given distance and half of the mass is distributed outside of this sphere. We need it to compare the different simulations since their actual distance is depending on the simulation and is therefore not comparable. 
 \\
-To get familiar with the simulation we first have a look at the distribution of the star positions.
+To get familiar with the simulation we first have a look at the spatial distribution of the stars.
 \begin{figure}[htbp] 
 \centering
 \begin{subfigure}{0.9\textwidth}
@@ -101,7 +103,7 @@ As mentioned in \ref{cmd_theory} the \ac{CMD} is showing a star's evolution stag
 First we will investigate the \ac{GC} in phase space for the set of simulations that we will use throughout this work. We will start with the velocity dispersion and the anisotropy parameter then we will have a density profile and from that get the potential. 
 
 \subsubsection{Kinematics}
-With equation \eqref{eq:vel_disp} from section \ref{kin_prof_theory} we can calculate the velocity dispersion in each coordinate direction \(\sigma_\mathrm{r},\sigma_\theta,\sigma_\phi\). For every bin we take the same amount of stars and calculate the dispersion along the radius of the \ac{GC}. As radial values we use the average radius of the stars falling in the bins. To compare all simulations we plot the dispersion over the half-mass radius. The half mass radii of the simulations can be taken from table \ref{tab:overview_simulation}. 
+With equation \eqref{eq:vel_disp} from section \ref{kin_prof_theory} we can calculate the velocity dispersion in each coordinate direction \(\sigma_\mathrm{r},\sigma_\theta,\sigma_\phi\). For every bin we take the same amount of stars and calculate the dispersion along the radius of the \ac{GC}. As radial values we use the average radius of the stars falling in the bins. To compare all simulations we plot the dispersion over the distance in units of the half-mass radius. The half mass radii of the simulations can be taken from table \ref{tab:overview_simulation}. 
 \begin{figure*}[htbp]
 	\centering
 	\begin{subfigure}{0.475\textwidth}
@@ -126,23 +128,30 @@ With equation \eqref{eq:vel_disp} from section \ref{kin_prof_theory} we can calc
 	\end{subfigure}
 
 
-	\caption{Velocity dispersion profiles as a function of the radius in units of the half-mass radius \(\mathrm{r_{m}}\). They are binned in a way that each bin contains the same amount of stars. We can see that the velocity dispersion of the simulation with \ac{IMBH} rises towards the centre whereas the simulation without \ac{IMBH} exhibits a cored profile.}
+	\caption{Velocity dispersion profiles of \(\mathrm{v_r, v_\phi,v_\theta}\) as a function of the radius in units of the half-mass radius \(\mathrm{r_{m}}\). Blue and green points are the velocity dispersions of SIM 1 and 2 and the red and yellow ones are the velocity dispersions of SIM 3 and 4. They are binned in a way that each bin contains the same amount of stars. The given radius is the mean radius of the stars of each bin. We can see that the velocity dispersion of the simulations with \ac{IMBH} rises towards the centre whereas the simulations without \ac{IMBH} exhibits a cored profile.}
+	\label{fig:vel_disp}
 \end{figure*}
-As expected there is a rise in the centre for the simulations with \ac{IMBH}. This is due the high gravitational potential of the \acp{IMBH} which disturbs the dynamics of close stars. 
+As expected there is a rise in the centre for the simulations with \ac{IMBH}. This is due the high gravitational potential of the \acp{IMBH} which disturbs the dynamics of close stars. The rise is equally visible in all three velocity components. This is since the kinematics are isotropic in the centre of the \ac{GC} (see figure \ref{fig:anisotropy_param}). There is no difference in the polar and the azimuthal velocity dispersion profiles because the system is spherical. In the outer regions the radial velocity dispersion decreases linear while the tangential slope becomes less steep. The motion in the outer angular shells seems to be different to the motion in radial direction.
 
 
 
-\par Anisotropy can be calculated from equation \eqref{eq:anisotropy} in \ref{kin_prof_theory}. It is binned the same way as the velocity dispersions and given in units of the half-mass radius.
+\par In \ref{fig:vel_disp} we noted a difference in the radial and in the tangential velocity dispersion. To properly quantify that difference we consider the anisotropy profile. Anisotropy can be calculated from equation \eqref{eq:anisotropy} in \ref{kin_prof_theory}.  Radial anisotropy means that there is higher velocity dispersion in radial direction than in angular direction. This comes probably along with a substantial number on eccentric orbits. The profile is binned the same way as the velocity dispersions and given in units of the half-mass radius.
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.475\textwidth]{Plots/anisotropy_parameter_beta.pdf}
-	\caption{Anisotropy parameter \(\beta\). All simulations show isotropy in the centre and radial anisotropy in the intermediate regions. The simulations with \acp{IMBH} have a peak at 4 and 5 effective radii where they are most radial anisotropic. Some difference in anisotropy is observable between the simulations with and without \ac{IMBH}. This is due to different truncation prescriptions used in the simulations. We note that within \(\approx 2\mathrm{r_m}\) all simulations exhibit the same anisotropy profile.}
+	\caption{Profile of the anisotropy parameter \(\beta\). The colors are given as in \ref{fig:vel_disp}. All simulations are isotropic in the centre and become increasingly radial anisotropic in the intermediate regions. The simulations with \acp{IMBH} have a peak at 4 and 5 effective radii where they are most radial anisotropic. Some difference in anisotropy is observable between the simulations with and without \ac{IMBH}. This is due to different truncation prescriptions used in the simulations. We note that within \(\approx 2\mathrm{r_m}\) all simulations exhibit the same anisotropy profile.}
 	\label{fig:anisotropy_param}
 \end{figure}
-In the central \(\approx 2\mathrm{r_m}\) of all \acp{GC} there is nearly the same anisotropy:isotropy in the centre \& radial anisotropy while going in the outer parts. That means the systems are radial anisotropic. The \acp{GC} with \ac{IMBH} are most radially anisotropic at about 4 effective radii. The other \acp{GC} are becoming more radial anisotropic the further away from the centre it is. The difference is due to different truncation prescriptions of the simulation.
+In the central \(\approx 2\mathrm{r_m}\) of all \acp{GC} there is nearly the same anisotropy: isotropy in the centre \& radial anisotropy while going in the outer parts. That means the systems are radial anisotropic. In the centre the anisotropy is zero. There the system is isotropic and the stars move in no preferred direction. The \acp{GC} with \ac{IMBH} are most radially anisotropic at about 4 effective radii. The other \acp{GC} are becoming more radial anisotropic the further away from the centre it is. The difference is due to different truncation prescriptions of the simulation.
 
 \subsubsection{Spatial distribution}
-The density profile shows the density calculated by equation \eqref{eq:density} of the system over its radius. As bins we use radial shells with logarithmic spacing chosen so that they are at least 100 stars per bin to have a reliable statistic. Outside of the cluster the density is set to 0. In the centre of the \acp{GC} (the distance of the 300th star of each simulation) we extrapolate the density profiles by setting it to the constant value of the innermost shell. 
+It is important to determine the density distribution for several reasons:
+\begin{itemize}
+\item[It is interesting to see if the simulated \acp{GC} habe radial density profiles that are similar to each other]
+\item[and to classical \acp{GC} profiles like the Plummer potential (see section \ref{sec:other_pot})]
+\item 
+
+\end{itemize}The density profile shows the density calculated by equation \eqref{eq:density} of the system over its radius. As bins we use radial shells with logarithmic spacing chosen so that they are at least 100 stars per bin to have a reliable statistic. Outside of the cluster the density is set to 0. In the centre of the \acp{GC} (the distance of the 300th star of each simulation) we extrapolate the density profiles by setting it to the constant value of the innermost shell. 
 
 \begin{figure}[htbp]
 	\centering
