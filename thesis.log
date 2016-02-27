@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  26 FEB 2016 18:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.27)  27 FEB 2016 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1185,77 +1185,50 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[22]
+[22] <Plots/E_J_r_hist_bins_IMBH1.pdf, id=1220, 382.8516pt x 290.95262pt>
+File: Plots/E_J_r_hist_bins_IMBH1.pdf Graphic file (type pdf)
 
-LaTeX Warning: File `Plots/E_J_r_hist_bins_IMBH1.pdf' not found on input line 2
-59.
+<use Plots/E_J_r_hist_bins_IMBH1.pdf>
+Package pdftex.def Info: Plots/E_J_r_hist_bins_IMBH1.pdf used on input line 259
+.
+(pdftex.def)             Requested size: 212.86493pt x 161.76918pt.
 
+<Plots/E_J_r_hist_bins_IMBH2.pdf, id=1221, 382.8516pt x 290.95262pt>
+File: Plots/E_J_r_hist_bins_IMBH2.pdf Graphic file (type pdf)
 
-! Package pdftex.def Error: File `Plots/E_J_r_hist_bins_IMBH1.pdf' not found.
+<use Plots/E_J_r_hist_bins_IMBH2.pdf>
+Package pdftex.def Info: Plots/E_J_r_hist_bins_IMBH2.pdf used on input line 265
+.
+(pdftex.def)             Requested size: 212.86493pt x 161.76918pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 ...xtwidth]{Plots/E_J_r_hist_bins_IMBH1.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<Plots/E_J_r_hist_bins_noIMBH1.pdf, id=1222, 382.8516pt x 290.95262pt>
+File: Plots/E_J_r_hist_bins_noIMBH1.pdf Graphic file (type pdf)
 
+<use Plots/E_J_r_hist_bins_noIMBH1.pdf>
+Package pdftex.def Info: Plots/E_J_r_hist_bins_noIMBH1.pdf used on input line 2
+71.
+(pdftex.def)             Requested size: 212.86493pt x 161.76918pt.
 
-LaTeX Warning: File `Plots/E_J_r_hist_bins_IMBH2.pdf' not found on input line 2
-65.
+<Plots/E_J_r_hist_bins_noIMBH2.pdf, id=1223, 382.8516pt x 290.95262pt>
+File: Plots/E_J_r_hist_bins_noIMBH2.pdf Graphic file (type pdf)
 
+<use Plots/E_J_r_hist_bins_noIMBH2.pdf>
+Package pdftex.def Info: Plots/E_J_r_hist_bins_noIMBH2.pdf used on input line 2
+77.
+(pdftex.def)             Requested size: 212.86493pt x 161.76918pt.
+ [23 <./Plots/E_J_r_hist_bins_IMBH1.pdf> <./Plots/E_J_r_hist_bins_IMBH2.pdf
 
-! Package pdftex.def Error: File `Plots/E_J_r_hist_bins_IMBH2.pdf' not found.
+pdfTeX warning: pdflatex (file ./Plots/E_J_r_hist_bins_IMBH2.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Plots/E_J_r_hist_bins_noIMBH1.pdf
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.265 ...xtwidth]{Plots/E_J_r_hist_bins_IMBH2.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+pdfTeX warning: pdflatex (file ./Plots/E_J_r_hist_bins_noIMBH1.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./Plots/E_J_r_hist_bins_noIMBH2.pdf
 
-
-LaTeX Warning: File `Plots/E_J_r_hist_bins_noIMBH1.pdf' not found on input line
- 271.
-
-
-! Package pdftex.def Error: File `Plots/E_J_r_hist_bins_noIMBH1.pdf' not found.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 ...width]{Plots/E_J_r_hist_bins_noIMBH1.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Plots/E_J_r_hist_bins_noIMBH2.pdf' not found on input line
- 277.
-
-
-! Package pdftex.def Error: File `Plots/E_J_r_hist_bins_noIMBH2.pdf' not found.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.277 ...width]{Plots/E_J_r_hist_bins_noIMBH2.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+pdfTeX warning: pdflatex (file ./Plots/E_J_r_hist_bins_noIMBH2.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
 
 LaTeX Warning: File `Plots/L_J_r_hist_IMBH1.pdf' not found on input line 291.
 
@@ -1431,94 +1404,52 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+<Plots/r_g_J_r_IMBH1.png, id=1450, 408.8073pt x 294.1389pt>
+File: Plots/r_g_J_r_IMBH1.png Graphic file (type png)
 
-LaTeX Warning: File `Plots/r_g_J_r_IMBH1.png' not found on input line 369.
+<use Plots/r_g_J_r_IMBH1.png>
+Package pdftex.def Info: Plots/r_g_J_r_IMBH1.png used on input line 369.
+(pdftex.def)             Requested size: 212.86493pt x 153.15955pt.
 
+<Plots/r_g_J_r_IMBH2.png, id=1451, 408.8073pt x 294.1389pt>
+File: Plots/r_g_J_r_IMBH2.png Graphic file (type png)
 
-! Package pdftex.def Error: File `Plots/r_g_J_r_IMBH1.png' not found.
+<use Plots/r_g_J_r_IMBH2.png>
+Package pdftex.def Info: Plots/r_g_J_r_IMBH2.png used on input line 376.
+(pdftex.def)             Requested size: 212.86493pt x 153.15955pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.369 ...idth=\textwidth]{Plots/r_g_J_r_IMBH1.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<Plots/r_g_J_r_noIMBH1.png, id=1452, 408.8073pt x 294.1389pt>
+File: Plots/r_g_J_r_noIMBH1.png Graphic file (type png)
 
+<use Plots/r_g_J_r_noIMBH1.png>
+Package pdftex.def Info: Plots/r_g_J_r_noIMBH1.png used on input line 383.
+(pdftex.def)             Requested size: 212.86493pt x 153.15955pt.
 
-LaTeX Warning: File `Plots/r_g_J_r_IMBH2.png' not found on input line 376.
+<Plots/r_g_J_r_noIMBH2.png, id=1453, 414.1071pt x 294.1389pt>
+File: Plots/r_g_J_r_noIMBH2.png Graphic file (type png)
 
-
-! Package pdftex.def Error: File `Plots/r_g_J_r_IMBH2.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.376 ...idth=\textwidth]{Plots/r_g_J_r_IMBH2.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Plots/r_g_J_r_noIMBH1.png' not found on input line 383.
-
-
-! Package pdftex.def Error: File `Plots/r_g_J_r_noIMBH1.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.383 ...th=\textwidth]{Plots/r_g_J_r_noIMBH1.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Plots/r_g_J_r_noIMBH2.png' not found on input line 390.
-
-
-! Package pdftex.def Error: File `Plots/r_g_J_r_noIMBH2.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.390 ...th=\textwidth]{Plots/r_g_J_r_noIMBH2.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) [23] [24] [25] [26] [27]
+<use Plots/r_g_J_r_noIMBH2.png>
+Package pdftex.def Info: Plots/r_g_J_r_noIMBH2.png used on input line 390.
+(pdftex.def)             Requested size: 212.86493pt x 151.19821pt.
+) [24] [25] [26] [27 <./Plots/r_g_J_r_IMBH1.png> <./Plots/r_g_J_r_IMBH2.png> <.
+/Plots/r_g_J_r_noIMBH1.png> <./Plots/r_g_J_r_noIMBH2.png>]
 \openout2 = `Results_discussion.aux'.
 
  (./Results_discussion.tex
+<Plots/J_r_compare_plot.png, id=1487, 1061.46562pt x 1563.38077pt>
+File: Plots/J_r_compare_plot.png Graphic file (type png)
 
-LaTeX Warning: File `Plots/J_r_compare_plot.png' not found on input line 8.
-
-
-! Package pdftex.def Error: File `Plots/J_r_compare_plot.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...dth=\textwidth]{Plots/J_r_compare_plot.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[28
+<use Plots/J_r_compare_plot.png>
+Package pdftex.def Info: Plots/J_r_compare_plot.png used on input line 8.
+(pdftex.def)             Requested size: 448.13095pt x 660.02675pt.
 
 
-]) [29] [30
+LaTeX Warning: Float too large for page by 49.02673pt on input line 11.
+
+) [28
+
+
+] [29 <./Plots/J_r_compare_plot.png>] [30
 
 ] (./thesis.bbl
 
@@ -1827,13 +1758,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 2B7AACBAB3A80A37663F65DBC27F5781;2205.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 12292 strings out of 493304
- 187126 string characters out of 6139871
+ 12328 strings out of 493304
+ 188333 string characters out of 6139871
  437624 words of memory out of 5000000
- 15303 multiletter control sequences out of 15000+600000
+ 15339 multiletter control sequences out of 15000+600000
  20717 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,16n,106p,2425b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1857,10 +1792,10 @@ per/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfsx1728.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (37 pages, 1296916 bytes).
+Output written on thesis.pdf (37 pages, 2997556 bytes).
 PDF statistics:
- 1423 PDF objects out of 1440 (max. 8388607)
- 850 compressed objects within 9 object streams
+ 1633 PDF objects out of 1728 (max. 8388607)
+ 895 compressed objects within 9 object streams
  138 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 358 words of extra memory for PDF output out of 10000 (max. 10000000)
 
