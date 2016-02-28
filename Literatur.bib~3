@@ -164,3 +164,17 @@
 	year = 1996
 }
 
+@article{1997A&ARv...8....1M,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/1997A\%26ARv...8....1M},
+	author = {{Meylan}, G. and {Heggie}, D.~C.},
+	doi = {10.1007/s001590050008},
+	eprint = {astro-ph/9610076},
+	journal = {\aapr},
+	keywords = {Stellar Dynamics, Globular clusters: general, Globular clusters: individual, Galaxies: star clusters},
+	pages = {1--143},
+	title = {{Internal dynamics of globular clusters}},
+	volume = 8,
+	year = 1997
+}
+

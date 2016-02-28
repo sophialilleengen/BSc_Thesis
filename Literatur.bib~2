@@ -178,3 +178,72 @@
 	year = 1997
 }
 
+@article{2015AJ....149...91P,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2015AJ....149...91P},
+	archiveprefix = {arXiv},
+	author = {{Piotto}, G. and {Milone}, A.~P. and {Bedin}, L.~R. and {Anderson}, J. and {King}, I.~R. and {Marino}, A.~F. and {Nardiello}, D. and {Aparicio}, A. and {Barbuy}, B. and {Bellini}, A. and {Brown}, T.~M. and {Cassisi}, S. and {Cool}, A.~M. and {Cunial}, A. and {Dalessandro}, E. and {D'Antona}, F. and {Ferraro}, F.~R. and {Hidalgo}, S. and {Lanzoni}, B. and {Monelli}, M. and {Ortolani}, S. and {Renzini}, A. and {Salaris}, M. and {Sarajedini}, A. and {van der Marel}, R.~P. and {Vesperini}, E. and {Zoccali}, M.},
+	doi = {10.1088/0004-6256/149/3/91},
+	eid = {91},
+	eprint = {1410.4564},
+	journal = {\aj},
+	keywords = {globular clusters: general, Hertzsprung{\ndash}Russell and C{\ndash}M diagrams, proper motions, stars: Population II},
+	month = mar,
+	pages = {91},
+	primaryclass = {astro-ph.SR},
+	title = {{The Hubble Space Telescope UV Legacy Survey of Galactic Globular Clusters. I. Overview of the Project and Detection of Multiple Stellar Populations}},
+	volume = 149,
+	year = 2015
+}
+
+@article{2012A&A...539A..65Z,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2012A\%26A...539A..65Z},
+	archiveprefix = {arXiv},
+	author = {{Zocchi}, A. and {Bertin}, G. and {Varri}, A.~L.},
+	doi = {10.1051/0004-6361/201117977},
+	eid = {A65},
+	eprint = {1201.1466},
+	journal = {\aap},
+	keywords = {globular clusters: general},
+	month = mar,
+	pages = {A65},
+	title = {{A dynamical study of Galactic globular clusters under different relaxation conditions}},
+	volume = 539,
+	year = 2012
+}
+
+@article{2013ApJ...772...67B,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2013ApJ...772...67B},
+	archiveprefix = {arXiv},
+	author = {{Bianchini}, P. and {Varri}, A.~L. and {Bertin}, G. and {Zocchi}, A.},
+	doi = {10.1088/0004-637X/772/1/67},
+	eid = {67},
+	eprint = {1305.6025},
+	journal = {\apj},
+	keywords = {globular clusters: general, globular clusters: individual: NGC 104: 47 Tuc) NGC 5139 ({$\omega$} Cen) NGC 7078 (M15},
+	month = jul,
+	pages = {67},
+	title = {{Rotating Globular Clusters}},
+	volume = 772,
+	year = 2013
+}
+
+@article{2014A&A...567A..69K,
+	adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+	adsurl = {http://adsabs.harvard.edu/abs/2014A\%26A...567A..69K},
+	archiveprefix = {arXiv},
+	author = {{Kacharov}, N. and {Bianchini}, P. and {Koch}, A. and {Frank}, M.~J. and {Martin}, N.~F. and {van de Ven}, G. and {Puzia}, T.~H. and {McDonald}, I. and {Johnson}, C.~I. and {Zijlstra}, A.~A.},
+	doi = {10.1051/0004-6361/201423709},
+	eid = {A69},
+	eprint = {1406.1552},
+	journal = {\aap},
+	keywords = {globular clusters: general, globular clusters: individual: NGC 4372, Galaxy: halo},
+	month = jul,
+	pages = {A69},
+	title = {{A study of rotating globular clusters. The case of the old, metal-poor globular cluster NGC 4372}},
+	volume = 567,
+	year = 2014
+}
+

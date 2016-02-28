@@ -5,49 +5,53 @@ The style file: glenn.bst
 A level-1 auxiliary file: ./ba_titlepage.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Method_theory.aux
+White space in argument---line 47 of file Method_theory.aux
+ : \citation{eq.
+ :               2.44a}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Analysis.aux
 A level-1 auxiliary file: Results_discussion.aux
 Database file #1: Literatur.bib
 Warning--missing publisher in 2006ima..book.....C
-You've used 25 entries,
+You've used 26 entries,
             2689 wiz_defined-function locations,
-            735 strings with 10114 characters,
-and the built_in function-call counts, 14179 in all, are:
-= -- 1003
-> -- 646
-< -- 13
-+ -- 255
-- -- 231
-* -- 1170
-:= -- 2149
-add.period$ -- 75
-call.type$ -- 25
-change.case$ -- 215
-chr.to.int$ -- 26
-cite$ -- 26
-duplicate$ -- 1077
-empty$ -- 1011
-format.name$ -- 294
-if$ -- 2652
+            739 strings with 10189 characters,
+and the built_in function-call counts, 14520 in all, are:
+= -- 1028
+> -- 653
+< -- 14
++ -- 258
+- -- 233
+* -- 1189
+:= -- 2208
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 220
+chr.to.int$ -- 27
+cite$ -- 27
+duplicate$ -- 1108
+empty$ -- 1041
+format.name$ -- 297
+if$ -- 2717
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 281
-newline$ -- 130
-num.names$ -- 75
-pop$ -- 468
+missing$ -- 287
+newline$ -- 135
+num.names$ -- 78
+pop$ -- 480
 preamble$ -- 1
-purify$ -- 215
+purify$ -- 220
 quote$ -- 0
-skip$ -- 380
+skip$ -- 392
 stack$ -- 0
-substring$ -- 577
-swap$ -- 639
+substring$ -- 588
+swap$ -- 650
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 146
+type$ -- 152
 warning$ -- 1
-while$ -- 73
+while$ -- 75
 width$ -- 0
-write$ -- 323
-(There was 1 warning)
+write$ -- 335
+(There was 1 error message)
