@@ -22,8 +22,8 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Spatial distribution}{20}{subsubsection.3.3.2}
 \contentsline {subsection}{\numberline {3.4}Investigations in action space}{21}{subsection.3.4}
 \contentsline {subsubsection}{\numberline {3.4.1}Energy}{24}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Angular momentum}{30}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Guiding star radius}{30}{subsubsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.2}Angular momentum}{28}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Guiding star radius}{28}{subsubsection.3.4.3}
 \contentsline {section}{\numberline {4}Results \& Discussion}{32}{section.4}
 \contentsline {subsection}{\numberline {4.1}Signatures of \acp {IMBH} in action space}{32}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{32}{subsection.4.2}

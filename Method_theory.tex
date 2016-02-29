@@ -1,14 +1,14 @@
 \section{Method \& Theory}\label{sec:method_theory}
 In this section we give an overview of the theory and methods which are used throughout the investigations. We begin with the description of the stellar population of a \ac{GC} then explain the kinematic properties, i.e. velocity dispersion and anisotropy parameter. Still in phase space we introduce density and different potential models. In the next subsection we define orbits and their classical integrals of motion. After explaining the benefit of the effective potential we show how we calculate the actions as best choice of integrals of motions. Then we give the numerical way of calculating orbits for which we give some examples in the last part of this section. If not said else we define all properties as specific ones which means they are given in units of the mass of the star.
 \subsection{Stellar population in GC}\label{sec:cmd_theory}
-The typical stellar components of a \ac{GC} can be seen in a \ac{CMD}. Figure \ref{fig:cmd} shows the \ac{CMD} of a simulated \ac{GC} where the visual magnitude is plotted against the B-V color. It is color coded by the mass of the star. 
+The typical stellar population of a \ac{GC} can be seen in a \ac{CMD}. We show in figure \ref{fig:cmd} an example of a \ac{CMD} extracted from one of our simulations (SIM 1, described in section \ref{sec:description}. In this \ac{CMD} the absolute V-band magnitude is plotted against the B-V color. The color code indicates the mass of the stars. 
 \begin{figure}[htbp]
 \centering
 	\includegraphics[width=0.5\textwidth]{Plots/color_magnitude_diagram.png}
 	\caption{Color magnitude diagram of SIM 1.}
 	\label{fig:cmd}
 \end{figure}
-The position of a star can be interpreted as its evolution stage. Most of the stars are set in the main sequence. They fusion hydrogen in their cores. There are two main sequence lines one upon the other. These occur due to binary systems whose flux is given by the sum of the single fluxes of the single components, and therefore appear redder and more luminous. These binary systems represent about \unit[5]{\%} of the stars in the \ac{GC}. The position of the main sequence turn-off depends on the age of the system and therefore can be used as an indicator to determine the cluster's age. Isochrones are curves of evolutionary stages of stars of a \ac{SSP} having the same age and metallicity but different masses. Bluewards of this turn off point following the trend of main sequence stars, there are so called "blue stragglers" which are remnants of stellar collisions or interacting binaries \citep[p.628]{2008gady.book.....B}. Continuing from the turn off point there is the red giant branch consisting of stars still fusing hydrogen but only in a shell surrounding a degenerate helium core. They are inflated with a radius much higher than the main sequence stars but have a much lower surface temperature. These are the brightest stars of a \ac{GC}. On the upper part of the red giant branch lies the horizontal branch. Its stars burn helium in their core and hydrogen in a surrounding shell. In the lower left corner white dwarfs are located. They are stellar remnants which have burnt all of their resources. In a typical \ac{GC} dark stellar remnants like stellar black holes and neutron stars are present but not visualised in the \ac{CMD}. 
+The position of a star in the \ac{CMD} can be interpreted as its evolution stage. Most of the stars are in the main sequence and they are characterized by hydrogen fusion in their cores. There are two main sequence lines one upon the other. These occur due to binary systems whose flux is given by the sum of the single fluxes of the single components, and therefore appear redder and more luminous. These binary systems represent about \unit[7.5]{\%} of the stars in the \ac{GC}. The position of the main sequence turn-off depends on the age of the system and therefore can be used as an indicator to determine the cluster's age. Isochrones are curves of evolutionary stages of stars of a \ac{SSP} having the same age and metallicity but different masses. Bluewards of this turn off point following the trend of main sequence stars, there are so called "blue stragglers" which are remnants of stellar collisions or interacting binaries \citep[p.628]{2008gady.book.....B}. Continuing from the turn off point there is the red giant branch consisting of stars still fusing hydrogen but only in a shell surrounding a degenerate helium core. They are inflated with a radius much higher than the main sequence stars but have a much lower surface temperature. These are the brightest stars of a \ac{GC}. On the upper part of the red giant branch lies the horizontal branch. Its stars burn helium in their core and hydrogen in a surrounding shell. In the lower left corner white dwarfs are located. They are stellar remnants which have burnt all of their resources. In a typical \ac{GC} dark stellar remnants like stellar black holes and neutron stars are present but not visualised in the \ac{CMD}. 
 \subsection{Kinematic profiles of globular clusters}\label{sec:kin_prof_theory}
 We will investigate \acp{GC} in phase space by analysing the stellar kinematic profiles (such as velocity dispersion and anisotropy profiles) and the spatial distribution of stars (density profiles and potential). 
 \par The stellar velocity dispersion quantifies the spread of different velocities stars at given positions can have. It is defined as the standard deviation of the velocity distribution  
@@ -45,7 +45,11 @@ One of the most simple potentials is the Kepler potential. It describes the pote
 \begin{equation}\label{eq:Plum_pot}
 \mathrm{\Phi(r)=-\frac{GM}{\sqrt{r^2+b^2}}}
 \end{equation}
-\citep[eq. 2.44a]{2008gady.book.....B} where M is the total mass of the system and b is the Plummer scale length. In \citet{1911MNRAS..71..460P} Plummer used this potential to describe observations of \acp{GC}. This model cannot be used to describe the position of a star on its orbit in elementary functions. 
+\citep[eq. 2.44a]{2008gady.book.....B} where M is the total mass of the system and b is the Plummer scale length. In \citet{1911MNRAS..71..460P} Plummer used this potential to describe observations of \acp{GC}. the corresponding density to this model is given by \citet[eq. 2.44b]{2008gady.book.....B}
+\begin{equation}\label{eq:Plumm_dens}
+\mathrm{\rho(r)=\frac{3M}{4\pi b^3}\left(1+\frac{r^2}{b^2}\right)^{-\frac{5}{2}}.}
+\end{equation}
+This model cannot be used to describe the position of a star on its orbit in elementary functions. 
 \par In \citet{2014arXiv1411.4937B} he claims that \acp{GC} can be described by an isochrone (see section \ref{sec:cmd_theory}) potential 
 \begin{equation}\label{eq:isochr_pot}
 \mathrm{\Phi(r)=-\frac{GM}{b+\sqrt{b^2+r^2}}}
@@ -101,7 +105,7 @@ If the orbit is unbound the effective potential is positive. A star on a bound o
 \mathrm {\Phi(r)-E +\frac{L^2}{2r^2}=0\Rightarrow\left(\frac{1}{r}\right)^2+\frac{2\cdot (\Phi(r)-E)}{L^2}=0.}
 \end{equation}
 \par The guiding star radius is the distance at which a star with given total angular momentum would have a circular orbit. This is at the minimum of the effective potential. To get \(\mathrm{r_g}\) we have to solve
-\begin{equation}
+\begin{equation}\label{eq:min_pot_eff}
 \mathrm{\frac{\partial\Phi_L}{\partial r}=\frac{\partial\Phi}{\partial r}-\frac{L^2}{r^3}=0\Rightarrow r\sqrt{r\frac{\partial\Phi}{\partial r}}-|L|=0}
 \end{equation} where \(\mathrm{\sqrt{r\frac{\partial\Phi}{\partial r}}=v_{circ}}\) is the circular velocity. This distance is used to have a better comparison of the actions since in the snapshot the stars are at a random position on their orbit.
 
@@ -126,7 +130,7 @@ To derive the potential we solve the integrals of the Poisson's equation \eqref{
 &-4\pi G\cdot\frac{\infty-r}{2}\sum_{i=1}^n w_i\left(\frac{\infty-r}{2} x_i +\frac{\infty+r}{2}\right)\rho\left(\frac{\infty-r}{2} x_i +\frac{\infty+r}{2}\right)
 \end{aligned}
 \end{equation}
-\par To describe the orbit we need its position and velocity at each time step. we use the numerical leapfrog method which is a second-order time reversible integrator. \(X_i\) and \(v_i\) are calculated by 
+\par To describe the orbit we need its position and velocity at each time step we use the numerical leapfrog method which is a second-order time reversible integrator. \(X_i\) and \(v_i\) are calculated by 
 \begin{align}
 x_{i+1}=x_i+v_i\Delta t+\frac{a_i(x_i)}{2}\Delta t^2 \\
 v_{i+1}=v_i+\frac{a(x_{i+1})+a(x_i)}{2}\Delta t.
