@@ -1,47 +1,31 @@
 \section{Analysis}
-
-\subsection{Description of the simulation}
+In this section we analyse different aspects of the simulations. In section \ref{sec:description} we describe the simulations, their underlying models and give an overview of their properties. The next step in section \ref{sec:cmd_plots} is to fit isochrones to the \ac{CMD} to verify given age and metallicity. After that we investigate the phase space in section \ref{sec:phase_space}. We look for a rise in the velocity dispersions of the \acp{GC} with \ac{IMBH} and examine the anisotropy parameters. Then we determine the density distribution, check the system if we can apply simplifications as sphericity and generate the potential. From that we change into action space in section \ref{sec:action_space}. There we apply the radial action over different properties as the guiding star distance or the classical integrals of motion to see if we can find a signature of an \ac{IMBH}.
+\subsection{Description of the simulations}\label{sec:description}
 We consider a set of Monte Carlo cluster simulations, developed with the Monte Carlo
-code MOCCA of \citet{2013MNRAS.429.1221H}Hypki et al. 2013 (see also \citet{1998MNRAS.298.1239G} \color{red} is that the right one? \color{black} Giersz et al. 1998). The simulations
+code MOCCA of \citet{2013MNRAS.429.1221H} (see also \citet{1998MNRAS.298.1239G}). The simulations
 include an initial mass function, stellar evolution, primordial binaries, and a
 relatively high number of particles, providing a realistic description of the
 long-term evolution of \acp{GC} with a single stellar population.
+\par All the simulation had a metallicity of [Fe/H]=$-$1.3 and \citet{2001MNRAS.322..231K} initial mass function. The first simulation (from \citet{2015MNRAS.454.3150G}, kindly shared by the authors) contain an \ac{IMBH} of \unit[$10^4$]{M$_\odot$} and its initial condition is drawn from a King model with concentration parameter W$_0 $=6, \unit[6.9]{$\times10^5$} initial number of particles, \unit[95]{\%} of which are binary systems. We consider two snapshots of the simulation, one at 10 and one at \unit[7]{Gyr}. We call these snapshots SIM1-IMBH and SIM2-IMBH, respectively. The other two simulations (from \citet{2010MNRAS.407.1946D}, kindly shared by the authors) do not contain an \ac{IMBH} and have an initial number of particles of \unit[5]{$\times10^5$} and \unit[2]{$\times10^6$}, \unit[10]{\%} of initial binaries, and initial conditions drawn from a \citet{1911MNRAS..71..460P} model with a ratio between the initial tidal radius and half-mass radius of 75. We consider a 11 Gyr snapshot for both simulations and we call them SIM3-NOIMBH and SIM4-NOIMBH, respectively.
 
-All the simulation had a metallicity of [Fe/H]=$-$1.3 and a Kroupa (2001) \color{red} which one? \color{black} initial
-mass function. The first simulation (from \citet{2015MNRAS.454.3150G} \color{red} right one? \color{black} Giersz et al. 2015, kindly shared by the
-authors) contain an \ac{IMBH} of \unit[$10^4$]{M$_\odot$} and its initial condition is drawn from a
-King model with concentration parameter W$_0 $=6, \unit[6.9]{$\cdot10^5$} initial number of particles,
-\unit[95]{\%} of which are binary systems. We consider two snapshots of the simulation on at
-10 and one at \unit[7]{Gyr}. We call these snapshots SIM1-IMBH and SIM2-IMBH, respectively.
-Other two simulations (from Downing et al. 2010\citet{2010MNRAS.407.1946D}\color{red} this one? \color{black}, kindly shared by the authors), do
-not contain an \ac{IMBH} and have an initial number of particles of \unit[5]{$\cdot10^5$} and \unit[2]{$\cdot10^6$}, \unit[10]{\%}
-of initial binaries, and initial conditions drawn from a \citet{1911MNRAS..71..460P} model with a
-ratio between the initial tidal radius and half-mass radius of 75. We consider a 11
-Gyr snapshot for both simulations and we call them SIM3-NOIMBH and SIM4-NOIMBH,
-respectively.
-
-We summarize in Table \ref{tab:overview_simulation} the properties of the simulations for the time-snapshots
-considered. 
-
+We summarize in table \ref{tab:overview_simulation} the properties of the simulations for the time-snapshots considered. 
 
 \begin{table}[htbp]
 \centering
-\begin{tabular}{ c | c | c | c | c | c }
-\makecell{Name of the \\simulation} & \makecell{Number of \\ particles} & Total mass [M\(_\odot\)]& \makecell{Mass of the \\ \ac{IMBH} [M\(_\odot\)]}& r\(_\mathrm{m}\) [pc] & Age [Gyr]\\
+\begin{tabular}{ c | c | c | c | c | c | c }
+\makecell{Name of the\\simulation} & \makecell{Number of\\particles} &\makecell{Total\\mass [M\(_\odot\)]}& \makecell{Mass of\\the\ac{IMBH} \\\[[M\(_\odot\)]\]}& \makecell{r\(_\mathrm{m}\) \\ \[[pc]\]} & \makecell{Age\\\[[Gyr]\]} & \makecell{Binary\\fraction[\%]}\\
 \hline			
-  SIM 1 - IMBH & 1026735 & 3.09\(\cdot 10^5\) & 10102 & 4.13 & 10\\
-  SIM 2 - IMBH & 1079376& 3.26\(\cdot 10^5\) & 8902.3 & 3.58 & 7\\
-  SIM 3 - NOIMBH & 468627& 1.73\(\cdot 10^5\)& 0 & 7.89 & 11\\
-  SIM 4 - NOIMBH & 1851556& 6.70\(\cdot 10^5\)& 0 & 5.41 & 11\\
+  SIM 1 - IMBH & 1026735 & 3.09\(\times 10^5\) & 10102 & 4.13 & 10 & 7.5\\
+  SIM 2 - IMBH & 1079376& 3.26\(\times 10^5\) & 8902.3 & 3.58 & 7 & 7.8\\
+  SIM 3 - NOIMBH & 468627& 1.73\(\times 10^5\)& 0 & 7.89 & 11 & 3.0\\
+  SIM 4 - NOIMBH & 1851556& 6.70\(\times 10^5\)& 0 & 5.41 & 11& 3.3\\
 
 \end{tabular}
-\caption{Overview of the data of the simulations. We show the basic properties of each simulation which are numper of particles, the total mass, the mass of the \ac{IMBH}, the half mass radius and the age. The half mass radius is defined by the radius which includes half of the mass of the whole system.}
+\caption{Overview of the data of the simulations. We show the basic properties of each simulation which are number of particles, the total mass, the mass of the \ac{IMBH}, the half mass radius, the age and the binary fraction. The half mass radius is defined by the radius which includes half of the mass of the whole system.}
 \label{tab:overview_simulation}
 \end{table}
 
-The output of the simulations relevant for our work are for each star: the position
-vector x, the velocity vector v in Cartesian and polar coordinates, mass, luminosity, magnitude b and v band and whether
-the star is a binary or not.
+The output of the simulations relevant for our work are for each star: the position vector x, the velocity vector v in Cartesian and polar coordinates, mass, luminosity, magnitude B and V band and whether the star is a binary or not.
 
 \par We compute the half-mass radius \(\mathrm{r_m}\) given in table \ref{tab:overview_simulation} by calculating the distance where half of the mass of the \ac{GC} is inside the sphere of given distance and half of the mass is distributed outside of this sphere. We need it to compare the different simulations since their actual distance is depending on the simulation and is therefore not comparable. 
 \\
@@ -87,71 +71,71 @@ To get familiar with the simulation we first have a look at the spatial distribu
 \end{figure}
 
 
-\subsection{Investigation in color magnitude space}
-As mentioned in \ref{cmd_theory} the \ac{CMD} is showing a star's evolution stage dependend on its position. If one do not know age or metallicity of the system isochrones can be fitted on the \ac{CMD}. We plot several isochrones (see section \ref{cmd_theory}) to our \ac{CMD} to determine which one fits best. This will give us the age and the metallicity of the system. 
+\subsection{Investigation in color magnitude space}\label{sec:cmd_plots}
+As mentioned in \ref{sec:cmd_theory} the \ac{CMD} is showing the evolution stage of a star dependent on its position. If one does not know age or metallicity of the system isochrones (taken from \citet{2012MNRAS.427..127B}) can be fitted on the \ac{CMD}. In figure \ref{fig:cmd_isochrones} we plot several isochrones (see section \ref{sec:cmd_theory}) to our \ac{CMD} to determine which one fits best. This gives us the age and the metallicity of the system. The age is best determined in the turn off point. We see that the age \unit[\(10\pm0.5\)]{Gyr} is given from the best fitting isochrones. \color{red} metallicity \color{black} 
+\par The stars in a \ac{GC} are characterized by different stellar masses as shown from the color-code of figure \ref{fig:cmd_isochrones}. The evolved stars (red giants, horizontal branch stars, asymptotic giants) are characterized by a mass of \unit[\(\approx0.8-0.9\)]{\(\mathrm{M}_\odot\)} while the main sequence stars have masses from \unit[\(\approx0.8-0.9\)]{\(\mathrm{M}_\odot\)} (at the turn-off) down to \unit[0.1]{M\(_\odot\)} at the faint end. Having a mass spectrum is important for the long-term dynamical evolution of a \ac{GC} and gives rise to the phenomena of mass-segregation/energy equipartition.\color{red} Trenti \& van der marel 2013 \color{black}. Throughout the following investigations we do not consider the mass dependence induced by energy equipartition and do not make a distinction for stars with different masses. 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\textwidth]{Plots/cmd_isochrones}
+\includegraphics[width=0.7\textwidth]{Plots/cmd_isochrones.png}
 \caption{Color magnitude diagram of SIM 1 overplotted with different isochrones. We recognize how we can determine the age based on the turn off point. This verifies the age and the metallicity of this \ac{GC} of \unit[10]{Gyr} and 0.001.}
 	\label{fig:cmd_isochrones}
 \end{figure}
 
 
 
-\subsection{Investigation in phase space}
+\subsection{Investigation in phase space}\label{sec:phase_space}
 
 First we will investigate the \ac{GC} in phase space for the set of simulations that we will use throughout this work. We will start with the velocity dispersion and the anisotropy parameter then we will have a density profile and from that get the potential. 
 
-\subsubsection{Kinematics}
-With equation \eqref{eq:vel_disp} from section \ref{kin_prof_theory} we can calculate the velocity dispersion in each coordinate direction \(\sigma_\mathrm{r},\sigma_\theta,\sigma_\phi\). For every bin we take the same amount of stars and calculate the dispersion along the radius of the \ac{GC}. As radial values we use the average radius of the stars falling in the bins. To compare all simulations we plot the dispersion over the distance in units of the half-mass radius. The half mass radii of the simulations can be taken from table \ref{tab:overview_simulation}. 
-\begin{figure*}[htbp]
+\subsubsection{Kinematics}\label{sec:kinematics}
+With equation \eqref{eq:vel_disp} from section \ref{sec:kin_prof_theory} we can calculate the velocity dispersion in each coordinate direction \(\sigma_\mathrm{r},\sigma_\theta,\sigma_\phi\). For every bin we take the same amount of stars and calculate the dispersion along the radius of the \ac{GC}. As radial values we use the average radius of the stars falling in the bins. To compare all simulations we plot the dispersion over the distance in units of the half-mass radius. The half mass radii of the simulations can be taken from table \ref{tab:overview_simulation}. 
+\begin{figure}[htbp]
 	\centering
 	\begin{subfigure}{0.475\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Plots/radial_velocity_dispersion.pdf}
 		\caption{Radial velocity dispersions}
-		\label{[fig:radial_vel_disp]}
+		\label{fig:radial_vel_disp}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.475\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Plots/azimuthal_velocity_dispersion.pdf}
 		\caption{Azimuthal velocity dispersions}
-		\label{[fig:azimuthal_vel_disp]}
+		\label{fig:azimuthal_vel_disp}
 	\end{subfigure}
 	\vskip\baselineskip
 	\begin{subfigure}{0.475\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Plots/polar_velocity_dispersion.pdf}
 		\caption{Polar velocity dispersions}
-		\label{[fig:polar_vel_disp]}
+		\label{fig:polar_vel_disp}
 	\end{subfigure}
 
 
 	\caption{Velocity dispersion profiles of \(\mathrm{v_r, v_\phi,v_\theta}\) as a function of the radius in units of the half-mass radius \(\mathrm{r_{m}}\). Blue and green points are the velocity dispersions of SIM 1 and 2 and the red and yellow ones are the velocity dispersions of SIM 3 and 4. They are binned in a way that each bin contains the same amount of stars. The given radius is the mean radius of the stars of each bin. We can see that the velocity dispersion of the simulations with \ac{IMBH} rises towards the centre whereas the simulations without \ac{IMBH} exhibits a cored profile.}
 	\label{fig:vel_disp}
-\end{figure*}
-As expected there is a rise in the centre for the simulations with \ac{IMBH}. This is due the high gravitational potential of the \acp{IMBH} which disturbs the dynamics of close stars. The rise is equally visible in all three velocity components. This is since the kinematics are isotropic in the centre of the \ac{GC} (see figure \ref{fig:anisotropy_param}). There is no difference in the polar and the azimuthal velocity dispersion profiles because the system is spherical. In the outer regions the radial velocity dispersion decreases linear while the tangential slope becomes less steep. The motion in the outer angular shells seems to be different to the motion in radial direction.
+\end{figure}
+As expected, in figure \ref{fig:vel_disp} we see a rise in the centre for the simulations with \ac{IMBH}. This is due the high gravitational potential of the \acp{IMBH} which disturbs the dynamics of close stars. The rise is equally visible in all three velocity components. This is since the kinematics are isotropic in the centre of the \ac{GC} (see figure \ref{fig:anisotropy_param}). There is no difference in the polar (figure \ref{fig:polar_vel_disp}) and the azimuthal (figure \ref{fig:azimuthal_vel_disp}) velocity dispersion profiles because the system is spherical symmetric. In the outer regions the radial velocity dispersion \ref{fig:radial_vel_disp} decreases linear while the tangential slope becomes less steep. The motion in the outer angular shells seems to be different to the motion in radial direction.
 
-
-
-\par In \ref{fig:vel_disp} we noted a difference in the radial and in the tangential velocity dispersion. To properly quantify that difference we consider the anisotropy profile. Anisotropy can be calculated from equation \eqref{eq:anisotropy} in \ref{kin_prof_theory}.  Radial anisotropy means that there is higher velocity dispersion in radial direction than in angular direction. This comes probably along with a substantial number on eccentric orbits. The profile is binned the same way as the velocity dispersions and given in units of the half-mass radius.
+\par In figure \ref{fig:vel_disp} we noted a difference in the radial and in the tangential velocity dispersion. To properly quantify that difference we consider the anisotropy profile in figure \ref{fig:anisotropy_param}. Anisotropy can be calculated from equation \eqref{eq:anisotropy} given in section \ref{sec:kin_prof_theory}.  Radial anisotropy means that there is higher velocity dispersion in radial direction than in angular direction. This comes probably along with a substantial number on eccentric orbits. The profile is binned the same way as the velocity dispersions and given in units of the half-mass radius.
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.475\textwidth]{Plots/anisotropy_parameter_beta.pdf}
-	\caption{Profile of the anisotropy parameter \(\beta\). The colors are given as in \ref{fig:vel_disp}. All simulations are isotropic in the centre and become increasingly radial anisotropic in the intermediate regions. The simulations with \acp{IMBH} have a peak at 4 and 5 effective radii where they are most radial anisotropic. Some difference in anisotropy is observable between the simulations with and without \ac{IMBH}. This is due to different truncation prescriptions used in the simulations. We note that within \(\approx 2\mathrm{r_m}\) all simulations exhibit the same anisotropy profile.}
+	\caption{Profile of the anisotropy parameter \(\beta\) (see section \ref{sec:kin_prof_theory} for definition). The colors are given as in figure \ref{fig:vel_disp}. All simulations are isotropic in the centre and become increasingly radial anisotropic in the intermediate regions. The simulations with \acp{IMBH} have a peak at 4 and 5 half-mass radii where they are most radial anisotropic. Some difference in anisotropy is observable between the simulations with and without \ac{IMBH}. This is due to different truncation prescriptions used in the simulations. We note that within \unit[\(\approx 2\)]{\(\mathrm{r_m}\)} all simulations exhibit the same anisotropy profile.}
 	\label{fig:anisotropy_param}
 \end{figure}
-In the central \(\approx 2\mathrm{r_m}\) of all \acp{GC} there is nearly the same anisotropy: isotropy in the centre \& radial anisotropy while going in the outer parts. That means the systems are radial anisotropic. In the centre the anisotropy is zero. There the system is isotropic and the stars move in no preferred direction. The \acp{GC} with \ac{IMBH} are most radially anisotropic at about 4 effective radii. The other \acp{GC} are becoming more radial anisotropic the further away from the centre it is. The difference is due to different truncation prescriptions of the simulation.
+In the central \unit[\(\approx 2\)]{\(\mathrm{r_m}\)} of all \acp{GC} there is nearly the same anisotropy: isotropy in the centre and radial anisotropy while going in the outer parts. That means the systems are radial anisotropic. In the centre the anisotropy is zero. There the system is isotropic and the stars move in no preferred direction. The \acp{GC} with \ac{IMBH} are most radially anisotropic at about 4 half-mass radii. The other \acp{GC} are becoming more radial anisotropic the further away from the centre it is. The difference is due to different truncation prescriptions of the simulations.
 
-\subsubsection{Spatial distribution}
+\subsubsection{Spatial distribution}\label{sec:spatial_dist}
 It is important to determine the density distribution for several reasons:
 \begin{itemize}
-\item[It is interesting to see if the simulated \acp{GC} habe radial density profiles that are similar to each other]
-\item[and to classical \acp{GC} profiles like the Plummer potential (see section \ref{sec:other_pot})]
-\item 
-
-\end{itemize}The density profile shows the density calculated by equation \eqref{eq:density} of the system over its radius. As bins we use radial shells with logarithmic spacing chosen so that they are at least 100 stars per bin to have a reliable statistic. Outside of the cluster the density is set to 0. In the centre of the \acp{GC} (the distance of the 300th star of each simulation) we extrapolate the density profiles by setting it to the constant value of the innermost shell. 
+\item We want to compare the radial density profiles of the simulated \acp{GC} to see if they are similar to each other
+\item and if they can be described by classical \acp{GC} profiles like the Plummer potential (see section \ref{sec:other_pot}).
+\item Can we maybe already determine a signature of the \ac{IMBH} in the density distributions?
+\item As mentioned in section \ref{sec:poisson} we need the density profile to generate the overall gravitational potential of the \acp{GC} stellar distribution. 
+\end{itemize}
+The density profile in figure \ref{fig:mass_density_profile} shows the density calculated by equation \eqref{eq:density} of the system over its radius. As bins we use radial shells with logarithmic spacing chosen so that there are at least 100 stars per bin to avoid low-number statistic. Outside of the cluster the density is set to 0. In the centre of the \acp{GC} (the distance of the 300th star of each simulation) we extrapolate the density profiles by setting it to the constant value of the innermost shell. 
 
 \begin{figure}[htbp]
 	\centering
@@ -175,12 +159,14 @@ It is important to determine the density distribution for several reasons:
 		\caption{Interpolated mass density profiles of SIM 1 and SIM 3.}
 		\label{fig:mass_dens_intpol}
 	\end{subfigure}
-	\caption{Mass density profiles. The density in \(\frac{M_{\odot}}{pc^2}\) is plotted against the effective radius. The density of the \ac{GC} with \ac{IMBH} is everywhere larger than the density of the \ac{GC} without \ac{IMBH}. In the centre there is a raise in the density of the \ac{GC} with \ac{IMBH} whereas the other \ac{GC} stays approximately on the same level. Both start decreasing at about 0.5 \(\mathrm{r_eff}\). We can see in Panel \ref{fig:mass_dens_intpol} that it is not simple to find an analytical function describing the density globally for both low \& high radius. That is why we interpolate it in Panel \ref{fig:mass_dens_intpol}. Everything out of the \ac{GC} is set to 0 while the innermost density is set to be the value of the innermost point.}
+	\caption{Mass density profiles. The density in \unitfrac{\(\mathrm{M}_{\odot}\)}{\(\mathrm{pc}^2\)} is plotted against the half-mass radius in panel \subref{fig:mass_dens_points}. The density of the \ac{GC} with \ac{IMBH} is everywhere larger than the density of the \ac{GC} without \ac{IMBH}. In the centre there is a raise in the density of the \ac{GC} with \ac{IMBH} whereas the other \ac{GC} stays approximately on the same level with a cored profile. Both start decreasing at about \unit[0.5]{\(\mathrm{r_m}\)}. We can see in panel \subref{fig:mass_dens_ana} that it is not simple to find an analytical function describing the density globally for both small and large radii. That is why we interpolate it in panel \subref{fig:mass_dens_intpol}. Everything out of the \ac{GC} is set to zero while the innermost density is set to be the value of the innermost point. The analytical interpolation is needed in the end of this section to calculate the potential given by the density.}
 	\label{fig:mass_density_profile}
 \end{figure}
-We try to find a analytic fitting function to the density profile for SIM 1 to calculate the potential from the Poisson's equation \eqref{eq:Poisson}. We use two variations of an exponential function which could fit well. Also we want to check if the density follows a classical \ac{GC} profile which i.e. is the Plummer profile. In Figure \ref{fig:mass_dens_ana} we see that we can not find a simple fitting function nor a classical profile which describes the density. To get a analytical function we continue by using the interpolated density given in Figure \ref{fig:mass_dens_intpol}.
+We try to find a analytic fitting function to the density profile for. This is essential for then calculating the potential from the Poisson's equation \eqref{eq:Poisson} and to carrying out our following analysis. We use two variations of an exponential function which could fit well. Also we want to check if the density follows a classical \ac{GC} profile which i.e. is the Plummer profile. Figure \ref{fig:mass_dens_ana} shows the different analytic fitting functions that we tried on SIM 1. We see that we cannot find a simple fitting function nor a classical profile which describes the density throughout its radial extent. To get a analytical function we will use the interpolated density given in figure \ref{fig:mass_dens_intpol}.
 
-\par We test the sphericity of the \ac{GC} and its \ac{COM}. Sphericity allows the usage of analytical methods that are very straight forward, especially for determing the potential of the globular cluster and from that the actions in action space. We will do this by splitting the \ac{GC} into octants and compare their mass density profiles. As one can see they're acceptable overlaying \color{red} within their errors \color{black}. This is done first for the centre of the coordinate system. We do the same for the centre of mass which is calculated by formula \color{red} insert formula in theory part somewhere \color{black} and compare it in figure \ref{fig:sphericity_com}.
+
+\par We test the sphericity of the \ac{GC}, its \ac{COM} and the mean velocities in polar coordinates. Sphericity allows the usage of analytical methods that are very straight forward, especially for determing the potential of the globular cluster and from that the actions in action space. The centre of mass is being tested to see if we can assume the origin of the coordinate system as centre of the \ac{GC} or if we have to consider another centre. The mean velocities are tested to see if the \ac{GC} rotates. Then they would show a substructure. If there is no rotation the mean velocities should distribute around zero.
+We will test the sphericity and the centre of mass in one step by splitting the \ac{GC} into octants and compare their mass density profiles. As one can see in figure \ref{fig:sphericity_com} they are acceptable overlaying \color{red} within their errors \color{black}. This is done first for the centre of the coordinate system. We do the same for the centre of mass which is calculated by formula \color{red} insert formula here \color{black} and compare it in figure \ref{fig:sphericity_com}.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{Plots/sphericity_com.pdf}
@@ -188,16 +174,23 @@ We try to find a analytic fitting function to the density profile for SIM 1 to c
 \label{fig:sphericity_com}
 \end{figure}
 
-\par From the density profile we can compute the potential as described in \ref{dens_pot_theory}. It is composed by the potential given from the stars and if there is one the potential of the \ac{IMBH} expressed as Kepler potential.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{Plots/mean_velocity.pdf}
+\caption{Test for inner rotation in \ac{GC} of SIM1.}
+\label{fig:mean_vel}
+\end{figure}
+
+\par From the density profile we can compute the potential as described in section \ref{sec:dens_pot_theory}. The potential is given by the potential calculated from the mass density of the stars only and, if there is one, the potential of the \ac{IMBH} expressed as a point source Kepler potential (see equation \eqref{eq:kep_pot} in section \ref{sec:other_pot}).
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.475\textwidth]{Plots/potential.png}
+	\includegraphics[width=0.7\textwidth]{Plots/potential.png}
 	\caption{Potential of all \acp{GC}. SIM 1 and SIM 2 are nearly overlaying. They are the same simulation at different ages. The simulation lost 5 \% of its stars with 10 \% of the total mass while the \ac{IMBH} gained 13 \%. The potential of the stars declines while the potential of the \ac{IMBH} rises so the potential stays the same. The \acp{GC} without \ac{IMBH} remain constant in the inner part (until 0.5 half mass radii) and decrease from the points where their densities decrease.}
 \end{figure}
 
 
-\subsection{Investigations in action space}
-After investigating the orbits at given actions and the time evolution of the integrals of motion we consider all actions and other integrals of motion at our given snapshots. We have a look at the energies and angular momenta of the stars and compare them with the radial actions. Our main goal is to find any systematic signatures for the simulations with \acp{IMBH} that can be considered as the direct evidence of the dynamical effect of the \ac{IMBH} itself. For this reason we investigate selected stars which show an abnormal behaviour in above-mentioned plots and compare them to the rest of the data to see where we find them.
+\subsection{Investigations in action space}\label{sec:action_space}
+After investigating the orbits at given actions and the time evolution of the integrals of motion we consider all actions and the classical integrals of motion at our given snapshots. We do this by calculating the classical integrals of motions given by equations \eqref{eq:ang_mom} and \eqref{eq:energy} (see section \ref{sec:iof}) and the actions, especially the radial action given by equations \eqref{eq:actions} in section \ref{sec:actions}. We have a look at the energies and angular momenta of the stars and compare them with the radial actions. Our main goal is to find any systematic signatures for the simulations with \acp{IMBH} that can be considered as the direct evidence of the dynamical effect of the \ac{IMBH} itself. For this reason we investigate selected stars which show an abnormal behaviour in above-mentioned plots and compare them to the rest of the data to see where we find them.
 \subsubsection{Energy}
 \begin{figure}[htbp]
 \centering
@@ -227,7 +220,7 @@ After investigating the orbits at given actions and the time evolution of the in
 	\caption{Radial action over energy. In \ref{fig:E_J_r_hist_IMBH1} and \ref{fig:E_J_r_hist_IMBH2} it is plotted for both simulations with \ac{IMBH} and the lower ones are for the simulation without \ac{IMBH}. We find the crescent shape from \ref{fig:E_J_r_hist_noIMBH1} and \ref{fig:E_J_r_hist_noIMBH2} clearly in \ref{fig:E_J_r_hist_IMBH1} and \ref{fig:E_J_r_hist_IMBH2}. But in SIM 1 and SIM 2 there are some stars differing from this shape. Some have high energy with no radial actions (henceforth referred to as group 1) while others have high radial actions with nearly no energy (henceforth group 2).}
 	\label{fig:E_J_r_hist}
 \end{figure}	
-In \ref{fig:E_J_r_hist} we plot the radial action over the energy of the star as histograms for all \acp{GC}. We see clearly some stars outside of the moon shape. They have either no radial action and high energy(below \(-4 \cdot10^{-24}\) \(pc^2/s^2\)) or nearly no energy and high radial action (above 500 pc km/s). 
+In figure \ref{fig:E_J_r_hist} we plot the radial action versus the energy of the star as histograms for all \acp{GC}. We see J\(_\mathrm{r}\) significantly different than zero. That means we have many stars moving on radial orbits as expected from the radial anisotropy measured in figure \ref{fig:radial_vel_disp} in section \ref{sec:kinematics} We see clearly some stars outside of the moon shape. They have either no radial action and high energy(below \unit[\(-4 \times10^{-24}\)]{\(pc^2/s^2\)}) or nearly no energy and high radial action (above \unit[500]{pc km/s}). 
 
 \par We check the effective potential of the stars of the group to get information of their orbits and their actual positions. In \ref{fig:eff_pot} show one exemplary graph for each group taken from SIM 1. 
 
@@ -298,18 +291,6 @@ In \ref{fig:E_J_r_hist} we plot the radial action over the energy of the star as
 		\caption{SIM 2}
 		\label{fig:L_J_r_hist_IMBH2}
 	\end{subfigure}
-	\vskip\baselineskip
-	\begin{subfigure}{0.475\textwidth}
-		\includegraphics[width=\textwidth]{Plots/L_J_r_mass_hist_IMBH1.pdf}
-		\caption{SIM 1 mass weighted}
-		\label{fig:L_J_r_mass_hist_IMBH1}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}{0.475\textwidth}
-		\includegraphics[width=\textwidth]{Plots/L_J_r_mass_hist_IMBH2.pdf}
-		\caption{SIM 2 mass weighted}
-		\label{fig:L_J_r_mass_hist_IMBH2}
-	\end{subfigure}
 	\vskip\baselineskip	
 	\begin{subfigure}{0.475\textwidth}
 		\includegraphics[width=\textwidth]{Plots/L_J_r_hist_noIMBH1.pdf}
@@ -321,6 +302,18 @@ In \ref{fig:E_J_r_hist} we plot the radial action over the energy of the star as
 		\includegraphics[width=\textwidth]{Plots/L_J_r_hist_noIMBH2.pdf}
 		\caption{SIM 4}
 		\label{fig:L_J_r_hist_noIMBH2}
+	\end{subfigure}
+	\vskip\baselineskip
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/L_J_r_mass_hist_IMBH1.pdf}
+		\caption{SIM 1 mass weighted}
+		\label{fig:L_J_r_mass_hist_IMBH1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.475\textwidth}
+		\includegraphics[width=\textwidth]{Plots/L_J_r_mass_hist_IMBH2.pdf}
+		\caption{SIM 4 mass weighted}
+		\label{fig:L_J_r_mass_hist_noIMBH2}
 	\end{subfigure}
 	\caption{Radial action over angular momentum. \ref{fig:L_J_r_hist_noIMBH1} and \ref{fig:L_J_r_hist_noIMBH2} look again very similar to each other with no recognizable substructure. In \ref{fig:L_J_r_hist_IMBH1} and \ref{fig:L_J_r_hist_IMBH2} there are stars above the main shape. In the shape we can clearly see a substructure from about 0.3 to about 0.5 pc\(^2\)/s in nearly the whole radial action range. \color{red}half moon not directly spatially connected to imbh (plot mit color coding pericentre einfügen) probably only specific to the simulation\color{black}}
 	\label{fig:L_J_r_hist}
