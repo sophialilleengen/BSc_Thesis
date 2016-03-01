@@ -12,21 +12,20 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Classical integrals of motion in spherical potential}{10}{subsubsection.2.4.1}
 \contentsline {subsubsection}{\numberline {2.4.2}The effective potential}{11}{subsubsection.2.4.2}
 \contentsline {subsubsection}{\numberline {2.4.3}Actions}{12}{subsubsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.4}Numerical orbit integration}{13}{subsubsection.2.4.4}
-\contentsline {subsection}{\numberline {2.5}Examples for orbits in spherical potentials}{13}{subsection.2.5}
-\contentsline {section}{\numberline {3}Analysis}{14}{section.3}
-\contentsline {subsection}{\numberline {3.1}Description of the simulations}{14}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Investigation in color magnitude space}{15}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Investigation in phase space}{18}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Kinematics}{18}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Spatial distribution}{19}{subsubsection.3.3.2}
-\contentsline {subsection}{\numberline {3.4}Investigations in action space}{25}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Energy}{25}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Angular momentum}{27}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Guiding star radius}{31}{subsubsection.3.4.3}
-\contentsline {section}{\numberline {4}Results \& Discussion}{33}{section.4}
-\contentsline {subsection}{\numberline {4.1}Signatures of \acp {IMBH} in action space}{33}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{33}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Test}{34}{subsection.4.3}
-\contentsline {section}{\numberline {5}Acronyms}{35}{section.5}
-\contentsline {part}{Bibliography}{38}{section*.29}
+\contentsline {subsubsection}{\numberline {2.4.4}Numerical orbit integration}{14}{subsubsection.2.4.4}
+\contentsline {section}{\numberline {3}Analysis}{16}{section.3}
+\contentsline {subsection}{\numberline {3.1}Description of the simulations}{16}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Investigation in color magnitude space}{17}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Investigation in phase space}{20}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Kinematics}{20}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Spatial distribution}{21}{subsubsection.3.3.2}
+\contentsline {subsection}{\numberline {3.4}Investigations in action space}{27}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Energy}{27}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Angular momentum}{29}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Guiding star radius}{33}{subsubsection.3.4.3}
+\contentsline {section}{\numberline {4}Results \& Discussion}{35}{section.4}
+\contentsline {subsection}{\numberline {4.1}Signatures of \acp {IMBH} in action space}{35}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Discussion \& future perspectives}{35}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Test}{36}{subsection.4.3}
+\contentsline {section}{\numberline {5}Acronyms}{37}{section.5}
+\contentsline {part}{Bibliography}{40}{section*.29}
