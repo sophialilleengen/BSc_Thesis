@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{33}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 
@@ -13,6 +13,15 @@
 \newblock \enquote{{Theoretische Physik I: Punktmechanik und mathematische
   Methoden}}.
 \newblock 2008.
+
+\bibitem[{Bellini} \emph{et~al.}, 2014]{2014ApJ...797..115B}
+{Bellini}, A., {Anderson}, J., {van der Marel}, R.P., {Watkins}, L.L., {King},
+  I.R., {Bianchini}, P., {Chanam\'{e}}, J., {Chandar}, R., {Cool}, A.M.,
+  {Ferraro}, F.R., {Ford}, H., and {Massari}, D.
+\newblock \enquote{{Hubble Space Telescope Proper Motion (HSTPROMO) Catalogs of
+  Galactic Globular Clusters. I. Sample Selection, Data Reduction, and NGC 7078
+  Results}}.
+\newblock \emph{\apj}, \textbf{797}, 115, 2014.
 
 \bibitem[{Bianchini} \emph{et~al.}, 2015]{2015MNRAS.453..365B}
 {Bianchini}, P., {Norris}, M.A., {van de Ven}, G., and {Schinnerer}, E.
@@ -34,6 +43,13 @@
 {Binney}, J. and {Tremaine}, S.
 \newblock \emph{{Galactic Dynamics: Second Edition}}.
 \newblock Princeton University Press, 2008.
+
+\bibitem[{Bressan} \emph{et~al.}, 2012]{2012MNRAS.427..127B}
+{Bressan}, A., {Marigo}, P., {Girardi}, L., {Salasnich}, B., {Dal Cero}, C.,
+  {Rubele}, S., and {Nanni}, A.
+\newblock \enquote{{PARSEC: stellar tracks and isochrones with the PAdova and
+  TRieste Stellar Evolution Code}}.
+\newblock \emph{\mnras}, \textbf{427}, 127--145, 2012.
 
 \bibitem[{Carroll} and {Ostlie}, 2006]{2006ima..book.....C}
 {Carroll}, B.W. and {Ostlie}, D.A.
@@ -89,6 +105,11 @@
 \newblock \enquote{{No evidence for a central IMBH in M 15}}.
 \newblock \emph{\aap}, \textbf{542}, A44, 2012.
 
+\bibitem[{Kroupa}, 2001]{2001MNRAS.322..231K}
+{Kroupa}, P.
+\newblock \enquote{{On the variation of the initial mass function}}.
+\newblock \emph{\mnras}, \textbf{322}, 231--246, 2001.
+
 \bibitem[{Lanzoni} \emph{et~al.}, 2013]{2013ApJ...769..107L}
 {Lanzoni}, B., {Mucciarelli}, A., {Origlia}, L., {Bellazzini}, M., {Ferraro},
   F.R., {Valenti}, E., {Miocchi}, P., {Dalessandro}, E., {Pallanca}, C., and
@@ -97,6 +118,13 @@
   Resolved-star Spectroscopy: No Evidence of a Central Cusp and New Constraints
   on the Black Hole Mass}}.
 \newblock \emph{\apj}, \textbf{769}, 107, 2013.
+
+\bibitem[{L\"{u}tzgendorf} \emph{et~al.}, 2015]{2015A&A...581A...1L}
+{L\"{u}tzgendorf}, N., {Gebhardt}, K., {Baumgardt}, H., {Noyola}, E.,
+  {Neumayer}, N., {Kissler-Patig}, M., and {de Zeeuw}, T.
+\newblock \enquote{{Re-evaluation of the central velocity-dispersion profile in
+  NGC 6388}}.
+\newblock \emph{\aap}, \textbf{581}, A1, 2015.
 
 \bibitem[{L\"{u}tzgendorf} \emph{et~al.}, 2013]{2013A&A...552A..49L}
 {L\"{u}tzgendorf}, N., {Kissler-Patig}, M., {Gebhardt}, K., {Baumgardt}, H.,
@@ -136,6 +164,12 @@
   Constants: 2014}}.
 \newblock \emph{ArXiv e-prints}, 2015.
 
+\bibitem[{Noyola} \emph{et~al.}, 2008]{2008ApJ...676.1008N}
+{Noyola}, E., {Gebhardt}, K., and {Bergmann}, M.
+\newblock \enquote{{Gemini and Hubble Space Telescope Evidence for an
+  Intermediate-Mass Black Hole in {$\omega$} Centauri}}.
+\newblock \emph{\apj}, \textbf{676}, 1008-1015, 2008.
+
 \bibitem[{Piotto} \emph{et~al.}, 2015]{2015AJ....149...91P}
 {Piotto}, G., {Milone}, A.P., {Bedin}, L.R., {Anderson}, J., {King}, I.R.,
   {Marino}, A.F., {Nardiello}, D., {Aparicio}, A., {Barbuy}, B., {Bellini}, A.,
@@ -153,12 +187,25 @@
 \newblock \enquote{{On the problem of distribution in globular star clusters}}.
 \newblock \emph{\mnras}, \textbf{71}, 460--470, 1911.
 
+\bibitem[{Rubin} \emph{et~al.}, 1980]{1980ApJ...238..471R}
+{Rubin}, V.C., {Ford}, W.K.J., and {.~Thonnard}, N.
+\newblock \enquote{{Rotational properties of 21 SC galaxies with a large range
+  of luminosities and radii, from NGC 4605 /R = 4kpc/ to UGC 2885 /R = 122
+  kpc/}}.
+\newblock \emph{\apj}, \textbf{238}, 471--487, 1980.
+
 \bibitem[{Strader} \emph{et~al.}, 2012]{2012ApJ...750L..27S}
 {Strader}, J., {Chomiuk}, L., {Maccarone}, T.J., {Miller-Jones}, J.C.A.,
   {Seth}, A.C., {Heinke}, C.O., and {Sivakoff}, G.R.
 \newblock \enquote{{No Evidence for Intermediate-mass Black Holes in Globular
   Clusters: Strong Constraints from the JVLA}}.
 \newblock \emph{\apjl}, \textbf{750}, L27, 2012.
+
+\bibitem[{van der Marel} and {Anderson}, 2010]{2010ApJ...710.1063V}
+{van der Marel}, R.P. and {Anderson}, J.
+\newblock \enquote{{New Limits on an Intermediate-Mass Black Hole in Omega
+  Centauri. II. Dynamical Models}}.
+\newblock \emph{\apj}, \textbf{710}, 1063--1088, 2010.
 
 \bibitem[{Zocchi} \emph{et~al.}, 2012]{2012A&A...539A..65Z}
 {Zocchi}, A., {Bertin}, G., and {Varri}, A.L.

@@ -1,57 +1,53 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: glenn.bst
 A level-1 auxiliary file: ./ba_titlepage.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Method_theory.aux
-White space in argument---line 47 of file Method_theory.aux
- : \citation{eq.
- :               2.44a}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: Analysis.aux
 A level-1 auxiliary file: Results_discussion.aux
 Database file #1: Literatur.bib
 Warning--missing publisher in 2006ima..book.....C
-You've used 26 entries,
+You've used 33 entries,
             2689 wiz_defined-function locations,
-            739 strings with 10189 characters,
-and the built_in function-call counts, 14520 in all, are:
-= -- 1028
-> -- 653
-< -- 14
-+ -- 258
-- -- 233
-* -- 1189
-:= -- 2208
-add.period$ -- 78
-call.type$ -- 26
-change.case$ -- 220
-chr.to.int$ -- 27
-cite$ -- 27
-duplicate$ -- 1108
-empty$ -- 1041
-format.name$ -- 297
-if$ -- 2717
+            784 strings with 11872 characters,
+and the built_in function-call counts, 18712 in all, are:
+= -- 1325
+> -- 848
+< -- 16
++ -- 335
+- -- 303
+* -- 1544
+:= -- 2834
+add.period$ -- 99
+call.type$ -- 33
+change.case$ -- 283
+chr.to.int$ -- 34
+cite$ -- 34
+duplicate$ -- 1427
+empty$ -- 1339
+format.name$ -- 382
+if$ -- 3501
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 287
-newline$ -- 135
-num.names$ -- 78
-pop$ -- 480
+missing$ -- 371
+newline$ -- 170
+num.names$ -- 99
+pop$ -- 617
 preamble$ -- 1
-purify$ -- 220
+purify$ -- 283
 quote$ -- 0
-skip$ -- 392
+skip$ -- 499
 stack$ -- 0
-substring$ -- 588
-swap$ -- 650
+substring$ -- 771
+swap$ -- 844
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
+type$ -- 194
 warning$ -- 1
-while$ -- 75
+while$ -- 97
 width$ -- 0
-write$ -- 335
-(There was 1 error message)
+write$ -- 426
+(There was 1 warning)
