@@ -33,11 +33,16 @@
 \include{./ba_titlepage}
 
 \begin{abstract}
-\blindtext 
+\hspace{-12pt}In this thesis we will carry out investigations in action space of simulated \acp*{GC} to examine if the method of integrals of motion is useful to find signatures of \acp*{IMBH}, whose detection is still highly controversial. We investigate four simulated \acsp*{GC}, two of which contain an \acs*{IMBH}. After analysing them in phase space, we switch to action space using the potentials derived by the density profiles. In action space we investigate the classical integrals of motion, i.e. energy and angular momentum, and particularly the radial action as best choice of integral of motion. We find signatures of the \acsp*{IMBH} in distributions of the radial action versus the energy, the angular momentum and the guiding-star radius. We test these signatures using a wrong potential to calculate the integral of motions and show that they are robust signatures of a presence of \acsp*{IMBH}. 
+\vspace{5cm}
+\begin{center}
+ \textbf{Zusammenfassung}
+\end{center}
+In dieser Arbeit führen wir Untersuchungen simulierter Kugelsternhaufen im Wirkungs-Winkel Raum durch, um zu testen, ob diese Methode der Integrale der BEwegung nützlich ist, Charakteristika von mittelschweren schwarzen Löchern zu finden, deren Entdeckung höchst umstritten ist. Wir untersuchen vier simulierte Kugelsternhaufen, von denen zwei ein mittelschweres schwarzes Loch enthalten. Nach der Analyse im Phasenraum wechseln wir in den Wirkungs-Raum mit Hilfe der von Dichteprofilen abgeleiteten Potentiale. Im Wirkungs-Raum untersuchen wir die klassischen Integrale der Bewegung, also Energie und Drehimpuls, und insbesondere die radiale Wirkung als beste Wahl des Integrals der Bewegung. Wir finden Charakteristika des mittelschweren schwarzen Lochs in Plots der radialen Wirkungen aufgetragen über Energie, Drehimpuls und dem Leitstern Radius. Wir testen diese Signaturen mit einem falschen Potenzial, aus dem wir die Integrale der Bewegung berechnen und zeigen, dass diese Signaturen eines schwarzen Loches robust sind.
 \end{abstract}
 
 \newpage
-\addtocontents{toc}{\protect\enlargethispage{2\baselineskip}}
+\addtocontents{toc}{}
 \tableofcontents
 
 \newpage
@@ -54,8 +59,8 @@
 \newpage
 \include{Results_discussion}
 \newpage
-%\section{Conclusion}
-%\newpage 
+\include{Conclusion}
+\newpage 
 \section{Acronyms}
 
 \begin{acronym}[SMBH]
@@ -72,8 +77,9 @@
 \end{acronym}
 \newpage
 \bibliography{Literatur}
-\addcontentsline{toc}{part}{Bibliography}
-
+\addcontentsline{toc}{section}{Bibliography}
+\newpage
+\include{Appendix}
 
 
 \end{document}

@@ -7,47 +7,49 @@ A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Method_theory.aux
 A level-1 auxiliary file: Analysis.aux
 A level-1 auxiliary file: Results_discussion.aux
+A level-1 auxiliary file: Conclusion.aux
+A level-1 auxiliary file: Appendix.aux
 Database file #1: Literatur.bib
 Warning--missing publisher in 2006ima..book.....C
-You've used 33 entries,
+You've used 43 entries,
             2689 wiz_defined-function locations,
-            784 strings with 11872 characters,
-and the built_in function-call counts, 18712 in all, are:
-= -- 1325
-> -- 848
-< -- 16
-+ -- 335
-- -- 303
-* -- 1544
-:= -- 2834
-add.period$ -- 99
-call.type$ -- 33
-change.case$ -- 283
-chr.to.int$ -- 34
-cite$ -- 34
-duplicate$ -- 1427
-empty$ -- 1339
-format.name$ -- 382
-if$ -- 3501
+            848 strings with 14003 characters,
+and the built_in function-call counts, 24652 in all, are:
+= -- 1744
+> -- 1111
+< -- 21
++ -- 439
+- -- 397
+* -- 2042
+:= -- 3722
+add.period$ -- 129
+call.type$ -- 43
+change.case$ -- 370
+chr.to.int$ -- 44
+cite$ -- 44
+duplicate$ -- 1871
+empty$ -- 1775
+format.name$ -- 500
+if$ -- 4633
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 371
-newline$ -- 170
-num.names$ -- 99
-pop$ -- 617
+missing$ -- 487
+newline$ -- 220
+num.names$ -- 129
+pop$ -- 804
 preamble$ -- 1
-purify$ -- 283
+purify$ -- 370
 quote$ -- 0
-skip$ -- 499
+skip$ -- 651
 stack$ -- 0
-substring$ -- 771
-swap$ -- 844
+substring$ -- 1058
+swap$ -- 1110
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 194
+type$ -- 254
 warning$ -- 1
-while$ -- 97
+while$ -- 124
 width$ -- 0
-write$ -- 426
+write$ -- 556
 (There was 1 warning)

@@ -1,29 +1,33 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Method \046 Theory}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Stellar population in GC}{section.2}% 3
+\BOOKMARK [1][-]{section.2}{Method and Theory}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Stellar population in globular clusters}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{Kinematic profiles of globular clusters}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Density \046 potential}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Density and potential}{section.2}% 5
 \BOOKMARK [3][-]{subsubsection.2.3.1}{Density of a collisionless stellar system}{subsection.2.3}% 6
 \BOOKMARK [3][-]{subsubsection.2.3.2}{Generating the potential from Poisson's equation}{subsection.2.3}% 7
 \BOOKMARK [3][-]{subsubsection.2.3.3}{Other potential models}{subsection.2.3}% 8
-\BOOKMARK [2][-]{subsection.2.4}{Orbits \046 integrals of motion}{section.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.4.1}{Classical integrals of motion in spherical potential}{subsection.2.4}% 10
+\BOOKMARK [2][-]{subsection.2.4}{Orbits and integrals of motion}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Classical integrals of motion in spherical potentials}{subsection.2.4}% 10
 \BOOKMARK [3][-]{subsubsection.2.4.2}{The effective potential}{subsection.2.4}% 11
 \BOOKMARK [3][-]{subsubsection.2.4.3}{Actions}{subsection.2.4}% 12
 \BOOKMARK [3][-]{subsubsection.2.4.4}{Numerical orbit integration}{subsection.2.4}% 13
 \BOOKMARK [1][-]{section.3}{Analysis}{}% 14
-\BOOKMARK [2][-]{subsection.3.1}{Description of the simulations}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Description of the globular cluster simulations}{section.3}% 15
 \BOOKMARK [2][-]{subsection.3.2}{Investigation in color magnitude space}{section.3}% 16
 \BOOKMARK [2][-]{subsection.3.3}{Investigation in phase space}{section.3}% 17
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Kinematics}{subsection.3.3}% 18
-\BOOKMARK [3][-]{subsubsection.3.3.2}{Spatial distribution}{subsection.3.3}% 19
-\BOOKMARK [2][-]{subsection.3.4}{Investigations in action space}{section.3}% 20
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Energy}{subsection.3.4}% 21
-\BOOKMARK [3][-]{subsubsection.3.4.2}{Angular momentum}{subsection.3.4}% 22
-\BOOKMARK [3][-]{subsubsection.3.4.3}{Guiding star radius}{subsection.3.4}% 23
-\BOOKMARK [1][-]{section.4}{Results \046 Discussion}{}% 24
-\BOOKMARK [2][-]{subsection.4.1}{Signatures of IMBHs in action space}{section.4}% 25
-\BOOKMARK [2][-]{subsection.4.2}{Discussion \046 future perspectives}{section.4}% 26
-\BOOKMARK [2][-]{subsection.4.3}{Test}{section.4}% 27
-\BOOKMARK [1][-]{section.5}{Acronyms}{}% 28
-\BOOKMARK [0][-]{section*.29}{Bibliography}{}% 29
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Testing for sphericity, origin and rotation}{subsection.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Kinematics}{subsection.3.3}% 19
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Spatial distribution}{subsection.3.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.3.4}{Potential}{subsection.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.4}{Investigations in action and integral of motion space}{section.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Radial action versus energy}{subsection.3.4}% 23
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Radial action versus angular momentum}{subsection.3.4}% 24
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Investigation of stars bound to the intermediate mass black hole}{subsection.3.4}% 25
+\BOOKMARK [3][-]{subsubsection.3.4.4}{Radial action versus guiding-star radius}{subsection.3.4}% 26
+\BOOKMARK [1][-]{section.4}{Results \046 Discussion}{}% 27
+\BOOKMARK [2][-]{subsection.4.1}{Signatures of intermediate mass black holes in action space}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.2}{Robustness of the results: using a wrong potential}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.3}{Discussion and future perspectives}{section.4}% 30
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 31
+\BOOKMARK [1][-]{section.6}{Acronyms}{}% 32
+\BOOKMARK [1][-]{section*.35}{Bibliography}{}% 33

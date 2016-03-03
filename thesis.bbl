@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{43}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 
@@ -8,11 +8,11 @@
   cluster}}.
 \newblock \emph{\apj}, \textbf{209}, 214--232, 1976.
 
-\bibitem[{Bartelmann}, 2008]{bartelmann}
+\bibitem[{Bartelmann}, 2007]{bartelmann}
 {Bartelmann}, M.
 \newblock \enquote{{Theoretische Physik I: Punktmechanik und mathematische
   Methoden}}.
-\newblock 2008.
+\newblock 2007.
 
 \bibitem[{Bellini} \emph{et~al.}, 2014]{2014ApJ...797..115B}
 {Bellini}, A., {Anderson}, J., {van der Marel}, R.P., {Watkins}, L.L., {King},
@@ -44,12 +44,29 @@
 \newblock \emph{{Galactic Dynamics: Second Edition}}.
 \newblock Princeton University Press, 2008.
 
+\bibitem[{Bovy}, 2015]{2015ApJS..216...29B}
+{Bovy}, J.
+\newblock \enquote{{galpy: A python Library for Galactic Dynamics}}.
+\newblock \emph{\apjs}, \textbf{216}, 29, 2015.
+
+\bibitem[{Bovy} and {Rix}, 2013]{2013ApJ...779..115B}
+{Bovy}, J. and {Rix}, H.W.
+\newblock \enquote{{A Direct Dynamical Measurement of the Milky Way's Disk
+  Surface Density Profile, Disk Scale Length, and Dark Matter Profile at 4 kpc
+  $\lt$\~{} R $\lt$\~{} 9 kpc}}.
+\newblock \emph{\apj}, \textbf{779}, 115, 2013.
+
 \bibitem[{Bressan} \emph{et~al.}, 2012]{2012MNRAS.427..127B}
 {Bressan}, A., {Marigo}, P., {Girardi}, L., {Salasnich}, B., {Dal Cero}, C.,
   {Rubele}, S., and {Nanni}, A.
 \newblock \enquote{{PARSEC: stellar tracks and isochrones with the PAdova and
   TRieste Stellar Evolution Code}}.
 \newblock \emph{\mnras}, \textbf{427}, 127--145, 2012.
+
+\bibitem[{Cappellari}, 2002]{2002MNRAS.333..400C}
+{Cappellari}, M.
+\newblock \enquote{{Efficient multi-Gaussian expansion of galaxies}}.
+\newblock \emph{\mnras}, \textbf{333}, 400--410, 2002.
 
 \bibitem[{Carroll} and {Ostlie}, 2006]{2006ima..book.....C}
 {Carroll}, B.W. and {Ostlie}, D.A.
@@ -61,6 +78,13 @@
 \newblock \enquote{{Compact binaries in star clusters - I. Black hole binaries
   inside globular clusters}}.
 \newblock \emph{\mnras}, \textbf{407}, 1946--1962, 2010.
+
+\bibitem[{Emsellem} \emph{et~al.}, 1994]{1994A&A...285..723E}
+{Emsellem}, E., {Monnet}, G., and {Bacon}, R.
+\newblock \enquote{{The multi-gaussian expansion method: a tool for building
+  realistic photometric and kinematical models of stellar systems I. The
+  formalism}}.
+\newblock \emph{\aap}, \textbf{285}, 1994.
 
 \bibitem[{Ferrarese} and {Merritt}, 2000]{2000ApJ...539L...9F}
 {Ferrarese}, L. and {Merritt}, D.
@@ -79,6 +103,13 @@
 \newblock \enquote{{MOCCA code for star cluster simulations - IV. A new
   scenario for intermediate mass black hole formation in globular clusters}}.
 \newblock \emph{\mnras}, \textbf{454}, 3150--3165, 2015.
+
+\bibitem[{Gillessen} \emph{et~al.}, 2009]{2009ApJ...692.1075G}
+{Gillessen}, S., {Eisenhauer}, F., {Trippe}, S., {Alexander}, T., {Genzel}, R.,
+  {Martins}, F., and {Ott}, T.
+\newblock \enquote{{Monitoring Stellar Orbits Around the Massive Black Hole in
+  the Galactic Center}}.
+\newblock \emph{\apj}, \textbf{692}, 1075--1109, 2009.
 
 \bibitem[{Harris}, 1996]{1996AJ....112.1487H}
 {Harris}, W.E.
@@ -147,6 +178,13 @@
   constraints on intermediate-mass black holes}}.
 \newblock \emph{\mnras}, \textbf{389}, 379--384, 2008.
 
+\bibitem[{Marigo} \emph{et~al.}, 2008]{2008A&A...482..883M}
+{Marigo}, P., {Girardi}, L., {Bressan}, A., {Groenewegen}, M.A.T., {Silva}, L.,
+  and {Granato}, G.L.
+\newblock \enquote{{Evolution of asymptotic giant branch stars. II. Optical to
+  far-infrared isochrones with improved TP-AGB models}}.
+\newblock \emph{\aap}, \textbf{482}, 883--905, 2008.
+
 \bibitem[{Meylan} and {Heggie}, 1997]{1997A&ARv...8....1M}
 {Meylan}, G. and {Heggie}, D.C.
 \newblock \enquote{{Internal dynamics of globular clusters}}.
@@ -169,6 +207,15 @@
 \newblock \enquote{{Gemini and Hubble Space Telescope Evidence for an
   Intermediate-Mass Black Hole in {$\omega$} Centauri}}.
 \newblock \emph{\apj}, \textbf{676}, 1008-1015, 2008.
+
+\bibitem[{Piffl} \emph{et~al.}, 2014]{2014MNRAS.445.3133P}
+{Piffl}, T., {Binney}, J., {McMillan}, P.J., {Steinmetz}, M., {Helmi}, A.,
+  {Wyse}, R.F.G., {Bienaym{\'e}}, O., {Bland-Hawthorn}, J., {Freeman}, K.,
+  {Gibson}, B., {Gilmore}, G., {Grebel}, E.K., {Kordopatis}, G., {Navarro},
+  J.F., {Parker}, Q., {Reid}, W.A., {Seabroke}, G., {Siebert}, A., {Watson},
+  F., and {Zwitter}, T.
+\newblock \enquote{{Constraining the Galaxy's dark halo with RAVE stars}}.
+\newblock \emph{\mnras}, \textbf{445}, 3133--3151, 2014.
 
 \bibitem[{Piotto} \emph{et~al.}, 2015]{2015AJ....149...91P}
 {Piotto}, G., {Milone}, A.P., {Bedin}, L.R., {Anderson}, J., {King}, I.R.,
@@ -194,6 +241,11 @@
   kpc/}}.
 \newblock \emph{\apj}, \textbf{238}, 471--487, 1980.
 
+\bibitem[{Sanders} and {Binney}, 2015]{2015MNRAS.449.3479S}
+{Sanders}, J.L. and {Binney}, J.
+\newblock \enquote{{Extended distribution functions for our Galaxy}}.
+\newblock \emph{\mnras}, \textbf{449}, 3479--3502, 2015.
+
 \bibitem[{Strader} \emph{et~al.}, 2012]{2012ApJ...750L..27S}
 {Strader}, J., {Chomiuk}, L., {Maccarone}, T.J., {Miller-Jones}, J.C.A.,
   {Seth}, A.C., {Heinke}, C.O., and {Sivakoff}, G.R.
@@ -201,11 +253,21 @@
   Clusters: Strong Constraints from the JVLA}}.
 \newblock \emph{\apjl}, \textbf{750}, L27, 2012.
 
+\bibitem[{Trenti} and {van der Marel}, 2013]{2013MNRAS.435.3272T}
+{Trenti}, M. and {van der Marel}, R.
+\newblock \enquote{{No energy equipartition in globular clusters}}.
+\newblock \emph{\mnras}, \textbf{435}, 3272--3282, 2013.
+
 \bibitem[{van der Marel} and {Anderson}, 2010]{2010ApJ...710.1063V}
 {van der Marel}, R.P. and {Anderson}, J.
 \newblock \enquote{{New Limits on an Intermediate-Mass Black Hole in Omega
   Centauri. II. Dynamical Models}}.
 \newblock \emph{\apj}, \textbf{710}, 1063--1088, 2010.
+
+\bibitem[{Williams} \emph{et~al.}, 2012]{2012MNRAS.423.3589W}
+{Williams}, L.L.R., {Barnes}, E.I., and {Hjorth}, J.
+\newblock \enquote{{Collisionless dynamics in globular clusters}}.
+\newblock \emph{\mnras}, \textbf{423}, 3589--3600, 2012.
 
 \bibitem[{Zocchi} \emph{et~al.}, 2012]{2012A&A...539A..65Z}
 {Zocchi}, A., {Bertin}, G., and {Varri}, A.L.
